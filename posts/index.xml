@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://example.org/posts/</link>
+    <link>https://GWblog.github.io/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <image>
       <title>My New Hugo Site</title>
-      <url>https://example.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://example.org/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://GWblog.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://GWblog.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Feb 2024 22:12:32 +0800</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://GWblog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>https://example.org/posts/hello-world/</link>
+      <link>https://GWblog.github.io/posts/hello-world/</link>
       <pubDate>Sat, 03 Feb 2024 22:12:32 +0800</pubDate>
-      <guid>https://example.org/posts/hello-world/</guid>
+      <guid>https://GWblog.github.io/posts/hello-world/</guid>
       <description>你好大傻逼</description>
     </item>
   </channel>
