@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>文章 on 避风港</title>
+    <link>https://GWblog.github.io/zh/posts/</link>
+    <description>Recent content in 文章 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 03 Feb 2024 22:12:32 +0800</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://GWblog.github.io/zh/posts/bug/</link>
+      <pubDate>Sat, 03 Feb 2024 22:12:32 +0800</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/bug/</guid>
+      <description>git git init git add . git commit -m &amp;lsquo;you want name&amp;rsquo; git status ssh -T git@github.com git remote add origin git@github.com:GWblog/GWblog.github.io.git zhushi: 以上是第一次提交时检查情况 git checkout -b main # 更换本地分支名字 git push -u origin main # 推送上去 ，-f 是覆盖 bug 在未正式</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://GWblog.github.io/zh/posts/hello-world/</link>
+      <pubDate>Sat, 03 Feb 2024 22:12:32 +0800</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/hello-world/</guid>
+      <description>你好大傻逼</description>
+    </item>
+  </channel>
+</rss>
