@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://GWblog.github.io/zh/friends/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://GWblog.github.io/zh/tags/</loc>
     <lastmod>2024-02-03T22:12:32+08:00</lastmod>
   </url><url>
@@ -24,9 +27,15 @@
   </url><url>
     <loc>https://GWblog.github.io/zh/tags/algebra/</loc>
   </url><url>
+    <loc>https://GWblog.github.io/zh/tags/bilibili/</loc>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/posts/bilibili/</loc>
+  </url><url>
     <loc>https://GWblog.github.io/zh/categories/</loc>
   </url><url>
     <loc>https://GWblog.github.io/zh/posts/math/</loc>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/tags/text/</loc>
   </url><url>
     <loc>https://GWblog.github.io/zh/posts/math/1.2/</loc>
   </url>
