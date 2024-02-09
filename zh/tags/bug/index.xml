@@ -20,5 +20,12 @@
       <guid>https://GWblog.github.io/zh/posts/bug/</guid>
       <description>git git init git add . git commit -m &amp;lsquo;you want name&amp;rsquo; git status ssh -T git@github.com git remote add origin git@github.com:GWblog/GWblog.github.io.git zhushi: 以上是第一次提交时检查情况 git checkout -b main # 更换本地分支名字 git push -u origin main # 推送上去 ，-f 是覆盖 bug 在未正式</description>
     </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://GWblog.github.io/zh/zh/posts/bug/</link>
+      <pubDate>Sat, 03 Feb 2024 22:12:32 +0800</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/bug/</guid>
+      <description>git git init git add . git commit -m &amp;lsquo;you want name&amp;rsquo; git status ssh -T git@github.com git remote add origin git@github.com:GWblog/GWblog.github.io.git zhushi: 以上是第一次提交时检查情况 git checkout -b main # 更换本地分支名字 git push -u origin main # 推送上去 ，-f 是覆盖 bug 在未正式</description>
+    </item>
   </channel>
 </rss>

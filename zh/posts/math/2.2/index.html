@@ -10,7 +10,7 @@
 <meta name="description" content="2.1 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;1 &amp; 0 &amp;\cdots &amp; 0 \\ 0 &amp;0 &amp; 1 &amp;\cdots &amp; 0 \\ \vdots &amp; \vdots &amp; \vdots &amp; &amp; \vdots \\ 0 &amp; 0 &amp;0 &amp;&hellip; &amp; 1 \\ 0 &amp; 0 &amp;1 &amp;&hellip; &amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O &amp;I_{n-k}\\ I_{k} &amp;O\\ \end{array}\right) $$">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/posts/math/2.2/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.41119a11a5c47b43bcf062f6340e28b5de8903713aa6025ba4698f18b6f04a2c.css" integrity="" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b2a4732a41373bff2058037dcfe6d61ae39d2977f6d4cf45315816c2f9f479cf.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
@@ -18,6 +18,7 @@
 <link rel="mask-icon" href="https://GWblog.github.io/%3Clink%20/%20abs%20url%3E">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://GWblog.github.io/zh/posts/math/2.2/">
 <noscript>
     <style>
         #theme-toggle,
@@ -168,6 +169,16 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://GWblog.github.io/en/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                    <li>
+                        <a href="https://GWblog.github.io/params/" title="Params"
+                            aria-label="Params">Params</a>
+                    </li>
+                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -225,24 +236,87 @@
     <div class="post-meta">1 分钟&nbsp;·&nbsp;69 字&nbsp;·&nbsp;G.W
 
 </div>
-  </header> <div class="toc">
-    <details  open>
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">目录</span>
-        </summary>
+  </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">目录</span>
+            </summary>
 
-        <div class="inner"><nav id="TableOfContents">
-  <ul>
-    <li><a href="#21">2.1</a>
-      <ul>
-        <li><a href="#1-设n阶基础循环矩阵">1. 设n阶基础循环矩阵</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-        </div>
-    </details>
-</div>
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#21" aria-label="2.1">2.1</a><ul>
+                            
+                    <li>
+                        <a href="#1-%e8%ae%ben%e9%98%b6%e5%9f%ba%e7%a1%80%e5%be%aa%e7%8e%af%e7%9f%a9%e9%98%b5" aria-label="1. 设n阶基础循环矩阵">1. 设n阶基础循环矩阵</a>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+         
+         activeElement = elements[0];
+         const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+         document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+     }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+             const id = encodeURI(element.getAttribute('id')).toLowerCase();
+             if (element === activeElement){
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+             } else {
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+             }
+         })
+     }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
+
 
   <div class="post-content"><h2 id="21">2.1<a hidden class="anchor" aria-hidden="true" href="#21">#</a></h2>
 <h3 id="1-设n阶基础循环矩阵">1. 设n阶基础循环矩阵<a hidden class="anchor" aria-hidden="true" href="#1-设n阶基础循环矩阵">#</a></h3>
@@ -270,13 +344,6 @@ $$</p>
     <ul class="post-tags">
       <li><a href="https://GWblog.github.io/zh/tags/algebra/">algebra</a></li>
     </ul>
-<nav class="paginav">
-  <a class="prev" href="https://GWblog.github.io/zh/posts/math/1.2/">
-    <span class="title">« 上一页</span>
-    <br>
-    <span>降阶法</span>
-  </a>
-</nav>
 
 
 <ul class="share-buttons">

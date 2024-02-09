@@ -2,7 +2,17 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://GWblog.github.io/sitemap.xml</loc>
+    <loc>https://GWblog.github.io/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://GWblog.github.io/params/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://GWblog.github.io/zh/sitemap.xml</loc>
     
       <lastmod>2024-02-03T22:12:32+08:00</lastmod>
     

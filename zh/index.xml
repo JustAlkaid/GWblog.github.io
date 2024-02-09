@@ -22,10 +22,25 @@
 A funny guy</description>
     </item>
     <item>
+      <title>friends</title>
+      <link>https://GWblog.github.io/zh/zh/friends/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/friends/</guid>
+      <description>Tony
+A funny guy</description>
+    </item>
+    <item>
       <title>Hello World</title>
       <link>https://GWblog.github.io/zh/posts/bug/</link>
       <pubDate>Sat, 03 Feb 2024 22:12:32 +0800</pubDate>
       <guid>https://GWblog.github.io/zh/posts/bug/</guid>
+      <description>git git init git add . git commit -m &amp;lsquo;you want name&amp;rsquo; git status ssh -T git@github.com git remote add origin git@github.com:GWblog/GWblog.github.io.git zhushi: 以上是第一次提交时检查情况 git checkout -b main # 更换本地分支名字 git push -u origin main # 推送上去 ，-f 是覆盖 bug 在未正式</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://GWblog.github.io/zh/zh/posts/bug/</link>
+      <pubDate>Sat, 03 Feb 2024 22:12:32 +0800</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/bug/</guid>
       <description>git git init git add . git commit -m &amp;lsquo;you want name&amp;rsquo; git status ssh -T git@github.com git remote add origin git@github.com:GWblog/GWblog.github.io.git zhushi: 以上是第一次提交时检查情况 git checkout -b main # 更换本地分支名字 git push -u origin main # 推送上去 ，-f 是覆盖 bug 在未正式</description>
     </item>
     <item>
@@ -36,10 +51,24 @@ A funny guy</description>
       <description>你好大傻逼</description>
     </item>
     <item>
+      <title>Hello World</title>
+      <link>https://GWblog.github.io/zh/zh/posts/hello-world/</link>
+      <pubDate>Sat, 03 Feb 2024 22:12:32 +0800</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/hello-world/</guid>
+      <description>你好大傻逼</description>
+    </item>
+    <item>
       <title>test</title>
       <link>https://GWblog.github.io/zh/posts/bilibili/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/bilibili/</guid>
+      <description>插入视频 这是一个测试 colorbox 小老弟，我警告你啊 小老弟，我警告你啊 大家伙，靠过来听我说个事儿，我是个~ 小老弟，我警告你啊 友链 Tony A funny guy 参考 latex $$y = \begin{cases}-x &amp;amp; x&amp;lt;0</description>
+    </item>
+    <item>
+      <title>test</title>
+      <link>https://GWblog.github.io/zh/zh/posts/bilibili/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/bilibili/</guid>
       <description>插入视频 这是一个测试 colorbox 小老弟，我警告你啊 小老弟，我警告你啊 大家伙，靠过来听我说个事儿，我是个~ 小老弟，我警告你啊 友链 Tony A funny guy 参考 latex $$y = \begin{cases}-x &amp;amp; x&amp;lt;0</description>
     </item>
     <item>
@@ -50,6 +79,13 @@ A funny guy</description>
       <description>nania $$4$$</description>
     </item>
     <item>
+      <title>降阶法</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/1.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/1.2/</guid>
+      <description>nania $$4$$</description>
+    </item>
+    <item>
       <title>特殊矩阵</title>
       <link>https://GWblog.github.io/zh/posts/math/2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -57,10 +93,24 @@ A funny guy</description>
       <description>2.1 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 0 &amp;amp; 0 &amp;amp;1 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O &amp;amp;I_{n-k}\\ I_{k} &amp;amp;O\\ \end{array}\right) $$</description>
     </item>
     <item>
+      <title>特殊矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/2.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/2.2/</guid>
+      <description>2.1 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 0 &amp;amp; 0 &amp;amp;1 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O &amp;amp;I_{n-k}\\ I_{k} &amp;amp;O\\ \end{array}\right) $$</description>
+    </item>
+    <item>
       <title>写真帳</title>
       <link>https://GWblog.github.io/zh/photos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/photos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>写真帳</title>
+      <link>https://GWblog.github.io/zh/zh/photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/photos/</guid>
       <description></description>
     </item>
   </channel>

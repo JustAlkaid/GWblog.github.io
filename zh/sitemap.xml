@@ -5,8 +5,26 @@
     <loc>https://GWblog.github.io/zh/friends/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://GWblog.github.io/zh/zh/friends/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://GWblog.github.io/zh/tags/</loc>
     <lastmod>2024-02-03T22:12:32+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://GWblog.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="params"
+                href="https://GWblog.github.io/params/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://GWblog.github.io/zh/tags/"
+                />
   </url><url>
     <loc>https://GWblog.github.io/zh/tags/bug/</loc>
     <lastmod>2024-02-03T22:12:32+08:00</lastmod>
@@ -14,33 +32,89 @@
     <loc>https://GWblog.github.io/zh/posts/bug/</loc>
     <lastmod>2024-02-03T22:12:32+08:00</lastmod>
   </url><url>
+    <loc>https://GWblog.github.io/zh/zh/posts/bug/</loc>
+    <lastmod>2024-02-03T22:12:32+08:00</lastmod>
+  </url><url>
     <loc>https://GWblog.github.io/zh/posts/hello-world/</loc>
+    <lastmod>2024-02-03T22:12:32+08:00</lastmod>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/zh/posts/hello-world/</loc>
+    <lastmod>2024-02-03T22:12:32+08:00</lastmod>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/zh/</loc>
     <lastmod>2024-02-03T22:12:32+08:00</lastmod>
   </url><url>
     <loc>https://GWblog.github.io/zh/</loc>
     <lastmod>2024-02-03T22:12:32+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://GWblog.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="params"
+                href="https://GWblog.github.io/params/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://GWblog.github.io/zh/"
+                />
   </url><url>
     <loc>https://GWblog.github.io/zh/posts/</loc>
     <lastmod>2024-02-03T22:12:32+08:00</lastmod>
   </url><url>
+    <loc>https://GWblog.github.io/zh/zh/posts/</loc>
+    <lastmod>2024-02-03T22:12:32+08:00</lastmod>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/zh/tags/</loc>
+  </url><url>
     <loc>https://GWblog.github.io/zh/search/</loc>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/zh/search/</loc>
   </url><url>
     <loc>https://GWblog.github.io/zh/tags/algebra/</loc>
   </url><url>
     <loc>https://GWblog.github.io/zh/tags/bilibili/</loc>
   </url><url>
     <loc>https://GWblog.github.io/zh/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://GWblog.github.io/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="params"
+                href="https://GWblog.github.io/params/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://GWblog.github.io/zh/categories/"
+                />
   </url><url>
     <loc>https://GWblog.github.io/zh/posts/math/</loc>
   </url><url>
+    <loc>https://GWblog.github.io/zh/zh/posts/math/</loc>
+  </url><url>
     <loc>https://GWblog.github.io/zh/posts/bilibili/</loc>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/zh/posts/bilibili/</loc>
   </url><url>
     <loc>https://GWblog.github.io/zh/tags/text/</loc>
   </url><url>
     <loc>https://GWblog.github.io/zh/posts/math/1.2/</loc>
   </url><url>
+    <loc>https://GWblog.github.io/zh/zh/posts/math/1.2/</loc>
+  </url><url>
     <loc>https://GWblog.github.io/zh/posts/math/2.2/</loc>
   </url><url>
+    <loc>https://GWblog.github.io/zh/zh/posts/math/2.2/</loc>
+  </url><url>
     <loc>https://GWblog.github.io/zh/photos/</loc>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/zh/photos/</loc>
   </url>
 </urlset>
