@@ -2,8 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://GWblog.github.io/zh/en/about/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/en/friends/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://GWblog.github.io/zh/friends/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://GWblog.github.io/en/friends/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://GWblog.github.io/zh/friends/"
+                />
   </url><url>
     <loc>https://GWblog.github.io/zh/zh/friends/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
@@ -68,9 +84,26 @@
     <loc>https://GWblog.github.io/zh/zh/posts/</loc>
     <lastmod>2024-02-03T22:12:32+08:00</lastmod>
   </url><url>
+    <loc>https://GWblog.github.io/zh/en/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://GWblog.github.io/zh/en/tags/</loc>
+  </url><url>
     <loc>https://GWblog.github.io/zh/zh/tags/</loc>
   </url><url>
+    <loc>https://GWblog.github.io/zh/en/search/</loc>
+  </url><url>
     <loc>https://GWblog.github.io/zh/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://GWblog.github.io/en/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://GWblog.github.io/zh/search/"
+                />
   </url><url>
     <loc>https://GWblog.github.io/zh/zh/search/</loc>
   </url><url>
@@ -113,7 +146,19 @@
   </url><url>
     <loc>https://GWblog.github.io/zh/zh/posts/math/2.2/</loc>
   </url><url>
+    <loc>https://GWblog.github.io/zh/en/photos/</loc>
+  </url><url>
     <loc>https://GWblog.github.io/zh/photos/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://GWblog.github.io/en/photos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://GWblog.github.io/zh/photos/"
+                />
   </url><url>
     <loc>https://GWblog.github.io/zh/zh/photos/</loc>
   </url>
