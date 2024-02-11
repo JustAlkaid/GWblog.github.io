@@ -27,6 +27,13 @@
       <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
     </item>
     <item>
+      <title>可逆矩阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/2.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/2.4/</guid>
+      <description>2.4 判断一个矩阵是可逆阵大概有五种方法， 计算行列式的值 凑因子法 利用线性方程组求解理论判断 互素多项式的应用，见5.11节 特征值的应用，见6.2节</description>
+    </item>
+    <item>
       <title>特殊矩阵</title>
       <link>https://GWblog.github.io/zh/posts/math/2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
