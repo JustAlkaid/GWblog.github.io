@@ -73,6 +73,48 @@ A funny guy</description>
       <description>你好大傻逼</description>
     </item>
     <item>
+      <title>2.3 矩阵的运算</title>
+      <link>https://GWblog.github.io/zh/posts/math/2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/2.3/</guid>
+      <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
+    </item>
+    <item>
+      <title>2.3 矩阵的运算</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/2.3/</guid>
+      <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
+    </item>
+    <item>
+      <title>2.5 初等变换及其应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/2.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/2.5/</guid>
+      <description>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方</description>
+    </item>
+    <item>
+      <title>2.5 初等变换及其应用</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/2.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/2.5/</guid>
+      <description>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方</description>
+    </item>
+    <item>
+      <title>2.6 伴随矩阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/2.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/2.6/</guid>
+      <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
+    </item>
+    <item>
+      <title>2.6 伴随矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/2.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/2.6/</guid>
+      <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
+    </item>
+    <item>
       <title>test</title>
       <link>https://GWblog.github.io/zh/posts/bilibili/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -99,20 +141,6 @@ A funny guy</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/1.2/</guid>
       <description>nania $$4$$</description>
-    </item>
-    <item>
-      <title>矩阵的运算</title>
-      <link>https://GWblog.github.io/zh/posts/math/2.3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/2.3/</guid>
-      <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
-    </item>
-    <item>
-      <title>矩阵的运算</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/2.3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/2.3/</guid>
-      <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
     </item>
     <item>
       <title>可逆矩阵</title>

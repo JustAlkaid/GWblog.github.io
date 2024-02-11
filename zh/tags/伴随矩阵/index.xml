@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>伴随矩阵 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E4%BC%B4%E9%9A%8F%E7%9F%A9%E9%98%B5/</link>
+    <description>Recent content in 伴随矩阵 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E4%BC%B4%E9%9A%8F%E7%9F%A9%E9%98%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.6 伴随矩阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/2.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/2.6/</guid>
+      <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
+    </item>
+    <item>
+      <title>2.6 伴随矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/2.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/2.6/</guid>
+      <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
+    </item>
+  </channel>
+</rss>
