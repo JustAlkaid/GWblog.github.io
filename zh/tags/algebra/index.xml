@@ -17,14 +17,28 @@
       <link>https://GWblog.github.io/zh/posts/math/2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/math/2.2/</guid>
-      <description>2.1 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 1 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O &amp;amp;I_{n-k}\\ I_{k} &amp;amp;O\\ \end{array}\right),1{\le}k{\le}n $$ 2.</description>
+      <description>2.1 基础循环矩阵 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 1 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O</description>
     </item>
     <item>
       <title>特殊矩阵</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/2.2/</guid>
-      <description>2.1 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 1 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O &amp;amp;I_{n-k}\\ I_{k} &amp;amp;O\\ \end{array}\right),1{\le}k{\le}n $$ 2.</description>
+      <description>2.1 基础循环矩阵 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 1 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O</description>
+    </item>
+    <item>
+      <title>矩阵的运算</title>
+      <link>https://GWblog.github.io/zh/posts/math/2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/2.3/</guid>
+      <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
+    </item>
+    <item>
+      <title>矩阵的运算</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/2.3/</guid>
+      <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
     </item>
     <item>
       <title>降阶法</title>
