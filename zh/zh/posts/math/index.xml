@@ -34,6 +34,13 @@
       <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
     </item>
     <item>
+      <title>2.7 矩阵的迹</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/2.7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/2.7/</guid>
+      <description>迹 迹$tr(A)$是研究矩阵的一个重要的相似不变量 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的</description>
+    </item>
+    <item>
       <title>降阶法</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/1.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

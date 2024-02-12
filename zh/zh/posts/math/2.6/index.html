@@ -105,8 +105,8 @@
   "keywords": [
     "algebra", "伴随矩阵"
   ],
-  "articleBody": "伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也可以用A的行列式表示，所以伴随与逆阵可以是相互____，懂的都懂\n一些性质\n$(AB)^{-1}=B^{-1}A^{-1}$ $(A’)^{-1}=(A^{-1})’'$ $(cA)^{-1}=c^{-1}A^{-1}$ $|A^{-1}|=|A|^{-1}$ $(A^{-1})^{-1}=A$ 本节的习题都可以用相抵标准型和以上性质推出，并且在2.11节还能用摄动法再整一次，怎么样，神奇吧\n35. 设A为n阶矩阵，满足$A^{m}=I_{n}$ ，求证：$(A*)^{m}=I_{n}$ 36. 设A,B为n阶矩阵，求证：$(AB)^{*}=B^{*}A^{*}$ 37. 设A为n阶矩阵，c为常数，求证： (1) $(A’)^{*}=(A^{*})’'$\n相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态\n28. 求证：n阶方阵$A$是奇异阵的中分必要条件是存在不全为零的同阶方阵 B，使得$AB=O$ 29. 求证：n阶方阵A是奇异阵的充分必要条件是存在n维非零列向量$x$，使得$Ax=0$ 注意：2.29这个结论可以用来在某些情况判定矩阵是否非异，挺有用的\n30. 设A为n阶实反对称阵，证明：$I_{n}-A$是非异阵 31. 设A为n阶可逆阵，求证：只用第三类初等变换便可将A化为以下形状 $$diag{1,\\cdots,1,|A|}$$\n32. 求证：任一n阶矩阵均可表示为形如$I_{n}+a_{ij}E_{ij}$这样的矩阵之积，其中$E_{ij}$是n阶基础矩阵 求逆阵 这种方法不仅可以对数字矩阵有用，对文字矩阵也有用，以下的2.33是2.16的推广，是第四种解法\n33. 求下列n阶矩阵的逆阵，其中$a_{i}≠0(1\\lei\\len)$ 21. 设n阶方阵A和B都满足$A+B=AB$，求证：$I_{n}-A$是可逆阵，且$AB=BA$ 22. 设$A,B,AB-I_{n}$都是n阶可逆阵，证明：$A-B^{-1}$与$(A-B^{-1})^{-1}-A^{-1}$均可逆，并求他们的逆矩阵 $$ \\left (\\begin{array}{llll} 1+a_{1} \u00261 \u00261 \u0026\\cdots \u00261 \\\\ 1 \u00261+a_{2} \u00261 \u0026\\cdots \u00261 \\\\ 1 \u00261 \u00261+a{3} \u0026\\cdots \u00261 \\\\ \\vdots \u0026\\vdots \u0026\\vdots \u0026 \u0026\\vdots \\\\ 1 \u00261 \u00261 \u0026\\cdots \u00261+a_{n} \\\\ \\end{array}\\right) $$\n34. 求A的逆阵 $$ \\left A=(\\begin{array}{llll} 1 \u00262 \u00263 \u0026\\cdots \u0026n \\\\ n \u00261 \u00262 \u0026\\cdots \u0026n-1 \\\\ n-1 \u0026n \u00261 \u0026\\cdots \u0026n-2 \\\\ \\vdots \u0026\\vdots \u0026\\vdots \u0026 \u0026\\vdots \\\\ 2 \u00263 \u00264 \u0026\\cdots \u00261 \\\\ \\end{array}\\right) $$\n",
-  "wordCount" : "809",
+  "articleBody": "伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也可以用A的行列式表示，所以伴随与逆阵可以是相互____，懂的都懂\n一些性质\n$(AB)^{-1}=B^{-1}A^{-1}$ $(A’)^{-1}=(A^{-1})’'$ $(cA)^{-1}=c^{-1}A^{-1}$ $|A^{-1}|=|A|^{-1}$ $(A^{-1})^{-1}=A$ 本节的习题都可以用相抵标准型和以上性质推出，并且在2.11节还能用摄动法再整一次，怎么样，神奇吧\n35. 设A为n阶矩阵，满足$A^{m}=I_{n}$ ，求证：$(A*)^{m}=I_{n}$ 36. 设A,B为n阶矩阵，求证：$(AB)^{*}=B^{*}A^{*}$ 37. 设A为n阶矩阵，c为常数，求证： (1) $(A’)^{*}=(A^{*})’$ (2)$(cA)^{*}=c^{n-1}A^{*}$\n(3) 若A为可逆阵，则$(A)^{*}$也可逆，并且伴随与逆阵可交换，$(A^{*})^{-1}=(A^{-1})^{*}$\n38. 设A为n阶阵，求证：$|A^{*}|=|A|^{n-1}$ 39. 设A为n阶(n\u003e2)矩阵，求证：$(A^{*})^{*}=|A|^{n-2}A$ 40. 设A为n阶矩阵，B为m阶矩阵，求由A,B组成的分块对角阵的伴随 $$ C=\\left(\\begin{array}{llll} A \u0026O\\\\ O \u0026B\\\\ \\end{array}\\right) $$\n41. 已知 $ A^{*}=\\left( \\begin{array}{cccc} 1 \u0026-2 \u00261 \\\\ 0 \u00262 \u0026-2 \\\\ -1 \u00262 \u00261 \\\\ \\end{array}\\right) $ ，求A\n42. 设n阶矩阵 $$ A=\\left(\\begin{array}{cccc} 2 \u00262 \u00262 \u0026\\cdots \u00262\\\\ 0 \u00261 \u00261 \u0026\\cdots \u00261\\\\ 0 \u00260 \u00261 \u0026\\cdots \u00261\\\\ \\vdots \u0026\\vdots \u0026 \\vdots \u0026 \u0026\\vdots\\\\ 0 \u00260 \u00260 \u0026\\cdots \u0026 1\\\\ \\end{array}\\right) $$ 求$ \\sum_{i,j=1}^{n} A_{ij}$\n",
+  "wordCount" : "496",
   "inLanguage": "zh",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -233,7 +233,7 @@
     <h1 class="post-title entry-hint-parent">
       2.6 伴随矩阵
     </h1>
-    <div class="post-meta">2 分钟&nbsp;·&nbsp;809 字&nbsp;·&nbsp;G.W
+    <div class="post-meta">1 分钟&nbsp;·&nbsp;496 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -252,33 +252,17 @@
                     <li>
                         <a href="#36-%e8%ae%beab%e4%b8%ban%e9%98%b6%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81abba" aria-label="36. 设A,B为n阶矩阵，求证：$(AB)^{*}=B^{*}A^{*}$">36. 设A,B为n阶矩阵，求证：$(AB)^{*}=B^{*}A^{*}$</a></li>
                     <li>
-                        <a href="#37-%e8%ae%bea%e4%b8%ban%e9%98%b6%e7%9f%a9%e9%98%b5c%e4%b8%ba%e5%b8%b8%e6%95%b0%e6%b1%82%e8%af%81" aria-label="37. 设A为n阶矩阵，c为常数，求证：">37. 设A为n阶矩阵，c为常数，求证：</a></li></ul>
-                    </li>
+                        <a href="#37-%e8%ae%bea%e4%b8%ban%e9%98%b6%e7%9f%a9%e9%98%b5c%e4%b8%ba%e5%b8%b8%e6%95%b0%e6%b1%82%e8%af%81" aria-label="37. 设A为n阶矩阵，c为常数，求证：">37. 设A为n阶矩阵，c为常数，求证：</a></li>
                     <li>
-                        <a href="#%e7%9b%b8%e6%8a%b5%e6%a0%87%e5%87%86%e5%9e%8b" aria-label="相抵标准型">相抵标准型</a><ul>
-                            
+                        <a href="#38-%e8%ae%bea%e4%b8%ban%e9%98%b6%e9%98%b5%e6%b1%82%e8%af%81aan-1" aria-label="38. 设A为n阶阵，求证：$|A^{*}|=|A|^{n-1}$">38. 设A为n阶阵，求证：$|A^{*}|=|A|^{n-1}$</a></li>
                     <li>
-                        <a href="#28-%e6%b1%82%e8%af%81n%e9%98%b6%e6%96%b9%e9%98%b5a%e6%98%af%e5%a5%87%e5%bc%82%e9%98%b5%e7%9a%84%e4%b8%ad%e5%88%86%e5%bf%85%e8%a6%81%e6%9d%a1%e4%bb%b6%e6%98%af%e5%ad%98%e5%9c%a8%e4%b8%8d%e5%85%a8%e4%b8%ba%e9%9b%b6%e7%9a%84%e5%90%8c%e9%98%b6%e6%96%b9%e9%98%b5-b%e4%bd%bf%e5%be%97abo" aria-label="28. 求证：n阶方阵$A$是奇异阵的中分必要条件是存在不全为零的同阶方阵 B，使得$AB=O$">28. 求证：n阶方阵$A$是奇异阵的中分必要条件是存在不全为零的同阶方阵 B，使得$AB=O$</a></li>
+                        <a href="#39--%e8%ae%bea%e4%b8%ban%e9%98%b6n2%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81aan-2a" aria-label="39.  设A为n阶(n&amp;gt;2)矩阵，求证：$(A^{*})^{*}=|A|^{n-2}A$">39.  设A为n阶(n&gt;2)矩阵，求证：$(A^{*})^{*}=|A|^{n-2}A$</a></li>
                     <li>
-                        <a href="#29-%e6%b1%82%e8%af%81n%e9%98%b6%e6%96%b9%e9%98%b5a%e6%98%af%e5%a5%87%e5%bc%82%e9%98%b5%e7%9a%84%e5%85%85%e5%88%86%e5%bf%85%e8%a6%81%e6%9d%a1%e4%bb%b6%e6%98%af%e5%ad%98%e5%9c%a8n%e7%bb%b4%e9%9d%9e%e9%9b%b6%e5%88%97%e5%90%91%e9%87%8fx%e4%bd%bf%e5%be%97ax0" aria-label="29. 求证：n阶方阵A是奇异阵的充分必要条件是存在n维非零列向量$x$，使得$Ax=0$">29. 求证：n阶方阵A是奇异阵的充分必要条件是存在n维非零列向量$x$，使得$Ax=0$</a></li>
+                        <a href="#40-%e8%ae%bea%e4%b8%ban%e9%98%b6%e7%9f%a9%e9%98%b5b%e4%b8%bam%e9%98%b6%e7%9f%a9%e9%98%b5%e6%b1%82%e7%94%b1ab%e7%bb%84%e6%88%90%e7%9a%84%e5%88%86%e5%9d%97%e5%af%b9%e8%a7%92%e9%98%b5%e7%9a%84%e4%bc%b4%e9%9a%8f" aria-label="40. 设A为n阶矩阵，B为m阶矩阵，求由A,B组成的分块对角阵的伴随">40. 设A为n阶矩阵，B为m阶矩阵，求由A,B组成的分块对角阵的伴随</a></li>
                     <li>
-                        <a href="#30-%e8%ae%bea%e4%b8%ban%e9%98%b6%e5%ae%9e%e5%8f%8d%e5%af%b9%e7%a7%b0%e9%98%b5%e8%af%81%e6%98%8ei_n-a%e6%98%af%e9%9d%9e%e5%bc%82%e9%98%b5" aria-label="30. 设A为n阶实反对称阵，证明：$I_{n}-A$是非异阵">30. 设A为n阶实反对称阵，证明：$I_{n}-A$是非异阵</a></li>
+                        <a href="#41" aria-label="41.">41.</a></li>
                     <li>
-                        <a href="#31-%e8%ae%bea%e4%b8%ban%e9%98%b6%e5%8f%af%e9%80%86%e9%98%b5%e6%b1%82%e8%af%81%e5%8f%aa%e7%94%a8%e7%ac%ac%e4%b8%89%e7%b1%bb%e5%88%9d%e7%ad%89%e5%8f%98%e6%8d%a2%e4%be%bf%e5%8f%af%e5%b0%86a%e5%8c%96%e4%b8%ba%e4%bb%a5%e4%b8%8b%e5%bd%a2%e7%8a%b6" aria-label="31. 设A为n阶可逆阵，求证：只用第三类初等变换便可将A化为以下形状">31. 设A为n阶可逆阵，求证：只用第三类初等变换便可将A化为以下形状</a></li>
-                    <li>
-                        <a href="#32-%e6%b1%82%e8%af%81%e4%bb%bb%e4%b8%80n%e9%98%b6%e7%9f%a9%e9%98%b5%e5%9d%87%e5%8f%af%e8%a1%a8%e7%a4%ba%e4%b8%ba%e5%bd%a2%e5%a6%82i_na_ije_ij%e8%bf%99%e6%a0%b7%e7%9a%84%e7%9f%a9%e9%98%b5%e4%b9%8b%e7%a7%af%e5%85%b6%e4%b8%ade_ij%e6%98%afn%e9%98%b6%e5%9f%ba%e7%a1%80%e7%9f%a9%e9%98%b5" aria-label="32. 求证：任一n阶矩阵均可表示为形如$I_{n}&#43;a_{ij}E_{ij}$这样的矩阵之积，其中$E_{ij}$是n阶基础矩阵">32. 求证：任一n阶矩阵均可表示为形如$I_{n}+a_{ij}E_{ij}$这样的矩阵之积，其中$E_{ij}$是n阶基础矩阵</a></li></ul>
-                    </li>
-                    <li>
-                        <a href="#%e6%b1%82%e9%80%86%e9%98%b5" aria-label="求逆阵">求逆阵</a><ul>
-                            
-                    <li>
-                        <a href="#33-%e6%b1%82%e4%b8%8b%e5%88%97n%e9%98%b6%e7%9f%a9%e9%98%b5%e7%9a%84%e9%80%86%e9%98%b5%e5%85%b6%e4%b8%ada_i01leilen" aria-label="33. 求下列n阶矩阵的逆阵，其中$a_{i}≠0(1\lei\len)$">33. 求下列n阶矩阵的逆阵，其中$a_{i}≠0(1\lei\len)$</a></li>
-                    <li>
-                        <a href="#21-%e8%ae%ben%e9%98%b6%e6%96%b9%e9%98%b5a%e5%92%8cb%e9%83%bd%e6%bb%a1%e8%b6%b3abab%e6%b1%82%e8%af%81i_n-a%e6%98%af%e5%8f%af%e9%80%86%e9%98%b5%e4%b8%94abba" aria-label="21. 设n阶方阵A和B都满足$A&#43;B=AB$，求证：$I_{n}-A$是可逆阵，且$AB=BA$">21. 设n阶方阵A和B都满足$A+B=AB$，求证：$I_{n}-A$是可逆阵，且$AB=BA$</a></li>
-                    <li>
-                        <a href="#22-%e8%ae%beabab-i_n%e9%83%bd%e6%98%afn%e9%98%b6%e5%8f%af%e9%80%86%e9%98%b5%e8%af%81%e6%98%8ea-b-1%e4%b8%8ea-b-1-1-a-1%e5%9d%87%e5%8f%af%e9%80%86%e5%b9%b6%e6%b1%82%e4%bb%96%e4%bb%ac%e7%9a%84%e9%80%86%e7%9f%a9%e9%98%b5" aria-label="22. 设$A,B,AB-I_{n}$都是n阶可逆阵，证明：$A-B^{-1}$与$(A-B^{-1})^{-1}-A^{-1}$均可逆，并求他们的逆矩阵">22. 设$A,B,AB-I_{n}$都是n阶可逆阵，证明：$A-B^{-1}$与$(A-B^{-1})^{-1}-A^{-1}$均可逆，并求他们的逆矩阵</a></li>
-                    <li>
-                        <a href="#34-%e6%b1%82a%e7%9a%84%e9%80%86%e9%98%b5" aria-label="34. 求A的逆阵">34. 求A的逆阵</a>
+                        <a href="#42-%e8%ae%ben%e9%98%b6%e7%9f%a9%e9%98%b5" aria-label="42. 设n阶矩阵">42. 设n阶矩阵</a>
                     </li>
                 </ul>
                 </li>
@@ -362,40 +346,38 @@
 <h3 id="35-设a为n阶矩阵满足ami_n-求证ami_n">35. 设A为n阶矩阵，满足$A^{m}=I_{n}$ ，求证：$(A*)^{m}=I_{n}$<a hidden class="anchor" aria-hidden="true" href="#35-设a为n阶矩阵满足ami_n-求证ami_n">#</a></h3>
 <h3 id="36-设ab为n阶矩阵求证abba">36. 设A,B为n阶矩阵，求证：$(AB)^{*}=B^{*}A^{*}$<a hidden class="anchor" aria-hidden="true" href="#36-设ab为n阶矩阵求证abba">#</a></h3>
 <h3 id="37-设a为n阶矩阵c为常数求证">37. 设A为n阶矩阵，c为常数，求证：<a hidden class="anchor" aria-hidden="true" href="#37-设a为n阶矩阵c为常数求证">#</a></h3>
-<p>(1) $(A&rsquo;)^{*}=(A^{*})&rsquo;'$</p>
-<h2 id="相抵标准型">相抵标准型<a hidden class="anchor" aria-hidden="true" href="#相抵标准型">#</a></h2>
-<p>相抵标准型是一个矩阵经过初等变换所能得到的最终形态</p>
-<h3 id="28-求证n阶方阵a是奇异阵的中分必要条件是存在不全为零的同阶方阵-b使得abo">28. 求证：n阶方阵$A$是奇异阵的中分必要条件是存在不全为零的同阶方阵 B，使得$AB=O$<a hidden class="anchor" aria-hidden="true" href="#28-求证n阶方阵a是奇异阵的中分必要条件是存在不全为零的同阶方阵-b使得abo">#</a></h3>
-<h3 id="29-求证n阶方阵a是奇异阵的充分必要条件是存在n维非零列向量x使得ax0">29. 求证：n阶方阵A是奇异阵的充分必要条件是存在n维非零列向量$x$，使得$Ax=0$<a hidden class="anchor" aria-hidden="true" href="#29-求证n阶方阵a是奇异阵的充分必要条件是存在n维非零列向量x使得ax0">#</a></h3>
-<p>注意：2.29这个结论可以用来在某些情况判定矩阵是否非异，挺有用的</p>
-<h3 id="30-设a为n阶实反对称阵证明i_n-a是非异阵">30. 设A为n阶实反对称阵，证明：$I_{n}-A$是非异阵<a hidden class="anchor" aria-hidden="true" href="#30-设a为n阶实反对称阵证明i_n-a是非异阵">#</a></h3>
-<h3 id="31-设a为n阶可逆阵求证只用第三类初等变换便可将a化为以下形状">31. 设A为n阶可逆阵，求证：只用第三类初等变换便可将A化为以下形状<a hidden class="anchor" aria-hidden="true" href="#31-设a为n阶可逆阵求证只用第三类初等变换便可将a化为以下形状">#</a></h3>
-<p>$$diag{1,\cdots,1,|A|}$$</p>
-<h3 id="32-求证任一n阶矩阵均可表示为形如i_na_ije_ij这样的矩阵之积其中e_ij是n阶基础矩阵">32. 求证：任一n阶矩阵均可表示为形如$I_{n}+a_{ij}E_{ij}$这样的矩阵之积，其中$E_{ij}$是n阶基础矩阵<a hidden class="anchor" aria-hidden="true" href="#32-求证任一n阶矩阵均可表示为形如i_na_ije_ij这样的矩阵之积其中e_ij是n阶基础矩阵">#</a></h3>
-<h2 id="求逆阵">求逆阵<a hidden class="anchor" aria-hidden="true" href="#求逆阵">#</a></h2>
-<p>这种方法不仅可以对数字矩阵有用，对文字矩阵也有用，以下的2.33是2.16的推广，是第四种解法</p>
-<h3 id="33-求下列n阶矩阵的逆阵其中a_i01leilen">33. 求下列n阶矩阵的逆阵，其中$a_{i}≠0(1\lei\len)$<a hidden class="anchor" aria-hidden="true" href="#33-求下列n阶矩阵的逆阵其中a_i01leilen">#</a></h3>
-<h3 id="21-设n阶方阵a和b都满足abab求证i_n-a是可逆阵且abba">21. 设n阶方阵A和B都满足$A+B=AB$，求证：$I_{n}-A$是可逆阵，且$AB=BA$<a hidden class="anchor" aria-hidden="true" href="#21-设n阶方阵a和b都满足abab求证i_n-a是可逆阵且abba">#</a></h3>
-<h3 id="22-设abab-i_n都是n阶可逆阵证明a-b-1与a-b-1-1-a-1均可逆并求他们的逆矩阵">22. 设$A,B,AB-I_{n}$都是n阶可逆阵，证明：$A-B^{-1}$与$(A-B^{-1})^{-1}-A^{-1}$均可逆，并求他们的逆矩阵<a hidden class="anchor" aria-hidden="true" href="#22-设abab-i_n都是n阶可逆阵证明a-b-1与a-b-1-1-a-1均可逆并求他们的逆矩阵">#</a></h3>
+<p>(1) $(A&rsquo;)^{*}=(A^{*})&rsquo;$          (2)$(cA)^{*}=c^{n-1}A^{*}$</p>
+<p>(3) 若A为可逆阵，则$(A)^{*}$也可逆，并且伴随与逆阵可交换，$(A^{*})^{-1}=(A^{-1})^{*}$</p>
+<h3 id="38-设a为n阶阵求证aan-1">38. 设A为n阶阵，求证：$|A^{*}|=|A|^{n-1}$<a hidden class="anchor" aria-hidden="true" href="#38-设a为n阶阵求证aan-1">#</a></h3>
+<h3 id="39--设a为n阶n2矩阵求证aan-2a">39.  设A为n阶(n&gt;2)矩阵，求证：$(A^{*})^{*}=|A|^{n-2}A$<a hidden class="anchor" aria-hidden="true" href="#39--设a为n阶n2矩阵求证aan-2a">#</a></h3>
+<h3 id="40-设a为n阶矩阵b为m阶矩阵求由ab组成的分块对角阵的伴随">40. 设A为n阶矩阵，B为m阶矩阵，求由A,B组成的分块对角阵的伴随<a hidden class="anchor" aria-hidden="true" href="#40-设a为n阶矩阵b为m阶矩阵求由ab组成的分块对角阵的伴随">#</a></h3>
 <p>$$
-\left (\begin{array}{llll}
-1+a_{1} &amp;1 &amp;1 &amp;\cdots &amp;1 \\
-1 &amp;1+a_{2} &amp;1 &amp;\cdots &amp;1 \\
-1 &amp;1 &amp;1+a{3} &amp;\cdots &amp;1 \\
-\vdots &amp;\vdots &amp;\vdots &amp; &amp;\vdots \\
-1 &amp;1 &amp;1 &amp;\cdots &amp;1+a_{n} \\
+C=\left(\begin{array}{llll}
+A &amp;O\\
+O &amp;B\\
 \end{array}\right)
 $$</p>
-<h3 id="34-求a的逆阵">34. 求A的逆阵<a hidden class="anchor" aria-hidden="true" href="#34-求a的逆阵">#</a></h3>
-<p>$$
-\left A=(\begin{array}{llll}
-1 &amp;2 &amp;3 &amp;\cdots &amp;n \\
-n &amp;1 &amp;2 &amp;\cdots &amp;n-1 \\
-n-1 &amp;n &amp;1 &amp;\cdots &amp;n-2 \\
-\vdots &amp;\vdots &amp;\vdots &amp; &amp;\vdots \\
-2 &amp;3 &amp;4 &amp;\cdots &amp;1 \\
+<h3 id="41">41.<a hidden class="anchor" aria-hidden="true" href="#41">#</a></h3>
+<p>已知
+$
+A^{*}=\left( \begin{array}{cccc}
+1 &amp;-2 &amp;1 \\
+0 &amp;2 &amp;-2 \\
+-1 &amp;2 &amp;1 \\
 \end{array}\right)
-$$</p>
+$
+，求A</p>
+<h3 id="42-设n阶矩阵">42. 设n阶矩阵<a hidden class="anchor" aria-hidden="true" href="#42-设n阶矩阵">#</a></h3>
+<p>$$
+A=\left(\begin{array}{cccc}
+2 &amp;2 &amp;2 &amp;\cdots &amp;2\\
+0 &amp;1 &amp;1 &amp;\cdots &amp;1\\
+0 &amp;0 &amp;1 &amp;\cdots &amp;1\\
+\vdots &amp;\vdots &amp; \vdots &amp; &amp;\vdots\\
+0 &amp;0 &amp;0 &amp;\cdots &amp; 1\\
+\end{array}\right)
+$$
+求$ \sum_{i,j=1}^{n} A_{ij}$</p>
 
 
   </div>
@@ -411,10 +393,10 @@ $$</p>
     <br>
     <span>2.5 初等变换及其应用</span>
   </a>
-  <a class="next" href="https://GWblog.github.io/zh/zh/posts/bilibili/">
+  <a class="next" href="https://GWblog.github.io/zh/zh/posts/math/2.7/">
     <span class="title">下一页 »</span>
     <br>
-    <span>test</span>
+    <span>2.7 矩阵的迹</span>
   </a>
 </nav>
 
