@@ -84,6 +84,17 @@
   ]
 }
 </script>
+ <script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
 </head>
 
 <body class="list" id="top">
@@ -192,7 +203,6 @@
     <p>Tony
 A funny guy</p>
   </div>
-  <footer class="entry-footer"><span title='2024-01-01 00:00:00 +0000 UTC'>2024-01-01</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;4 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to friends" href="https://GWblog.github.io/zh/zh/friends/"></a>
 </article>
 
@@ -204,7 +214,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>git git init git add . git commit -m ‘you want name’ git status ssh -T git@github.com git remote add origin git@github.com:GWblog/GWblog.github.io.git zhushi: 以上是第一次提交时检查情况 git checkout -b main # 更换本地分支名字 git push -u origin main # 推送上去 ，-f 是覆盖 bug 在未正式...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-02-03 22:12:32 +0800 CST'>2024-02-03</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;149 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to Hello World" href="https://GWblog.github.io/zh/zh/posts/bug/"></a>
 </article>
 
@@ -216,7 +225,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>你好大傻逼</p>
   </div>
-  <footer class="entry-footer"><span title='2024-02-03 22:12:32 +0800 CST'>2024-02-03</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;5 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to Hello World" href="https://GWblog.github.io/zh/zh/posts/hello-world/"></a>
 </article>
 
@@ -228,7 +236,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>search</p>
   </div>
-  <footer class="entry-footer">0 分钟&nbsp;·&nbsp;0 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 🔍 搜索" href="https://GWblog.github.io/zh/zh/search/"></a>
 </article>
 
@@ -240,7 +247,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有...</p>
   </div>
-  <footer class="entry-footer">2 分钟&nbsp;·&nbsp;688 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 2.3 矩阵的运算" href="https://GWblog.github.io/zh/zh/posts/math/2.3/"></a>
 </article>
 
@@ -252,7 +258,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方...</p>
   </div>
-  <footer class="entry-footer">2 分钟&nbsp;·&nbsp;584 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 2.5 初等变换及其应用" href="https://GWblog.github.io/zh/zh/posts/math/2.5/"></a>
 </article>
 
@@ -264,7 +269,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也...</p>
   </div>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;496 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 2.6 伴随矩阵" href="https://GWblog.github.io/zh/zh/posts/math/2.6/"></a>
 </article>
 
@@ -276,8 +280,18 @@ A funny guy</p>
   <div class="entry-content">
     <p>迹 迹$tr(A)$是研究矩阵的一个重要的相似不变量 迹在处理某些问题时有特别的方便，算是一个有趣的角度，这一节介绍一下基本性质，首先是线性，对...</p>
   </div>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;372 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 2.7 矩阵的迹" href="https://GWblog.github.io/zh/zh/posts/math/2.7/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">2.8 矩阵乘法与行列式的关系
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>$|AB|=|A|B|$ 这个结论是可以用来简化某些行列式的计算 $C=AB$ $CA=B$，其中A、C密切相关，B的行列式很容易计算； $CA=B$，其中A、B的行列式容易计算 以...</p>
+  </div>
+  <a class="entry-link" aria-label="post link to 2.8 矩阵乘法与行列式的关系" href="https://GWblog.github.io/zh/zh/posts/math/2.8/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -288,7 +302,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>插入视频 这是一个测试 colorbox 小老弟，我警告你啊 小老弟，我警告你啊 大家伙，靠过来听我说个事儿，我是个~ 小老弟，我警告你啊 友链 Tony A funny guy 参考 latex $$y = \begin{cases}-x &amp; x&lt;0...</p>
   </div>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;264 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to test" href="https://GWblog.github.io/zh/zh/posts/bilibili/"></a>
 </article>
 
@@ -300,7 +313,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>nania $$4$$</p>
   </div>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;2 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 降阶法" href="https://GWblog.github.io/zh/zh/posts/math/1.2/"></a>
 </article>
 
@@ -312,7 +324,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>2.4 判断一个矩阵是可逆阵大概有五种方法， 计算行列式的值 凑因子法 利用线性方程组求解理论判断 互素多项式的应用，见5.11节 特征值的应用，见6.2节...</p>
   </div>
-  <footer class="entry-footer">2 分钟&nbsp;·&nbsp;904 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 可逆矩阵" href="https://GWblog.github.io/zh/zh/posts/math/2.4/"></a>
 </article>
 
@@ -324,7 +335,6 @@ A funny guy</p>
   <div class="entry-content">
     <p>2.1 基础循环矩阵 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;1 &amp; 0 &amp;\cdots &amp; 0 \\ 0 &amp;0 &amp; 1 &amp;\cdots &amp; 0 \\ \vdots &amp; \vdots &amp; \vdots &amp; &amp; \vdots \\ 0 &amp; 0 &amp;0 &amp;… &amp; 1 \\ 1 &amp; 0 &amp;0 &amp;… &amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O...</p>
   </div>
-  <footer class="entry-footer">2 分钟&nbsp;·&nbsp;504 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 特殊矩阵" href="https://GWblog.github.io/zh/zh/posts/math/2.2/"></a>
 </article>
 
@@ -336,7 +346,6 @@ A funny guy</p>
   <div class="entry-content">
     <p></p>
   </div>
-  <footer class="entry-footer">0 分钟&nbsp;·&nbsp;0 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 写真帳" href="https://GWblog.github.io/zh/zh/photos/"></a>
 </article>
     </main>
@@ -449,6 +458,20 @@ code.has-jax {
     color: #515151;
 }
 </style>
+
+
+
+
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+   
+   
+   <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2023084194号-2 | </a>
+      &copy;
+      2024
+      
+    </p>
+    
 </body>
 
 </html>

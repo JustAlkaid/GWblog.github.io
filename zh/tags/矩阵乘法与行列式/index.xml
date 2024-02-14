@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>矩阵乘法与行列式 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E4%B9%98%E6%B3%95%E4%B8%8E%E8%A1%8C%E5%88%97%E5%BC%8F/</link>
+    <description>Recent content in 矩阵乘法与行列式 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E4%B9%98%E6%B3%95%E4%B8%8E%E8%A1%8C%E5%88%97%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.8 矩阵乘法与行列式的关系</title>
+      <link>https://GWblog.github.io/zh/posts/math/2.8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/2.8/</guid>
+      <description>$|AB|=|A|B|$ 这个结论是可以用来简化某些行列式的计算 $C=AB$ $CA=B$，其中A、C密切相关，B的行列式很容易计算； $CA=B$，其中A、B的行列式容易计算 以</description>
+    </item>
+    <item>
+      <title>2.8 矩阵乘法与行列式的关系</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/2.8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/2.8/</guid>
+      <description>$|AB|=|A|B|$ 这个结论是可以用来简化某些行列式的计算 $C=AB$ $CA=B$，其中A、C密切相关，B的行列式很容易计算； $CA=B$，其中A、B的行列式容易计算 以</description>
+    </item>
+  </channel>
+</rss>

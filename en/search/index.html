@@ -118,6 +118,17 @@
   }
 }
 </script>
+ <script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
 </head>
 
 <body class="list" id="top">
@@ -219,12 +230,6 @@
             <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
     </h1>
-    <div class="post-meta">Translations:
-<ul class="i18n_list">
-    <li>
-        <a href="https://GWblog.github.io/zh/search/">Chinese</a>
-    </li>
-</ul></div>
 </header>
 
 <div id="searchbox">
@@ -342,6 +347,20 @@ code.has-jax {
     color: #515151;
 }
 </style>
+
+
+
+
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+   
+   
+   <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2023084194号-2 | </a>
+      &copy;
+      2024
+      
+    </p>
+    
 </body>
 
 </html>
