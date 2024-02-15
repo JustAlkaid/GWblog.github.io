@@ -50,13 +50,13 @@
     <loc>https://GWblog.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="params"
-                href="https://GWblog.github.io/params/categories/"
+                hreflang="zh"
+                href="https://GWblog.github.io/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="https://GWblog.github.io/zh/categories/"
+                hreflang="params"
+                href="https://GWblog.github.io/params/categories/"
                 />
     <xhtml:link
                 rel="alternate"

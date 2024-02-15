@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>摄动法 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E6%91%84%E5%8A%A8%E6%B3%95/</link>
+    <description>Recent content in 摄动法 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 11 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E6%91%84%E5%8A%A8%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2.11 摄动法及其应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.11/</link>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.11/</guid>
+      <description>摄动法及其应用 摄动法通过矩阵理论中的常用方法，它利用连续函数的性质将一般矩阵的问题转化为对非异阵的讨论，本节中我们会讲述原理，在伴随矩阵性质</description>
+    </item>
+    <item>
+      <title>2.11 摄动法及其应用</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.11/</link>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.11/</guid>
+      <description>摄动法及其应用 摄动法通过矩阵理论中的常用方法，它利用连续函数的性质将一般矩阵的问题转化为对非异阵的讨论，本节中我们会讲述原理，在伴随矩阵性质</description>
+    </item>
+  </channel>
+</rss>

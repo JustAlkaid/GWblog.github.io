@@ -11,103 +11,132 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
+    <lastBuildDate>Sun, 11 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>2.10 分块初等变换与降阶公式</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.10/</link>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.10/</guid>
+      <description>分块初等变换与降阶公式 这一节介绍分块初等变换在求行列式值和求逆的应用 65. 设A是n阶可逆阵，$ α,β$是n维列向量，b是常数，现有分块矩阵 $$ Q=\left(\begin{array}{cccc} A</description>
+    </item>
+    <item>
+      <title>2.10 分块初等变换与降阶公式</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.10/</link>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.10/</guid>
+      <description>分块初等变换与降阶公式 这一节介绍分块初等变换在求行列式值和求逆的应用 65. 设A是n阶可逆阵，$ α,β$是n维列向量，b是常数，现有分块矩阵 $$ Q=\left(\begin{array}{cccc} A</description>
+    </item>
+    <item>
+      <title>2.11 摄动法及其应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.11/</link>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.11/</guid>
+      <description>摄动法及其应用 摄动法通过矩阵理论中的常用方法，它利用连续函数的性质将一般矩阵的问题转化为对非异阵的讨论，本节中我们会讲述原理，在伴随矩阵性质</description>
+    </item>
+    <item>
+      <title>2.11 摄动法及其应用</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.11/</link>
+      <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.11/</guid>
+      <description>摄动法及其应用 摄动法通过矩阵理论中的常用方法，它利用连续函数的性质将一般矩阵的问题转化为对非异阵的讨论，本节中我们会讲述原理，在伴随矩阵性质</description>
+    </item>
+    <item>
       <title>2.3 矩阵的运算</title>
-      <link>https://GWblog.github.io/zh/posts/math/2.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/2.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.3/</guid>
       <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
     </item>
     <item>
       <title>2.3 矩阵的运算</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/2.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/2.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.3/</guid>
       <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
     </item>
     <item>
       <title>2.5 初等变换及其应用</title>
-      <link>https://GWblog.github.io/zh/posts/math/2.5/</link>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/2.5/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.5/</guid>
       <description>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方</description>
     </item>
     <item>
       <title>2.5 初等变换及其应用</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/2.5/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/2.5/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.5/</guid>
       <description>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方</description>
     </item>
     <item>
       <title>2.6 伴随矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/2.6/</link>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/2.6/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.6/</guid>
       <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
     </item>
     <item>
       <title>2.6 伴随矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/2.6/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/2.6/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.6/</guid>
       <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
     </item>
     <item>
       <title>2.7 矩阵的迹</title>
-      <link>https://GWblog.github.io/zh/posts/math/2.7/</link>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/2.7/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.7/</guid>
       <description>迹 迹$tr(A)$是研究矩阵的一个重要的相似不变量 迹在处理某些问题时有特别的方便，算是一个有趣的角度，这一节介绍一下基本性质，首先是线性，对</description>
     </item>
     <item>
       <title>2.7 矩阵的迹</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/2.7/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/2.7/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.7/</guid>
       <description>迹 迹$tr(A)$是研究矩阵的一个重要的相似不变量 迹在处理某些问题时有特别的方便，算是一个有趣的角度，这一节介绍一下基本性质，首先是线性，对</description>
     </item>
     <item>
       <title>2.8 矩阵乘法与行列式的关系</title>
-      <link>https://GWblog.github.io/zh/posts/math/2.8/</link>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/2.8/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.8/</guid>
       <description>$|AB|=|A|B|$ 这个结论是可以用来简化某些行列式的计算 $C=AB$ $CA=B$，其中A、C密切相关，B的行列式很容易计算； $CA=B$，其中A、B的行列式容易计算 以</description>
     </item>
     <item>
       <title>2.8 矩阵乘法与行列式的关系</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/2.8/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/2.8/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.8/</guid>
       <description>$|AB|=|A|B|$ 这个结论是可以用来简化某些行列式的计算 $C=AB$ $CA=B$，其中A、C密切相关，B的行列式很容易计算； $CA=B$，其中A、B的行列式容易计算 以</description>
     </item>
     <item>
       <title>可逆矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/2.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/2.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.4/</guid>
       <description>2.4 判断一个矩阵是可逆阵大概有五种方法， 计算行列式的值 凑因子法 利用线性方程组求解理论判断 互素多项式的应用，见5.11节 特征值的应用，见6.2节</description>
     </item>
     <item>
       <title>可逆矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/2.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/2.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.4/</guid>
       <description>2.4 判断一个矩阵是可逆阵大概有五种方法， 计算行列式的值 凑因子法 利用线性方程组求解理论判断 互素多项式的应用，见5.11节 特征值的应用，见6.2节</description>
     </item>
     <item>
       <title>特殊矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/2.2/</link>
+      <link>https://GWblog.github.io/zh/posts/math/ch2/2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/2.2/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.2/</guid>
       <description>2.1 基础循环矩阵 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 1 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O</description>
     </item>
     <item>
       <title>特殊矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/2.2/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/2.2/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.2/</guid>
       <description>2.1 基础循环矩阵 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 1 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O</description>
     </item>
     <item>
