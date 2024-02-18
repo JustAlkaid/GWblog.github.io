@@ -78,6 +78,7 @@
     })();
 </script>
 
+
 </head>
 
 <body class="list" id="top">
@@ -172,6 +173,11 @@
                     <span>📷写真帳</span>
                 </a>
             </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/relitu" title="😁热力图">
+                    <span>😁热力图</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -195,7 +201,7 @@
     <h2 class="entry-hint-parent">3.2 向量的线性关系
     </h2>
   </header>
-  <footer class="entry-footer">4 分钟&nbsp;·&nbsp;1526 字&nbsp;·&nbsp;G.W
+  <footer class="entry-footer">9 分钟&nbsp;·&nbsp;4123 字&nbsp;·&nbsp;G.W
 
 
 
@@ -206,7 +212,7 @@
 
 
 
-时长: 4分钟&amp;nbsp;|&amp;nbsp;G.W</footer>
+时长: 9分钟&amp;nbsp;|&amp;nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 3.2 向量的线性关系" href="https://GWblog.github.io/zh/posts/math/ch3/3.2/"></a>
 </article>
 
@@ -215,7 +221,7 @@
     <h2 class="entry-hint-parent">3.2 向量的线性关系
     </h2>
   </header>
-  <footer class="entry-footer">4 分钟&nbsp;·&nbsp;1526 字&nbsp;·&nbsp;G.W
+  <footer class="entry-footer">9 分钟&nbsp;·&nbsp;4123 字&nbsp;·&nbsp;G.W
 
 
 
@@ -226,7 +232,7 @@
 
 
 
-时长: 4分钟&amp;nbsp;|&amp;nbsp;G.W</footer>
+时长: 9分钟&amp;nbsp;|&amp;nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 3.2 向量的线性关系" href="https://GWblog.github.io/zh/zh/posts/math/ch3/3.2/"></a>
 </article>
     </main>
@@ -378,6 +384,9 @@ code.has-jax {
 
 
 
+
+
+
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
    <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2023084194号-2 | </a>
@@ -387,6 +396,23 @@ code.has-jax {
     </p>
     
 
+
+
+<span id="voyager">载入旅行者一号离地球距离信息...</span>
+
+<script language="javascript"> 
+    var now = new Date();
+    function createtime(){
+        
+        now.setTime(now.getTime()+250);
+        var start = new Date("08/01/2022 00:00:00"); 
+        var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); 
+        var unit = (dis / 149600000).toFixed(6);  
+
+        document.getElementById("voyager").innerHTML = "旅行者 1 号当前距离地球 "+ dis +" 千米，约为 "+ unit +" 个天文单位 🚀"
+    }
+    setInterval("createtime()",250); 
+</script> 
 </body>
 
 </html>

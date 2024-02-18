@@ -133,6 +133,7 @@
     })();
 </script>
 
+
 </head>
 
 <body class="" id="top">
@@ -225,6 +226,11 @@
             <li>
                 <a href="https://GWblog.github.io/zh/photos" title="📷写真帳">
                     <span>📷写真帳</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://GWblog.github.io/zh/relitu" title="😁热力图">
+                    <span>😁热力图</span>
                 </a>
             </li>
         </ul>
@@ -638,6 +644,9 @@ code.has-jax {
 
 
 
+
+
+
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
    <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2023084194号-2 | </a>
@@ -647,6 +656,23 @@ code.has-jax {
     </p>
     
 
+
+
+<span id="voyager">载入旅行者一号离地球距离信息...</span>
+
+<script language="javascript"> 
+    var now = new Date();
+    function createtime(){
+        
+        now.setTime(now.getTime()+250);
+        var start = new Date("08/01/2022 00:00:00"); 
+        var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); 
+        var unit = (dis / 149600000).toFixed(6);  
+
+        document.getElementById("voyager").innerHTML = "旅行者 1 号当前距离地球 "+ dis +" 千米，约为 "+ unit +" 个天文单位 🚀"
+    }
+    setInterval("createtime()",250); 
+</script> 
 </body>
 
 </html>
