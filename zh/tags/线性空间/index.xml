@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>chapter 3 on 避风港</title>
-    <link>https://GWblog.github.io/zh/posts/math/ch3/</link>
-    <description>Recent content in chapter 3 on 避风港</description>
+    <title>线性空间 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/</link>
+    <description>Recent content in 线性空间 on 避风港</description>
     <image>
       <title>避风港</title>
       <url>https://GWblog.github.io/images/fav.jpg</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://GWblog.github.io/zh/posts/math/ch3/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3.3 向量空间及其基础</title>
       <link>https://GWblog.github.io/zh/posts/math/ch3/3.3/</link>
@@ -21,11 +21,11 @@
       <description>线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题</description>
     </item>
     <item>
-      <title>3.2 向量的线性关系</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.2/</guid>
-      <description>向量的线性关系 对于线性空间$\mathbb{V}$中的向量$\alpha_{1},\alpha_{2},\cdots,\alpha_{n}$</description>
+      <title>3.3 向量空间及其基础</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</guid>
+      <description>线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题</description>
     </item>
   </channel>
 </rss>

@@ -11,7 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
+    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/zh/posts/math/ch3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.3 向量空间及其基础</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</guid>
+      <description>线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题</description>
+    </item>
     <item>
       <title>3.2 向量的线性关系</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.2/</link>
