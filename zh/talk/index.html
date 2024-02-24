@@ -263,24 +263,17 @@
   </header> 
   <div class="post-content"><body>
 <!-- 引用 artitalk -->
-<script async data-pjax type="text/javascript" src="https://unpkg.com/artitalk"></script>
+<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
 <!-- 存放说说的容器 -->
 <div id="artitalk_main"></div>
-<script async data-pjax>
+<script>
 new Artitalk({
     appId: 'VzCYAEg7bo3ziDwUfhfrZT9H-gzGzoHsz', // Your LeanCloud appId
     appKey: 'x13JtbJ2sIqE04DTZE5o03nE', // Your LeanCloud appKey
-    serverURL: 'https://avoscloud.com',
-    pageSize: 50, //每页评论数量
-    shuoPla: '', //评论框里显示，可以不填
-    motion: 0, //加载动画的开关 0（关闭），1（开启）
-    atComment: 0, //评论功能的开关 0（关闭），1（开启）
-    bgImg: '', //评论框里的背景，可以不填
-    color1: '#ffffff', //自定义颜色，有几种方式
-    color2: '#ffffff',
-    color3: '#3b9a9c',
+    serverURL: 'https://avoscloud.com'    
 })
-<body>
+</script>
+</body>
 
   </div>
 
