@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>线性同构 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E5%90%8C%E6%9E%84/</link>
+    <description>Recent content in 线性同构 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E5%90%8C%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.4 线性同构和几何问题代数化</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch3/3.4/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.4/</guid>
+      <description>3.4 线性同构和几何问题代数化 同一个数域$\mathbb{K}$上的两个线性空间$V,U$称为是线性同构的，如果存在一个一一对应的$φ: V \to U$</description>
+    </item>
+    <item>
+      <title>3.4 线性同构和几何问题代数化</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.4/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.4/</guid>
+      <description>3.4 线性同构和几何问题代数化 同一个数域$\mathbb{K}$上的两个线性空间$V,U$称为是线性同构的，如果存在一个一一对应的$φ: V \to U$</description>
+    </item>
+  </channel>
+</rss>

@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 10 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/zh/posts/math/ch3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.4 线性同构和几何问题代数化</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.4/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.4/</guid>
+      <description>3.4 线性同构和几何问题代数化 同一个数域$\mathbb{K}$上的两个线性空间$V,U$称为是线性同构的，如果存在一个一一对应的$φ: V \to U$</description>
+    </item>
     <item>
       <title>3.3 向量空间及其基础</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</link>

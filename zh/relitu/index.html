@@ -20,6 +20,18 @@
   
   var dataMap = new Map();
   
+    var key = "2024-02-18";
+    var value = dataMap.get(key);
+    var wordCount =  3298 ;
+    var link = "/zh/posts/math/ch3/3.4/";
+    var title = "3.4 线性同构和几何问题代数化";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2024-02-11";
     var value = dataMap.get(key);
     var wordCount =  565 ;
