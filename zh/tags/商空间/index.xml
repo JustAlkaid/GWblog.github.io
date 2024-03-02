@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>商空间 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E5%95%86%E7%A9%BA%E9%97%B4/</link>
+    <description>Recent content in 商空间 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E5%95%86%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.6 子空间与商空间</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch3/3.6/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.6/</guid>
+      <description>3.6 子空间与商空间 46. 设$V=M_{n}(\mathbb{K})$是数域$\mathbb{K}$上的n阶矩阵全体组成的线性空间，$A \in V$，求证</description>
+    </item>
+    <item>
+      <title>3.6 子空间与商空间</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.6/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.6/</guid>
+      <description>3.6 子空间与商空间 46. 设$V=M_{n}(\mathbb{K})$是数域$\mathbb{K}$上的n阶矩阵全体组成的线性空间，$A \in V$，求证</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>矩阵的秩 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E7%9A%84%E7%A7%A9/</link>
+    <description>Recent content in 矩阵的秩 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E7%9A%84%E7%A7%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.7 矩阵的秩</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch3/3.7/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.7/</guid>
+      <description>3.7 矩阵的秩 矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定向量组的线性关系等，秩的等式(不等式)</description>
+    </item>
+    <item>
+      <title>3.7 矩阵的秩</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.7/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.7/</guid>
+      <description>3.7 矩阵的秩 矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定向量组的线性关系等，秩的等式(不等式)</description>
+    </item>
+  </channel>
+</rss>
