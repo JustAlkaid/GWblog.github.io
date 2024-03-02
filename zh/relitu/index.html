@@ -119,6 +119,18 @@
     var key = "0001-01-01";
     var value = dataMap.get(key);
     var wordCount =  0 ;
+    var link = "/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/";
+    var title = "";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "0001-01-01";
+    var value = dataMap.get(key);
+    var wordCount =  0 ;
     var link = "/zh/posts/123/";
     var title = "122";
     
