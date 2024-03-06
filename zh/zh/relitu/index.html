@@ -20,6 +20,18 @@
   
   var dataMap = new Map();
   
+    var key = "2024-02-29";
+    var value = dataMap.get(key);
+    var wordCount =  1165 ;
+    var link = "/zh/posts/math/ch3/3.8/";
+    var title = "3.8 相抵标准型及其应用";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2024-02-28";
     var value = dataMap.get(key);
     var wordCount =  564 ;
@@ -46,7 +58,7 @@
     }
     var key = "2024-02-28";
     var value = dataMap.get(key);
-    var wordCount =  199 ;
+    var wordCount =  3172 ;
     var link = "/zh/posts/math/ch3/3.7/";
     var title = "3.7 矩阵的秩";
     

@@ -111,8 +111,8 @@
   "keywords": [
     "矩阵的秩", "矩阵秩的相关(不)等式证明"
   ],
-  "articleBody": "3.7 矩阵的秩 矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定向量组的线性关系等，秩的等式(不等式)的证明是矩阵理论中的一个难点，要证明它们通常需要一定的技巧，而且我们还将发现，随着相关矩阵秩在高等代数中应用的深入，相关的证明技巧将会更丰富，也更有难度。 本节主要介绍3种方法，矩阵的初等变换，线性方程组的求解理论和线性空间理论来进行矩阵秩的等式(不等式)证明\n",
-  "wordCount" : "199",
+  "articleBody": "3.7 矩阵的秩 矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定向量组的线性关系等，秩的等式(不等式)的证明是矩阵理论中的一个难点，要证明它们通常需要一定的技巧，而且我们还将发现，随着相关矩阵秩在高等代数中应用的深入，相关的证明技巧将会更丰富，也更有难度。 本节主要介绍3种方法，矩阵的初等变换，线性方程组的求解理论和线性空间理论来进行矩阵秩的等式(不等式)证明\n1. 初等变换法 因为矩阵的秩在初等变换或分块初等变换下不变，故初等变换是处理矩阵秩的首要方法，再配合如下的矩阵秩的基本公式，就可以证明一系列结论\n矩阵秩的基本公式(将在接下来的例题中被依次证明):\n(1)若$k \\ne 0$, $r(kA)=r(A)$;\n(2) $r(AB) \\le min\\{r(A), r(B)\\}$;\n(3) $r\\begin{pmatrix} A \u0026O\\\\ O \u0026B \\end{pmatrix} =r(A)+r(B) $;\n(4) $r\\begin{pmatrix} A \u0026C\\\\ O \u0026B \\end{pmatrix} \\ge r(A)+r(B); r\\begin{pmatrix} A \u0026O\\\\ D \u0026B \\end{pmatrix} \\ge r(A)+r(B) $;\n(5) $r(A;B) \\le r(A)+r(B), r\\begin{pmatrix} A \\\\ B \\end{pmatrix} \\le r(A)+r(B) $\n(6) $r(A + B) \\le r(A)+r(B), r(A - B) \\le r(A)+r(B)$;\n(7) $r(A - B) \\ge |r(A) - r(B)|$.\n58. 设$A$是$m \\times n$阶矩阵，$k \\ne 0$，求证：$r(kA)=r(A)$ 59. 设$A=a_{ij},B=b_{ij}$是$m \\times n$阶矩阵，且$b_{ij}=(-1)^{i+j}a_{ij}$. 求证$r(A)=r(B)$ 60. 求证: $r(AB) \\le min\\{r(A), r(B)\\}$; 小老弟，看我手指这是几🖖\n上例即是说，矩阵相乘之后秩相等或变小，这是一个证明秩不等式时候的重要技巧，关键是如何选取一个合适的矩阵(可以是奇异阵)，以便取得想要的效果\n61. 求证: $r\\begin{pmatrix} A \u0026O\\\\ O \u0026B \\end{pmatrix} =r(A)+r(B) $\n小老弟，看我手指这是几🖖\n例3.61是关于矩阵秩的一个十分基本的公式，她除了告诉我们分块对角矩阵的秩序等于每个对角矩阵秩的和之外，我们还可以反过来逆向使用这个公式，即看到两个矩阵之和时，可以把这两个矩阵拼成一个分块对角阵来思考问题，但如果是分块上(下)三角矩阵，通常我们只能得到如下秩的不等式\n62. 求证: $r\\begin{pmatrix} A \u0026C\\\\ O \u0026B \\end{pmatrix} \\ge r(A)+r(B); r\\begin{pmatrix} A \u0026O\\\\ D \u0026B \\end{pmatrix} \\ge r(A)+r(B) $;\n63. $r(A;B) \\le r(A)+r(B), r\\begin{pmatrix} A \\\\ B \\end{pmatrix} \\le r(A)+r(B) $\n64. $r(A + B) \\le r(A)+r(B), r(A - B) \\le r(A)+r(B)$ 65. $r(A - B) \\ge |r(A) - r(B)|$ 66. (Sylvester 不等式)设$A$是$m \\times n$矩阵，$B$是$n \\times t$矩阵，求证: $$ r(AB) \\ge r(A)+r(B)-n $$\n推论: 设$A$是$m \\times n$矩阵，$B$是$n \\times t$矩阵，且$AB=O$求证: $ r(A)+r(B) \\le n $\n67. 设$A,B$为n阶方阵，$AB=O$，证明: 若n为奇数，则$AB’ + A’B$必定为奇异阵; 若n为偶数，则$AB’ + A’B$可不为奇异阵，请举例说明 68. 设$A_{1}+A_{2}+\\cdots+A_{m}$为n阶方阵，求证: $$ r(A_{1})+r(A_{2})+\\cdots+r(A_{m}) \\le (m-1)n+r(A_{1}A_{2}\\cdots A_{m}) $$ 特别地，若$A_{1}A_{2}\\cdots A_{m}=O$，则$r(A_{1})+r(A_{2})+\\cdots+r(A_{m}) \\le (m-1)n $\n69. 我们还可以将 Sylvester 不等式进行如下的推广 (Frobenius不等式)求证: $r(ABC) \\ge r(AB)+r(BC)-r(B)$\n70. (这是对于幂等矩阵和对合矩阵的关于秩的判定准则) 求证: n阶矩阵$A$是幂等矩阵(即$A^2=A$) 的充要条件是 $$ r(A)+r(I_{n}-A)=n $$\n71. 求证: n阶矩阵$A$是对合矩阵(即$A^2=I_{n}$) 的充要条件是 $$ r(I_{n}+A)+r(I_{n}-A)=n $$\n72. 设$A$是n阶矩阵，求证: $ r(A)+r(I_{n}+A) \\ge n $\n73. (秩的降阶公式) 设有分块矩阵 $M=\\begin{pmatrix} A \u0026B\\\\ C \u0026D \\end{pmatrix} $ , 证明: (1) 若$A$可逆，则$r(M)=r(A)+r(D-CA^{-1}B)$; (2) 若$D$可逆，则$r(M)=r(D)+r(A-BD^{-1}C)$; (3) 若$A,D$均可逆，则$ r(A)+r(D-CA^{-1}B)=r(D)+r(A-BD^{-1}C)$\n74. 设 $$ M=\\begin{pmatrix}{cccc} a_{1}^{2} \u0026a_{1}a_{2}+1 \u0026 \\cdots \u0026 a_{1}a_{n}+1\\\\ a_{2}a_{1}+1 \u0026a_{2}^{2} \u0026 \\cdots \u0026 a_{2}a_{n}+1\\\\ \\vdots \u0026\\vdots \u0026 \u0026\\vdots \\\\ a_{n}a_{1}+1 \u0026a_{n}a_{2}+1 \u0026 \\cdots \u0026 a_{n}^{2} \\end{pmatrix} $$ 证明: $r(M) \\ge n-1$，等号当且仅当$|M|=0$\n75. 设$A, B$都是数域$\\mathbb{K}$上的n阶矩阵且$AB=BA$，证明: $$ r(A + B) \\le r(A)+r(B)-r(AB) $$\n2. 利用线性方程组的求解理论解决秩 设$A$是数域$\\mathbb{K}$上的$m \\times n$矩阵，则齐次线性方程组 $Ax = 0$的解集$V_{A}$是n维列向量空间$\\mathbb{K}^{n}$的子空间，根据线性方程组的求解理论，我们有 $$ dimV_{A}+r(A)=n $$\n即齐次线性方程组的解空间维数与系数矩阵的秩序之和等于未知数的个数，根据上述公式，由矩阵的秩可以讨论线性方程组解的性质; 反过来，也可以由线性方程组解的性质讨论矩阵的秩序. 下面的几个是典型例题\n76. 设$A$是$m \\times n$实矩阵，求证: $r(A’A)=r(AA’)=r(A)$ 小老弟，看我手指这是几🖖\n用类似的方法可以证明，A是复矩阵的情况\n77. 设$A$和$B$是数域$\\mathbb{K}$上的n阶矩阵，若线性方程组$Ax=0$与$Bx=0$同解，且每个线性方程组的基础解系含m个线性无关的向量，求证: $r(A-B) \\le n-m$ 78. 设$A$是$m \\times n$矩阵，$B$是$n \\times k$矩阵，证明: 方程组$ABx=0$和$Bx=0$同解的充要条件是$r(AB)=r(B)$ 79. 设$A$是$m \\times n$矩阵，$B$是$n \\times k$矩阵，若$AB$和$B$有相同的秩，求证: 对任意的$k \\times l$矩阵$C$，$r(ABC)=r(BC)$ 75. (一种利用线性方程组的新的解法) 80. 设数域$\\mathbb{K}$上的n阶矩阵$A=a_{ij}$满足: $|A|=0$且某个元素$a_{ij}$的代数余子式$A_{ij} \\ne 0$，求证: 齐次线性方程组$Ax=0$的解集都可这写为如下 $$ k\\begin{pmatrix} A_{i1}\\\\ A_{i2}\\\\ \\vdots \\\\ A_{in} \\end{pmatrix} $$\n81. 设$n$阶矩阵$A$的行列式等于零，证明: $A^{*}$的秩不超过1 小老弟，看我手指这是几🖖\n当$n\u003e2$ 时，若$A$不是可逆矩阵，则$(A^{})^{}=O$，这就是例2.39的证法3\n第二章解答题14 设n阶矩阵$A$的每一行每一列的元素之和都为零，证明: 每个元素的代数余子式都相等\n小老弟，看我手指这是几🖖\n由$dimV_{A}+r(A)=n$可以得到一个简单的推论，即\n82. 设$A$是实反对称矩阵，$D=diag\\{d_{1}, d_{2}, \\cdots, d_{n}\\}$是同阶对角阵，且主对角元全大于零，求证: $|A+D|\u003e0$，特别地，$|I_{n} \\pm A|\u003e0$，从而，$|I_{n} \\pm A|$都是非异阵 83. 如果n阶实方阵$A$满足条件 $$ |a_{ii}| \u003e \\sum_{j=1, j \\ne i}^{n}|a_{ij}|, 1 \\le i \\le n, $$ 则称$A$是严格对角占优矩阵. 求证: 严格对角占优阵必定是非异阵 若 $ a_{ii} \u003e \\sum_{j=1, j \\ne i}^{n} |a_{ij}|, 1 \\le i \\le n, $ 求证: $|A|\u003e0$\n84. 设$A$是n阶实对称阵，求证: $I_{n}+iA$和$I_{n}-iA$都是非异阵 3. 利用线性空间理论讨论矩阵的秩 按照最初的定义，矩阵的秩就是行(列)向量组的秩，所以利用线性空间理论讨论矩阵的秩是非常自然的事，下面我们列举一些典型的例子\n62.(证法3) 求证: $r\\begin{pmatrix} A \u0026C\\\\ O \u0026B \\end{pmatrix} \\ge r(A)+r(B); r\\begin{pmatrix} A \u0026O\\\\ D \u0026B \\end{pmatrix} \\ge r(A)+r(B) $;\n小老弟，看我手指这是几🖖\n一个定义: 设$A$是矩阵，$D$是$A$的r阶子式，$A$中所有包含$D$这个r阶子式的$r+1$阶子式称为$D$的$r+1$阶加边子式\n85. (下面的例题给出了秩关于加边子式的判定) 矩阵$A$的秩为r的充要条件是$A$存在一个r阶子式不为零，而所有$r+1$阶子式都为零\n86. 设$m\\times n$矩阵$A$的$m$个行向量为$\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{m}$，且$\\alpha_{i1}, \\alpha_{i2}, \\cdots, \\alpha_{ir}$是极大无关组，又设$A$的$n$个列向量为$\\beta_{1}, \\beta_{2}, \\cdots, \\beta_{n}$，且$\\beta_{j1}, \\beta_{j2}, \\cdots, \\beta_{jr}$是其极大无关组，求证: $\\alpha_{i1}, \\alpha_{i2}, \\cdots, \\alpha_{ir}$和$\\beta_{j1}, \\beta_{j2}, \\cdots, \\beta_{jr}$交叉点上的元素组成的子矩阵$D$的行列式不等于零 87. 设$A$是一个n阶方阵，$A$的第$i_{1}, i_{2}, \\cdots, i_{r}$行和第$i_{1}, i_{2}, \\cdots, i_{r}$列交叉点上的元素组成的矩阵称为$A$的主子式，若$A$是对称阵或反对称阵且秩等于r，求证: $A$必有一个$r$阶主子式不等于零 88. 证明: 反对称阵的秩必为偶数 75. (第三种证法) 小老弟，看我手指这是几🖖\n3.75这个例题的三种证明方法正好对应了开头讲的三种方法，其实，第一种初等变换方法正好对应了代数，后两种对应了几何，实际上后两种线性空间和线性方程组实质上是对应线性映射的核空间和像空间的，是一种\n",
+  "wordCount" : "3172",
   "inLanguage": "zh",
   "image":"https://GWblog.github.io/images/aermailun.jpg","datePublished": "2024-02-28T00:00:00Z",
   "dateModified": "2024-02-28T00:00:00Z",
@@ -261,7 +261,7 @@
     <h1 class="post-title entry-hint-parent">
       3.7 矩阵的秩
     </h1>
-    <div class="post-meta"><span title='2024-02-28 00:00:00 +0000 UTC'>2024-02-28</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;199 字&nbsp;·&nbsp;G.W
+    <div class="post-meta"><span title='2024-02-28 00:00:00 +0000 UTC'>2024-02-28</span>&nbsp;·&nbsp;7 分钟&nbsp;·&nbsp;3172 字&nbsp;·&nbsp;G.W
 
 
 
@@ -272,7 +272,7 @@
 
 
 
-创建:&amp;nbsp;&lt;span title=&#39;2024-02-28 00:00:00 &#43;0000 UTC&#39;&gt;2024-02-28&lt;/span&gt;&amp;nbsp;|&amp;nbsp;时长: 1分钟&amp;nbsp;|&amp;nbsp;G.W
+创建:&amp;nbsp;&lt;span title=&#39;2024-02-28 00:00:00 &#43;0000 UTC&#39;&gt;2024-02-28&lt;/span&gt;&amp;nbsp;|&amp;nbsp;时长: 7分钟&amp;nbsp;|&amp;nbsp;G.W
 
 </div>
   </header> 
@@ -287,8 +287,91 @@
 
             <div class="inner"><ul>
                     <li>
-                        <a href="#37-%e7%9f%a9%e9%98%b5%e7%9a%84%e7%a7%a9" aria-label="3.7 矩阵的秩">3.7 矩阵的秩</a>
+                        <a href="#37-%e7%9f%a9%e9%98%b5%e7%9a%84%e7%a7%a9" aria-label="3.7 矩阵的秩">3.7 矩阵的秩</a></li>
+                    <li>
+                        <a href="#1-%e5%88%9d%e7%ad%89%e5%8f%98%e6%8d%a2%e6%b3%95" aria-label="1. 初等变换法">1. 初等变换法</a><ul>
+                            
+                    <li>
+                        <a href="#58-%e8%ae%bea%e6%98%afm-times-n%e9%98%b6%e7%9f%a9%e9%98%b5k-ne-0%e6%b1%82%e8%af%81rkara" aria-label="58. 设$A$是$m \times n$阶矩阵，$k \ne 0$，求证：$r(kA)=r(A)$">58. 设$A$是$m \times n$阶矩阵，$k \ne 0$，求证：$r(kA)=r(A)$</a></li>
+                    <li>
+                        <a href="#59-%e8%ae%beaa_ijbb_ij%e6%98%afm-times-n%e9%98%b6%e7%9f%a9%e9%98%b5%e4%b8%94b_ij-1ija_ij-%e6%b1%82%e8%af%81rarb" aria-label="59. 设$A=a_{ij},B=b_{ij}$是$m \times n$阶矩阵，且$b_{ij}=(-1)^{i&#43;j}a_{ij}$. 求证$r(A)=r(B)$">59. 设$A=a_{ij},B=b_{ij}$是$m \times n$阶矩阵，且$b_{ij}=(-1)^{i+j}a_{ij}$. 求证$r(A)=r(B)$</a></li>
+                    <li>
+                        <a href="#60-%e6%b1%82%e8%af%81-rab-le-minra-rb" aria-label="60. 求证: $r(AB) \le min\{r(A), r(B)\}$;">60. 求证: $r(AB) \le min\{r(A), r(B)\}$;</a></li>
+                    <li>
+                        <a href="#61-%e6%b1%82%e8%af%81" aria-label="61. 求证:">61. 求证:</a></li>
+                    <li>
+                        <a href="#62-%e6%b1%82%e8%af%81" aria-label="62. 求证:">62. 求证:</a></li>
+                    <li>
+                        <a href="#63" aria-label="63.">63.</a></li>
+                    <li>
+                        <a href="#64-ra--b-le-rarb-ra---b-le-rarb" aria-label="64. $r(A &#43; B) \le r(A)&#43;r(B), r(A - B) \le r(A)&#43;r(B)$">64. $r(A + B) \le r(A)+r(B), r(A - B) \le r(A)+r(B)$</a></li>
+                    <li>
+                        <a href="#65-ra---b-ge-ra---rb" aria-label="65. $r(A - B) \ge |r(A) - r(B)|$">65. $r(A - B) \ge |r(A) - r(B)|$</a></li>
+                    <li>
+                        <a href="#66-sylvester-%e4%b8%8d%e7%ad%89%e5%bc%8f%e8%ae%bea%e6%98%afm-times-n%e7%9f%a9%e9%98%b5b%e6%98%afn-times-t%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81" aria-label="66. (Sylvester 不等式)设$A$是$m \times n$矩阵，$B$是$n \times t$矩阵，求证:">66. (Sylvester 不等式)设$A$是$m \times n$矩阵，$B$是$n \times t$矩阵，求证:</a></li>
+                    <li>
+                        <a href="#67-%e8%ae%beab%e4%b8%ban%e9%98%b6%e6%96%b9%e9%98%b5abo%e8%af%81%e6%98%8e-%e8%8b%a5n%e4%b8%ba%e5%a5%87%e6%95%b0%e5%88%99ab--ab%e5%bf%85%e5%ae%9a%e4%b8%ba%e5%a5%87%e5%bc%82%e9%98%b5-%e8%8b%a5n%e4%b8%ba%e5%81%b6%e6%95%b0%e5%88%99ab--ab%e5%8f%af%e4%b8%8d%e4%b8%ba%e5%a5%87%e5%bc%82%e9%98%b5%e8%af%b7%e4%b8%be%e4%be%8b%e8%af%b4%e6%98%8e" aria-label="67. 设$A,B$为n阶方阵，$AB=O$，证明: 若n为奇数，则$AB&amp;rsquo; &#43; A&amp;rsquo;B$必定为奇异阵; 若n为偶数，则$AB&amp;rsquo; &#43; A&amp;rsquo;B$可不为奇异阵，请举例说明">67. 设$A,B$为n阶方阵，$AB=O$，证明: 若n为奇数，则$AB&rsquo; + A&rsquo;B$必定为奇异阵; 若n为偶数，则$AB&rsquo; + A&rsquo;B$可不为奇异阵，请举例说明</a></li>
+                    <li>
+                        <a href="#68-%e8%ae%bea_1a_2cdotsa_m%e4%b8%ban%e9%98%b6%e6%96%b9%e9%98%b5%e6%b1%82%e8%af%81" aria-label="68. 设$A_{1}&#43;A_{2}&#43;\cdots&#43;A_{m}$为n阶方阵，求证:">68. 设$A_{1}+A_{2}+\cdots+A_{m}$为n阶方阵，求证:</a></li>
+                    <li>
+                        <a href="#69-%e6%88%91%e4%bb%ac%e8%bf%98%e5%8f%af%e4%bb%a5%e5%b0%86-sylvester-%e4%b8%8d%e7%ad%89%e5%bc%8f%e8%bf%9b%e8%a1%8c%e5%a6%82%e4%b8%8b%e7%9a%84%e6%8e%a8%e5%b9%bf" aria-label="69. 我们还可以将 Sylvester 不等式进行如下的推广">69. 我们还可以将 Sylvester 不等式进行如下的推广</a></li>
+                    <li>
+                        <a href="#70-%e8%bf%99%e6%98%af%e5%af%b9%e4%ba%8e%e5%b9%82%e7%ad%89%e7%9f%a9%e9%98%b5%e5%92%8c%e5%af%b9%e5%90%88%e7%9f%a9%e9%98%b5%e7%9a%84%e5%85%b3%e4%ba%8e%e7%a7%a9%e7%9a%84%e5%88%a4%e5%ae%9a%e5%87%86%e5%88%99" aria-label="70. (这是对于幂等矩阵和对合矩阵的关于秩的判定准则)">70. (这是对于幂等矩阵和对合矩阵的关于秩的判定准则)</a></li>
+                    <li>
+                        <a href="#71-%e6%b1%82%e8%af%81-n%e9%98%b6%e7%9f%a9%e9%98%b5a%e6%98%af%e5%af%b9%e5%90%88%e7%9f%a9%e9%98%b5%e5%8d%b3a2i_n-%e7%9a%84%e5%85%85%e8%a6%81%e6%9d%a1%e4%bb%b6%e6%98%af" aria-label="71. 求证: n阶矩阵$A$是对合矩阵(即$A^2=I_{n}$) 的充要条件是">71. 求证: n阶矩阵$A$是对合矩阵(即$A^2=I_{n}$) 的充要条件是</a></li>
+                    <li>
+                        <a href="#72-%e8%ae%bea%e6%98%afn%e9%98%b6%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81-" aria-label="72. 设$A$是n阶矩阵，求证: $">72. 设$A$是n阶矩阵，求证: $</a></li>
+                    <li>
+                        <a href="#73-%e7%a7%a9%e7%9a%84%e9%99%8d%e9%98%b6%e5%85%ac%e5%bc%8f" aria-label="73. (秩的降阶公式)">73. (秩的降阶公式)</a></li>
+                    <li>
+                        <a href="#74-%e8%ae%be" aria-label="74. 设">74. 设</a></li>
+                    <li>
+                        <a href="#75-%e8%ae%bea-b%e9%83%bd%e6%98%af%e6%95%b0%e5%9f%9fmathbbk%e4%b8%8a%e7%9a%84n%e9%98%b6%e7%9f%a9%e9%98%b5%e4%b8%94abba%e8%af%81%e6%98%8e" aria-label="75. 设$A, B$都是数域$\mathbb{K}$上的n阶矩阵且$AB=BA$，证明:">75. 设$A, B$都是数域$\mathbb{K}$上的n阶矩阵且$AB=BA$，证明:</a></li></ul>
                     </li>
+                    <li>
+                        <a href="#2-%e5%88%a9%e7%94%a8%e7%ba%bf%e6%80%a7%e6%96%b9%e7%a8%8b%e7%bb%84%e7%9a%84%e6%b1%82%e8%a7%a3%e7%90%86%e8%ae%ba%e8%a7%a3%e5%86%b3%e7%a7%a9" aria-label="2. 利用线性方程组的求解理论解决秩">2. 利用线性方程组的求解理论解决秩</a><ul>
+                            
+                    <li>
+                        <a href="#76-%e8%ae%bea%e6%98%afm-times-n%e5%ae%9e%e7%9f%a9%e9%98%b5%e6%b1%82%e8%af%81-raaraara" aria-label="76. 设$A$是$m \times n$实矩阵，求证: $r(A&amp;rsquo;A)=r(AA&amp;rsquo;)=r(A)$">76. 设$A$是$m \times n$实矩阵，求证: $r(A&rsquo;A)=r(AA&rsquo;)=r(A)$</a></li>
+                    <li>
+                        <a href="#77-%e8%ae%bea%e5%92%8cb%e6%98%af%e6%95%b0%e5%9f%9fmathbbk%e4%b8%8a%e7%9a%84n%e9%98%b6%e7%9f%a9%e9%98%b5%e8%8b%a5%e7%ba%bf%e6%80%a7%e6%96%b9%e7%a8%8b%e7%bb%84ax0%e4%b8%8ebx0%e5%90%8c%e8%a7%a3%e4%b8%94%e6%af%8f%e4%b8%aa%e7%ba%bf%e6%80%a7%e6%96%b9%e7%a8%8b%e7%bb%84%e7%9a%84%e5%9f%ba%e7%a1%80%e8%a7%a3%e7%b3%bb%e5%90%abm%e4%b8%aa%e7%ba%bf%e6%80%a7%e6%97%a0%e5%85%b3%e7%9a%84%e5%90%91%e9%87%8f%e6%b1%82%e8%af%81-ra-b-le-n-m" aria-label="77. 设$A$和$B$是数域$\mathbb{K}$上的n阶矩阵，若线性方程组$Ax=0$与$Bx=0$同解，且每个线性方程组的基础解系含m个线性无关的向量，求证: $r(A-B) \le n-m$">77. 设$A$和$B$是数域$\mathbb{K}$上的n阶矩阵，若线性方程组$Ax=0$与$Bx=0$同解，且每个线性方程组的基础解系含m个线性无关的向量，求证: $r(A-B) \le n-m$</a></li>
+                    <li>
+                        <a href="#78-%e8%ae%bea%e6%98%afm-times-n%e7%9f%a9%e9%98%b5b%e6%98%afn-times-k%e7%9f%a9%e9%98%b5%e8%af%81%e6%98%8e-%e6%96%b9%e7%a8%8b%e7%bb%84abx0%e5%92%8cbx0%e5%90%8c%e8%a7%a3%e7%9a%84%e5%85%85%e8%a6%81%e6%9d%a1%e4%bb%b6%e6%98%afrabrb" aria-label="78. 设$A$是$m \times n$矩阵，$B$是$n \times k$矩阵，证明: 方程组$ABx=0$和$Bx=0$同解的充要条件是$r(AB)=r(B)$">78. 设$A$是$m \times n$矩阵，$B$是$n \times k$矩阵，证明: 方程组$ABx=0$和$Bx=0$同解的充要条件是$r(AB)=r(B)$</a></li>
+                    <li>
+                        <a href="#79-%e8%ae%bea%e6%98%afm-times-n%e7%9f%a9%e9%98%b5b%e6%98%afn-times-k%e7%9f%a9%e9%98%b5%e8%8b%a5ab%e5%92%8cb%e6%9c%89%e7%9b%b8%e5%90%8c%e7%9a%84%e7%a7%a9%e6%b1%82%e8%af%81-%e5%af%b9%e4%bb%bb%e6%84%8f%e7%9a%84k-times-l%e7%9f%a9%e9%98%b5crabcrbc" aria-label="79. 设$A$是$m \times n$矩阵，$B$是$n \times k$矩阵，若$AB$和$B$有相同的秩，求证: 对任意的$k \times l$矩阵$C$，$r(ABC)=r(BC)$">79. 设$A$是$m \times n$矩阵，$B$是$n \times k$矩阵，若$AB$和$B$有相同的秩，求证: 对任意的$k \times l$矩阵$C$，$r(ABC)=r(BC)$</a></li>
+                    <li>
+                        <a href="#75-%e4%b8%80%e7%a7%8d%e5%88%a9%e7%94%a8%e7%ba%bf%e6%80%a7%e6%96%b9%e7%a8%8b%e7%bb%84%e7%9a%84%e6%96%b0%e7%9a%84%e8%a7%a3%e6%b3%95" aria-label="75. (一种利用线性方程组的新的解法)">75. (一种利用线性方程组的新的解法)</a></li>
+                    <li>
+                        <a href="#80-%e8%ae%be%e6%95%b0%e5%9f%9fmathbbk%e4%b8%8a%e7%9a%84n%e9%98%b6%e7%9f%a9%e9%98%b5aa_ij%e6%bb%a1%e8%b6%b3-a0%e4%b8%94%e6%9f%90%e4%b8%aa%e5%85%83%e7%b4%a0a_ij%e7%9a%84%e4%bb%a3%e6%95%b0%e4%bd%99%e5%ad%90%e5%bc%8fa_ij-ne-0%e6%b1%82%e8%af%81-%e9%bd%90%e6%ac%a1%e7%ba%bf%e6%80%a7%e6%96%b9%e7%a8%8b%e7%bb%84ax0%e7%9a%84%e8%a7%a3%e9%9b%86%e9%83%bd%e5%8f%af%e8%bf%99%e5%86%99%e4%b8%ba%e5%a6%82%e4%b8%8b" aria-label="80. 设数域$\mathbb{K}$上的n阶矩阵$A=a_{ij}$满足: $|A|=0$且某个元素$a_{ij}$的代数余子式$A_{ij} \ne 0$，求证: 齐次线性方程组$Ax=0$的解集都可这写为如下">80. 设数域$\mathbb{K}$上的n阶矩阵$A=a_{ij}$满足: $|A|=0$且某个元素$a_{ij}$的代数余子式$A_{ij} \ne 0$，求证: 齐次线性方程组$Ax=0$的解集都可这写为如下</a></li>
+                    <li>
+                        <a href="#81-%e8%ae%ben%e9%98%b6%e7%9f%a9%e9%98%b5a%e7%9a%84%e8%a1%8c%e5%88%97%e5%bc%8f%e7%ad%89%e4%ba%8e%e9%9b%b6%e8%af%81%e6%98%8e-a%e7%9a%84%e7%a7%a9%e4%b8%8d%e8%b6%85%e8%bf%871" aria-label="81. 设$n$阶矩阵$A$的行列式等于零，证明: $A^{*}$的秩不超过1">81. 设$n$阶矩阵$A$的行列式等于零，证明: $A^{*}$的秩不超过1</a></li>
+                    <li>
+                        <a href="#%e7%ac%ac%e4%ba%8c%e7%ab%a0%e8%a7%a3%e7%ad%94%e9%a2%9814" aria-label="第二章解答题14">第二章解答题14</a></li>
+                    <li>
+                        <a href="#82-%e8%ae%bea%e6%98%af%e5%ae%9e%e5%8f%8d%e5%af%b9%e7%a7%b0%e7%9f%a9%e9%98%b5ddiagd_1-d_2-cdots-d_n%e6%98%af%e5%90%8c%e9%98%b6%e5%af%b9%e8%a7%92%e9%98%b5%e4%b8%94%e4%b8%bb%e5%af%b9%e8%a7%92%e5%85%83%e5%85%a8%e5%a4%a7%e4%ba%8e%e9%9b%b6%e6%b1%82%e8%af%81-ad0%e7%89%b9%e5%88%ab%e5%9c%b0i_n-pm-a0%e4%bb%8e%e8%80%8ci_n-pm-a%e9%83%bd%e6%98%af%e9%9d%9e%e5%bc%82%e9%98%b5" aria-label="82. 设$A$是实反对称矩阵，$D=diag\{d_{1}, d_{2}, \cdots, d_{n}\}$是同阶对角阵，且主对角元全大于零，求证: $|A&#43;D|&amp;gt;0$，特别地，$|I_{n} \pm A|&amp;gt;0$，从而，$|I_{n} \pm A|$都是非异阵">82. 设$A$是实反对称矩阵，$D=diag\{d_{1}, d_{2}, \cdots, d_{n}\}$是同阶对角阵，且主对角元全大于零，求证: $|A+D|&gt;0$，特别地，$|I_{n} \pm A|&gt;0$，从而，$|I_{n} \pm A|$都是非异阵</a></li>
+                    <li>
+                        <a href="#83-%e5%a6%82%e6%9e%9cn%e9%98%b6%e5%ae%9e%e6%96%b9%e9%98%b5a%e6%bb%a1%e8%b6%b3%e6%9d%a1%e4%bb%b6" aria-label="83. 如果n阶实方阵$A$满足条件">83. 如果n阶实方阵$A$满足条件</a></li>
+                    <li>
+                        <a href="#84-%e8%ae%bea%e6%98%afn%e9%98%b6%e5%ae%9e%e5%af%b9%e7%a7%b0%e9%98%b5%e6%b1%82%e8%af%81-i_nia%e5%92%8ci_n-ia%e9%83%bd%e6%98%af%e9%9d%9e%e5%bc%82%e9%98%b5" aria-label="84. 设$A$是n阶实对称阵，求证: $I_{n}&#43;iA$和$I_{n}-iA$都是非异阵">84. 设$A$是n阶实对称阵，求证: $I_{n}+iA$和$I_{n}-iA$都是非异阵</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#3-%e5%88%a9%e7%94%a8%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4%e7%90%86%e8%ae%ba%e8%ae%a8%e8%ae%ba%e7%9f%a9%e9%98%b5%e7%9a%84%e7%a7%a9" aria-label="3. 利用线性空间理论讨论矩阵的秩">3. 利用线性空间理论讨论矩阵的秩</a><ul>
+                            
+                    <li>
+                        <a href="#62%e8%af%81%e6%b3%953" aria-label="62.(证法3)">62.(证法3)</a></li>
+                    <li>
+                        <a href="#85-%e4%b8%8b%e9%9d%a2%e7%9a%84%e4%be%8b%e9%a2%98%e7%bb%99%e5%87%ba%e4%ba%86%e7%a7%a9%e5%85%b3%e4%ba%8e%e5%8a%a0%e8%be%b9%e5%ad%90%e5%bc%8f%e7%9a%84%e5%88%a4%e5%ae%9a" aria-label="85. (下面的例题给出了秩关于加边子式的判定)">85. (下面的例题给出了秩关于加边子式的判定)</a></li>
+                    <li>
+                        <a href="#86-%e8%ae%bemtimes-n%e7%9f%a9%e9%98%b5a%e7%9a%84m%e4%b8%aa%e8%a1%8c%e5%90%91%e9%87%8f%e4%b8%baalpha_1-alpha_2-cdots-alpha_m%e4%b8%94alpha_i1-alpha_i2-cdots-alpha_ir%e6%98%af%e6%9e%81%e5%a4%a7%e6%97%a0%e5%85%b3%e7%bb%84%e5%8f%88%e8%ae%bea%e7%9a%84n%e4%b8%aa%e5%88%97%e5%90%91%e9%87%8f%e4%b8%babeta_1-beta_2-cdots-beta_n%e4%b8%94beta_j1-beta_j2-cdots-beta_jr%e6%98%af%e5%85%b6%e6%9e%81%e5%a4%a7%e6%97%a0%e5%85%b3%e7%bb%84%e6%b1%82%e8%af%81-alpha_i1-alpha_i2-cdots-alpha_ir%e5%92%8cbeta_j1-beta_j2-cdots-beta_jr%e4%ba%a4%e5%8f%89%e7%82%b9%e4%b8%8a%e7%9a%84%e5%85%83%e7%b4%a0%e7%bb%84%e6%88%90%e7%9a%84%e5%ad%90%e7%9f%a9%e9%98%b5d%e7%9a%84%e8%a1%8c%e5%88%97%e5%bc%8f%e4%b8%8d%e7%ad%89%e4%ba%8e%e9%9b%b6" aria-label="86. 设$m\times n$矩阵$A$的$m$个行向量为$\alpha_{1}, \alpha_{2}, \cdots, \alpha_{m}$，且$\alpha_{i1}, \alpha_{i2}, \cdots, \alpha_{ir}$是极大无关组，又设$A$的$n$个列向量为$\beta_{1}, \beta_{2}, \cdots, \beta_{n}$，且$\beta_{j1}, \beta_{j2}, \cdots, \beta_{jr}$是其极大无关组，求证: $\alpha_{i1}, \alpha_{i2}, \cdots, \alpha_{ir}$和$\beta_{j1}, \beta_{j2}, \cdots, \beta_{jr}$交叉点上的元素组成的子矩阵$D$的行列式不等于零">86. 设$m\times n$矩阵$A$的$m$个行向量为$\alpha_{1}, \alpha_{2}, \cdots, \alpha_{m}$，且$\alpha_{i1}, \alpha_{i2}, \cdots, \alpha_{ir}$是极大无关组，又设$A$的$n$个列向量为$\beta_{1}, \beta_{2}, \cdots, \beta_{n}$，且$\beta_{j1}, \beta_{j2}, \cdots, \beta_{jr}$是其极大无关组，求证: $\alpha_{i1}, \alpha_{i2}, \cdots, \alpha_{ir}$和$\beta_{j1}, \beta_{j2}, \cdots, \beta_{jr}$交叉点上的元素组成的子矩阵$D$的行列式不等于零</a></li>
+                    <li>
+                        <a href="#87-%e8%ae%bea%e6%98%af%e4%b8%80%e4%b8%aan%e9%98%b6%e6%96%b9%e9%98%b5a%e7%9a%84%e7%ac%aci_1-i_2-cdots-i_r%e8%a1%8c%e5%92%8c%e7%ac%aci_1-i_2-cdots-i_r%e5%88%97%e4%ba%a4%e5%8f%89%e7%82%b9%e4%b8%8a%e7%9a%84%e5%85%83%e7%b4%a0%e7%bb%84%e6%88%90%e7%9a%84%e7%9f%a9%e9%98%b5%e7%a7%b0%e4%b8%baa%e7%9a%84%e4%b8%bb%e5%ad%90%e5%bc%8f%e8%8b%a5a%e6%98%af%e5%af%b9%e7%a7%b0%e9%98%b5%e6%88%96%e5%8f%8d%e5%af%b9%e7%a7%b0%e9%98%b5%e4%b8%94%e7%a7%a9%e7%ad%89%e4%ba%8er%e6%b1%82%e8%af%81-a%e5%bf%85%e6%9c%89%e4%b8%80%e4%b8%aar%e9%98%b6%e4%b8%bb%e5%ad%90%e5%bc%8f%e4%b8%8d%e7%ad%89%e4%ba%8e%e9%9b%b6" aria-label="87. 设$A$是一个n阶方阵，$A$的第$i_{1}, i_{2}, \cdots, i_{r}$行和第$i_{1}, i_{2}, \cdots, i_{r}$列交叉点上的元素组成的矩阵称为$A$的主子式，若$A$是对称阵或反对称阵且秩等于r，求证: $A$必有一个$r$阶主子式不等于零">87. 设$A$是一个n阶方阵，$A$的第$i_{1}, i_{2}, \cdots, i_{r}$行和第$i_{1}, i_{2}, \cdots, i_{r}$列交叉点上的元素组成的矩阵称为$A$的主子式，若$A$是对称阵或反对称阵且秩等于r，求证: $A$必有一个$r$阶主子式不等于零</a></li>
+                    <li>
+                        <a href="#88-%e8%af%81%e6%98%8e-%e5%8f%8d%e5%af%b9%e7%a7%b0%e9%98%b5%e7%9a%84%e7%a7%a9%e5%bf%85%e4%b8%ba%e5%81%b6%e6%95%b0" aria-label="88. 证明: 反对称阵的秩必为偶数">88. 证明: 反对称阵的秩必为偶数</a></li>
+                    <li>
+                        <a href="#75-%e7%ac%ac%e4%b8%89%e7%a7%8d%e8%af%81%e6%b3%95" aria-label="75. (第三种证法)">75. (第三种证法)</a>
+                    </li>
+                </ul>
+                </li>
                 </ul>
             </div>
         </details>
@@ -358,6 +441,204 @@
   <div class="post-content"><h2 id="37-矩阵的秩">3.7 矩阵的秩<a hidden class="anchor" aria-hidden="true" href="#37-矩阵的秩">#</a></h2>
 <p>矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定<strong>向量组的线性关系等，秩的等式(不等式)的证明</strong>是矩阵理论中的一个难点，要证明它们通常需要一定的技巧，而且我们还将发现，随着相关矩阵秩在高等代数中应用的深入，相关的证明技巧将会更丰富，也更有难度。
 本节主要介绍3种方法，<strong>矩阵的初等变换</strong>，<strong>线性方程组的求解理论</strong>和<strong>线性空间理论</strong>来进行矩阵秩的等式(不等式)证明</p>
+<h2 id="1-初等变换法">1. 初等变换法<a hidden class="anchor" aria-hidden="true" href="#1-初等变换法">#</a></h2>
+<p>因为矩阵的秩在初等变换或分块初等变换下不变，故初等变换是处理矩阵秩的首要方法，再配合如下的矩阵秩的基本公式，就可以证明一系列结论</p>
+<p><strong>矩阵秩的基本公式</strong>(将在接下来的例题中被依次证明):</p>
+<ul>
+<li>
+<p>(1)若$k \ne 0$, $r(kA)=r(A)$;</p>
+</li>
+<li>
+<p>(2) $r(AB) \le min\{r(A), r(B)\}$;</p>
+</li>
+<li>
+<p>(3) $r\begin{pmatrix}
+A &amp;O\\
+O &amp;B
+\end{pmatrix}
+=r(A)+r(B) $;</p>
+</li>
+<li>
+<p>(4) $r\begin{pmatrix}
+A &amp;C\\
+O &amp;B
+\end{pmatrix}
+\ge r(A)+r(B);
+r\begin{pmatrix}
+A &amp;O\\
+D &amp;B
+\end{pmatrix}
+\ge r(A)+r(B)
+$;</p>
+</li>
+<li>
+<p>(5) $r(A;B) \le r(A)+r(B),
+r\begin{pmatrix}
+A \\
+B
+\end{pmatrix}
+\le r(A)+r(B) $</p>
+</li>
+<li>
+<p>(6) $r(A + B) \le r(A)+r(B), r(A - B) \le r(A)+r(B)$;</p>
+</li>
+<li>
+<p>(7) $r(A - B) \ge |r(A) - r(B)|$.</p>
+</li>
+</ul>
+<h3 id="58-设a是m-times-n阶矩阵k-ne-0求证rkara">58. 设$A$是$m \times n$阶矩阵，$k \ne 0$，求证：$r(kA)=r(A)$<a hidden class="anchor" aria-hidden="true" href="#58-设a是m-times-n阶矩阵k-ne-0求证rkara">#</a></h3>
+<h3 id="59-设aa_ijbb_ij是m-times-n阶矩阵且b_ij-1ija_ij-求证rarb">59. 设$A=a_{ij},B=b_{ij}$是$m \times n$阶矩阵，且$b_{ij}=(-1)^{i+j}a_{ij}$. 求证$r(A)=r(B)$<a hidden class="anchor" aria-hidden="true" href="#59-设aa_ijbb_ij是m-times-n阶矩阵且b_ij-1ija_ij-求证rarb">#</a></h3>
+<h3 id="60-求证-rab-le-minra-rb">60. 求证: $r(AB) \le min\{r(A), r(B)\}$;<a hidden class="anchor" aria-hidden="true" href="#60-求证-rab-le-minra-rb">#</a></h3>
+<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative}</style>
+<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></symbol><symbol id="note-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></symbol><symbol id="warning-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></symbol><symbol id="info-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></symbol></svg></div><div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>上例即是说，矩阵相乘之后秩相等或变小，这是一个证明秩不等式时候的重要技巧，关键是如何选取一个合适的矩阵(可以是奇异阵)，以便取得想要的效果</p></div>
+<h3 id="61-求证">61. 求证:<a hidden class="anchor" aria-hidden="true" href="#61-求证">#</a></h3>
+<p>$r\begin{pmatrix}
+A &amp;O\\
+O &amp;B
+\end{pmatrix}
+=r(A)+r(B) $</p>
+<div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>例3.61是关于矩阵秩的一个<strong>十分基本的公式</strong>，她除了告诉我们分块对角矩阵的秩序等于每个对角矩阵秩的和之外，我们还可以反过来逆向使用这个公式，即看到两个矩阵之和时，可以把这两个矩阵拼成一个分块对角阵来思考问题，但如果是分块上(下)三角矩阵，通常我们只能得到如下秩的不等式</p></div>
+<h3 id="62-求证">62. 求证:<a hidden class="anchor" aria-hidden="true" href="#62-求证">#</a></h3>
+<p>$r\begin{pmatrix}
+A &amp;C\\
+O &amp;B
+\end{pmatrix}
+\ge r(A)+r(B);
+r\begin{pmatrix}
+A &amp;O\\
+D &amp;B
+\end{pmatrix}
+\ge r(A)+r(B)
+$;</p>
+<h3 id="63">63.<a hidden class="anchor" aria-hidden="true" href="#63">#</a></h3>
+<p>$r(A;B) \le r(A)+r(B),
+r\begin{pmatrix}
+A \\
+B
+\end{pmatrix}
+\le r(A)+r(B) $</p>
+<h3 id="64-ra--b-le-rarb-ra---b-le-rarb">64. $r(A + B) \le r(A)+r(B), r(A - B) \le r(A)+r(B)$<a hidden class="anchor" aria-hidden="true" href="#64-ra--b-le-rarb-ra---b-le-rarb">#</a></h3>
+<h3 id="65-ra---b-ge-ra---rb">65. $r(A - B) \ge |r(A) - r(B)|$<a hidden class="anchor" aria-hidden="true" href="#65-ra---b-ge-ra---rb">#</a></h3>
+<h3 id="66-sylvester-不等式设a是m-times-n矩阵b是n-times-t矩阵求证">66. (Sylvester 不等式)设$A$是$m \times n$矩阵，$B$是$n \times t$矩阵，求证:<a hidden class="anchor" aria-hidden="true" href="#66-sylvester-不等式设a是m-times-n矩阵b是n-times-t矩阵求证">#</a></h3>
+<p>$$
+r(AB) \ge r(A)+r(B)-n
+$$</p>
+<p>推论: 设$A$是$m \times n$矩阵，$B$是$n \times t$矩阵，且$AB=O$求证:
+$
+r(A)+r(B) \le n
+$</p>
+<h3 id="67-设ab为n阶方阵abo证明-若n为奇数则ab--ab必定为奇异阵-若n为偶数则ab--ab可不为奇异阵请举例说明">67. 设$A,B$为n阶方阵，$AB=O$，证明: 若n为奇数，则$AB&rsquo; + A&rsquo;B$必定为奇异阵; 若n为偶数，则$AB&rsquo; + A&rsquo;B$可不为奇异阵，请举例说明<a hidden class="anchor" aria-hidden="true" href="#67-设ab为n阶方阵abo证明-若n为奇数则ab--ab必定为奇异阵-若n为偶数则ab--ab可不为奇异阵请举例说明">#</a></h3>
+<h3 id="68-设a_1a_2cdotsa_m为n阶方阵求证">68. 设$A_{1}+A_{2}+\cdots+A_{m}$为n阶方阵，求证:<a hidden class="anchor" aria-hidden="true" href="#68-设a_1a_2cdotsa_m为n阶方阵求证">#</a></h3>
+<p>$$
+r(A_{1})+r(A_{2})+\cdots+r(A_{m}) \le (m-1)n+r(A_{1}A_{2}\cdots A_{m})
+$$
+特别地，若$A_{1}A_{2}\cdots A_{m}=O$，则$r(A_{1})+r(A_{2})+\cdots+r(A_{m}) \le (m-1)n $</p>
+<h3 id="69-我们还可以将-sylvester-不等式进行如下的推广">69. 我们还可以将 Sylvester 不等式进行如下的推广<a hidden class="anchor" aria-hidden="true" href="#69-我们还可以将-sylvester-不等式进行如下的推广">#</a></h3>
+<p>(Frobenius不等式)求证: $r(ABC) \ge r(AB)+r(BC)-r(B)$</p>
+<h3 id="70-这是对于幂等矩阵和对合矩阵的关于秩的判定准则">70. (这是对于幂等矩阵和对合矩阵的关于秩的判定准则)<a hidden class="anchor" aria-hidden="true" href="#70-这是对于幂等矩阵和对合矩阵的关于秩的判定准则">#</a></h3>
+<p>求证: n阶矩阵$A$是幂等矩阵(即$A^2=A$) 的充要条件是
+$$
+r(A)+r(I_{n}-A)=n
+$$</p>
+<h3 id="71-求证-n阶矩阵a是对合矩阵即a2i_n-的充要条件是">71. 求证: n阶矩阵$A$是对合矩阵(即$A^2=I_{n}$) 的充要条件是<a hidden class="anchor" aria-hidden="true" href="#71-求证-n阶矩阵a是对合矩阵即a2i_n-的充要条件是">#</a></h3>
+<p>$$
+r(I_{n}+A)+r(I_{n}-A)=n
+$$</p>
+<h3 id="72-设a是n阶矩阵求证-">72. 设$A$是n阶矩阵，求证: $<a hidden class="anchor" aria-hidden="true" href="#72-设a是n阶矩阵求证-">#</a></h3>
+<p>r(A)+r(I_{n}+A) \ge n
+$</p>
+<h3 id="73-秩的降阶公式">73. (秩的降阶公式)<a hidden class="anchor" aria-hidden="true" href="#73-秩的降阶公式">#</a></h3>
+<p>设有分块矩阵
+$M=\begin{pmatrix}
+A &amp;B\\
+C &amp;D
+\end{pmatrix}
+$
+, 证明:
+(1) 若$A$可逆，则$r(M)=r(A)+r(D-CA^{-1}B)$;
+(2) 若$D$可逆，则$r(M)=r(D)+r(A-BD^{-1}C)$;
+(3) 若$A,D$均可逆，则$ r(A)+r(D-CA^{-1}B)=r(D)+r(A-BD^{-1}C)$</p>
+<h3 id="74-设">74. 设<a hidden class="anchor" aria-hidden="true" href="#74-设">#</a></h3>
+<p>$$
+M=\begin{pmatrix}{cccc}
+a_{1}^{2} &amp;a_{1}a_{2}+1 &amp; \cdots &amp; a_{1}a_{n}+1\\
+a_{2}a_{1}+1 &amp;a_{2}^{2} &amp; \cdots &amp; a_{2}a_{n}+1\\
+\vdots &amp;\vdots &amp; &amp;\vdots \\
+a_{n}a_{1}+1 &amp;a_{n}a_{2}+1 &amp; \cdots &amp; a_{n}^{2}
+\end{pmatrix}
+$$
+证明: $r(M) \ge n-1$，等号当且仅当$|M|=0$</p>
+<h3 id="75-设a-b都是数域mathbbk上的n阶矩阵且abba证明">75. 设$A, B$都是数域$\mathbb{K}$上的n阶矩阵且$AB=BA$，证明:<a hidden class="anchor" aria-hidden="true" href="#75-设a-b都是数域mathbbk上的n阶矩阵且abba证明">#</a></h3>
+<p>$$
+r(A + B) \le r(A)+r(B)-r(AB)
+$$</p>
+<h2 id="2-利用线性方程组的求解理论解决秩">2. 利用线性方程组的求解理论解决秩<a hidden class="anchor" aria-hidden="true" href="#2-利用线性方程组的求解理论解决秩">#</a></h2>
+<p>设$A$是数域$\mathbb{K}$上的$m \times n$矩阵，则齐次线性方程组 $Ax = 0$的解集$V_{A}$是n维列向量空间$\mathbb{K}^{n}$的子空间，根据线性方程组的求解理论，我们有
+$$
+dimV_{A}+r(A)=n
+$$</p>
+<p>即<strong>齐次线性方程组的解空间维数与系数矩阵的秩序之和等于未知数的个数</strong>，根据上述公式，由矩阵的秩可以讨论线性方程组解的性质; <strong>反过来</strong>，也可以由线性方程组解的性质讨论矩阵的秩序. 下面的几个是典型例题</p>
+<h3 id="76-设a是m-times-n实矩阵求证-raaraara">76. 设$A$是$m \times n$实矩阵，求证: $r(A&rsquo;A)=r(AA&rsquo;)=r(A)$<a hidden class="anchor" aria-hidden="true" href="#76-设a是m-times-n实矩阵求证-raaraara">#</a></h3>
+<div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>用类似的方法可以证明，A是复矩阵的情况</p></div>
+<h3 id="77-设a和b是数域mathbbk上的n阶矩阵若线性方程组ax0与bx0同解且每个线性方程组的基础解系含m个线性无关的向量求证-ra-b-le-n-m">77. 设$A$和$B$是数域$\mathbb{K}$上的n阶矩阵，若线性方程组$Ax=0$与$Bx=0$同解，且每个线性方程组的基础解系含m个线性无关的向量，求证: $r(A-B) \le n-m$<a hidden class="anchor" aria-hidden="true" href="#77-设a和b是数域mathbbk上的n阶矩阵若线性方程组ax0与bx0同解且每个线性方程组的基础解系含m个线性无关的向量求证-ra-b-le-n-m">#</a></h3>
+<h3 id="78-设a是m-times-n矩阵b是n-times-k矩阵证明-方程组abx0和bx0同解的充要条件是rabrb">78. 设$A$是$m \times n$矩阵，$B$是$n \times k$矩阵，证明: 方程组$ABx=0$和$Bx=0$同解的充要条件是$r(AB)=r(B)$<a hidden class="anchor" aria-hidden="true" href="#78-设a是m-times-n矩阵b是n-times-k矩阵证明-方程组abx0和bx0同解的充要条件是rabrb">#</a></h3>
+<h3 id="79-设a是m-times-n矩阵b是n-times-k矩阵若ab和b有相同的秩求证-对任意的k-times-l矩阵crabcrbc">79. 设$A$是$m \times n$矩阵，$B$是$n \times k$矩阵，若$AB$和$B$有相同的秩，求证: 对任意的$k \times l$矩阵$C$，$r(ABC)=r(BC)$<a hidden class="anchor" aria-hidden="true" href="#79-设a是m-times-n矩阵b是n-times-k矩阵若ab和b有相同的秩求证-对任意的k-times-l矩阵crabcrbc">#</a></h3>
+<h3 id="75-一种利用线性方程组的新的解法">75. (一种利用线性方程组的新的解法)<a hidden class="anchor" aria-hidden="true" href="#75-一种利用线性方程组的新的解法">#</a></h3>
+<h3 id="80-设数域mathbbk上的n阶矩阵aa_ij满足-a0且某个元素a_ij的代数余子式a_ij-ne-0求证-齐次线性方程组ax0的解集都可这写为如下">80. 设数域$\mathbb{K}$上的n阶矩阵$A=a_{ij}$满足: $|A|=0$且某个元素$a_{ij}$的代数余子式$A_{ij} \ne 0$，求证: 齐次线性方程组$Ax=0$的解集都可这写为如下<a hidden class="anchor" aria-hidden="true" href="#80-设数域mathbbk上的n阶矩阵aa_ij满足-a0且某个元素a_ij的代数余子式a_ij-ne-0求证-齐次线性方程组ax0的解集都可这写为如下">#</a></h3>
+<p>$$
+k\begin{pmatrix}
+A_{i1}\\
+A_{i2}\\
+\vdots \\
+A_{in}
+\end{pmatrix}
+$$</p>
+<h3 id="81-设n阶矩阵a的行列式等于零证明-a的秩不超过1">81. 设$n$阶矩阵$A$的行列式等于零，证明: $A^{*}$的秩不超过1<a hidden class="anchor" aria-hidden="true" href="#81-设n阶矩阵a的行列式等于零证明-a的秩不超过1">#</a></h3>
+<div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>当$n&gt;2$ 时，若$A$不是可逆矩阵，则$(A^{<em>})^{</em>}=O$，这就是例2.39的证法3</p></div>
+<h3 id="第二章解答题14">第二章解答题14<a hidden class="anchor" aria-hidden="true" href="#第二章解答题14">#</a></h3>
+<p>设n阶矩阵$A$的每一行每一列的元素之和都为零，证明: 每个元素的代数余子式都相等</p>
+<div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>由$dimV_{A}+r(A)=n$可以得到一个简单的推论，即</p></div>
+<h3 id="82-设a是实反对称矩阵ddiagd_1-d_2-cdots-d_n是同阶对角阵且主对角元全大于零求证-ad0特别地i_n-pm-a0从而i_n-pm-a都是非异阵">82. 设$A$是实反对称矩阵，$D=diag\{d_{1}, d_{2}, \cdots, d_{n}\}$是同阶对角阵，且主对角元全大于零，求证: $|A+D|&gt;0$，特别地，$|I_{n} \pm A|&gt;0$，从而，$|I_{n} \pm A|$都是非异阵<a hidden class="anchor" aria-hidden="true" href="#82-设a是实反对称矩阵ddiagd_1-d_2-cdots-d_n是同阶对角阵且主对角元全大于零求证-ad0特别地i_n-pm-a0从而i_n-pm-a都是非异阵">#</a></h3>
+<h3 id="83-如果n阶实方阵a满足条件">83. 如果n阶实方阵$A$满足条件<a hidden class="anchor" aria-hidden="true" href="#83-如果n阶实方阵a满足条件">#</a></h3>
+<p>$$
+|a_{ii}| &gt; \sum_{j=1, j \ne i}^{n}|a_{ij}|, 1 \le i \le n,
+$$
+则称$A$是严格对角占优矩阵. 求证: 严格对角占优阵必定是非异阵
+若
+$
+a_{ii} &gt; \sum_{j=1, j \ne i}^{n} |a_{ij}|, 1 \le i \le n,
+$
+求证: $|A|&gt;0$</p>
+<h3 id="84-设a是n阶实对称阵求证-i_nia和i_n-ia都是非异阵">84. 设$A$是n阶实对称阵，求证: $I_{n}+iA$和$I_{n}-iA$都是非异阵<a hidden class="anchor" aria-hidden="true" href="#84-设a是n阶实对称阵求证-i_nia和i_n-ia都是非异阵">#</a></h3>
+<h2 id="3-利用线性空间理论讨论矩阵的秩">3. 利用线性空间理论讨论矩阵的秩<a hidden class="anchor" aria-hidden="true" href="#3-利用线性空间理论讨论矩阵的秩">#</a></h2>
+<p>按照最初的定义，矩阵的秩就是行(列)向量组的秩，所以利用线性空间理论讨论矩阵的秩是非常自然的事，下面我们列举一些典型的例子</p>
+<h3 id="62证法3">62.(证法3)<a hidden class="anchor" aria-hidden="true" href="#62证法3">#</a></h3>
+<p>求证: $r\begin{pmatrix}
+A &amp;C\\
+O &amp;B
+\end{pmatrix}
+\ge r(A)+r(B);
+r\begin{pmatrix}
+A &amp;O\\
+D &amp;B
+\end{pmatrix}
+\ge r(A)+r(B)
+$;</p>
+<div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>一个定义: 设$A$是矩阵，$D$是$A$的r阶子式，$A$中所有包含$D$这个r阶子式的$r+1$阶子式称为$D$的$r+1$阶<strong>加边子式</strong></p></div>
+<h3 id="85-下面的例题给出了秩关于加边子式的判定">85. (下面的例题给出了秩关于加边子式的判定)<a hidden class="anchor" aria-hidden="true" href="#85-下面的例题给出了秩关于加边子式的判定">#</a></h3>
+<p>矩阵$A$的秩为r的充要条件是$A$存在一个r阶子式不为零，而所有$r+1$阶子式都为零</p>
+<h3 id="86-设mtimes-n矩阵a的m个行向量为alpha_1-alpha_2-cdots-alpha_m且alpha_i1-alpha_i2-cdots-alpha_ir是极大无关组又设a的n个列向量为beta_1-beta_2-cdots-beta_n且beta_j1-beta_j2-cdots-beta_jr是其极大无关组求证-alpha_i1-alpha_i2-cdots-alpha_ir和beta_j1-beta_j2-cdots-beta_jr交叉点上的元素组成的子矩阵d的行列式不等于零">86. 设$m\times n$矩阵$A$的$m$个行向量为$\alpha_{1}, \alpha_{2}, \cdots, \alpha_{m}$，且$\alpha_{i1}, \alpha_{i2}, \cdots, \alpha_{ir}$是极大无关组，又设$A$的$n$个列向量为$\beta_{1}, \beta_{2}, \cdots, \beta_{n}$，且$\beta_{j1}, \beta_{j2}, \cdots, \beta_{jr}$是其极大无关组，求证: $\alpha_{i1}, \alpha_{i2}, \cdots, \alpha_{ir}$和$\beta_{j1}, \beta_{j2}, \cdots, \beta_{jr}$交叉点上的元素组成的子矩阵$D$的行列式不等于零<a hidden class="anchor" aria-hidden="true" href="#86-设mtimes-n矩阵a的m个行向量为alpha_1-alpha_2-cdots-alpha_m且alpha_i1-alpha_i2-cdots-alpha_ir是极大无关组又设a的n个列向量为beta_1-beta_2-cdots-beta_n且beta_j1-beta_j2-cdots-beta_jr是其极大无关组求证-alpha_i1-alpha_i2-cdots-alpha_ir和beta_j1-beta_j2-cdots-beta_jr交叉点上的元素组成的子矩阵d的行列式不等于零">#</a></h3>
+<h3 id="87-设a是一个n阶方阵a的第i_1-i_2-cdots-i_r行和第i_1-i_2-cdots-i_r列交叉点上的元素组成的矩阵称为a的主子式若a是对称阵或反对称阵且秩等于r求证-a必有一个r阶主子式不等于零">87. 设$A$是一个n阶方阵，$A$的第$i_{1}, i_{2}, \cdots, i_{r}$行和第$i_{1}, i_{2}, \cdots, i_{r}$列交叉点上的元素组成的矩阵称为$A$的主子式，若$A$是对称阵或反对称阵且秩等于r，求证: $A$必有一个$r$阶主子式不等于零<a hidden class="anchor" aria-hidden="true" href="#87-设a是一个n阶方阵a的第i_1-i_2-cdots-i_r行和第i_1-i_2-cdots-i_r列交叉点上的元素组成的矩阵称为a的主子式若a是对称阵或反对称阵且秩等于r求证-a必有一个r阶主子式不等于零">#</a></h3>
+<h3 id="88-证明-反对称阵的秩必为偶数">88. 证明: 反对称阵的秩必为偶数<a hidden class="anchor" aria-hidden="true" href="#88-证明-反对称阵的秩必为偶数">#</a></h3>
+<h3 id="75-第三种证法">75. (第三种证法)<a hidden class="anchor" aria-hidden="true" href="#75-第三种证法">#</a></h3>
+<div class="notice tip" >
+<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>3.75这个例题的三种证明方法正好对应了开头讲的三种方法，其实，第一种初等变换方法正好对应了代数，后两种对应了几何，实际上后两种线性空间和线性方程组实质上是对应线性映射的核空间和像空间的，是一种</p></div>
 
 
   </div>
