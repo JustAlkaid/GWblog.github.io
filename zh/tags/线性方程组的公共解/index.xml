@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>线性方程组的公共解 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E7%9A%84%E5%85%AC%E5%85%B1%E8%A7%A3/</link>
+    <description>Recent content in 线性方程组的公共解 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E7%9A%84%E5%85%AC%E5%85%B1%E8%A7%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.9 线性方程组的解及其应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch3/3.9/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.9/</guid>
+      <description>3.9 线性方程组的解及其应用 如何求解线性方程组是高等代数中的第一个重要问题，为了彻底回答这个问题，我们引入了行列式、矩阵和线性空间等概念，并发展</description>
+    </item>
+    <item>
+      <title>3.9 线性方程组的解及其应用</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.9/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.9/</guid>
+      <description>3.9 线性方程组的解及其应用 如何求解线性方程组是高等代数中的第一个重要问题，为了彻底回答这个问题，我们引入了行列式、矩阵和线性空间等概念，并发展</description>
+    </item>
+  </channel>
+</rss>

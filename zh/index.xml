@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
@@ -45,18 +45,32 @@ A funny guy</description>
 A funny guy</description>
     </item>
     <item>
+      <title>3.9 线性方程组的解及其应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch3/3.9/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.9/</guid>
+      <description>3.9 线性方程组的解及其应用 如何求解线性方程组是高等代数中的第一个重要问题，为了彻底回答这个问题，我们引入了行列式、矩阵和线性空间等概念，并发展</description>
+    </item>
+    <item>
+      <title>3.9 线性方程组的解及其应用</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.9/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.9/</guid>
+      <description>3.9 线性方程组的解及其应用 如何求解线性方程组是高等代数中的第一个重要问题，为了彻底回答这个问题，我们引入了行列式、矩阵和线性空间等概念，并发展</description>
+    </item>
+    <item>
       <title>3.8 相抵标准型及其应用</title>
       <link>https://GWblog.github.io/zh/posts/math/ch3/3.8/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/math/ch3/3.8/</guid>
-      <description>3.8 相抵标准型及其应用 任一$m \tumes n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp;amp; O\\ O &amp;amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下</description>
+      <description>3.8 相抵标准型及其应用 任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp;amp; O\\ O &amp;amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下</description>
     </item>
     <item>
       <title>3.8 相抵标准型及其应用</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.8/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.8/</guid>
-      <description>3.8 相抵标准型及其应用 任一$m \tumes n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp;amp; O\\ O &amp;amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下</description>
+      <description>3.8 相抵标准型及其应用 任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp;amp; O\\ O &amp;amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下</description>
     </item>
     <item>
       <title>3.5 基变换与过渡矩阵</title>

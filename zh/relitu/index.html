@@ -20,6 +20,18 @@
   
   var dataMap = new Map();
   
+    var key = "2024-03-08";
+    var value = dataMap.get(key);
+    var wordCount =  2487 ;
+    var link = "/zh/posts/math/ch3/3.9/";
+    var title = "3.9 线性方程组的解及其应用";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2024-02-29";
     var value = dataMap.get(key);
     var wordCount =  1165 ;

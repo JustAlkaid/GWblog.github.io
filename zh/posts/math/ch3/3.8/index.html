@@ -7,7 +7,7 @@
 <meta name="robots" content="index, follow">
 <title>3.8 相抵标准型及其应用 | 避风港</title>
 <meta name="keywords" content="相抵标准型及其应用">
-<meta name="description" content="3.8 相抵标准型及其应用 任一$m \tumes n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp; O\\ O &amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下">
+<meta name="description" content="3.8 相抵标准型及其应用 任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp; O\\ O &amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/posts/math/ch3/3.8/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.702a2774ebb5b9a32ceb96791752b4dcd8d6c26b732def5b726df2a8ca4eb96e.css" integrity="" rel="preload stylesheet" as="style">
@@ -56,7 +56,7 @@
 
     </style>
 </noscript><meta property="og:title" content="3.8 相抵标准型及其应用" />
-<meta property="og:description" content="3.8 相抵标准型及其应用 任一$m \tumes n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp; O\\ O &amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下" />
+<meta property="og:description" content="3.8 相抵标准型及其应用 任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp; O\\ O &amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://GWblog.github.io/zh/posts/math/ch3/3.8/" />
 <meta property="og:image" content="https://GWblog.github.io/images/sanli.jpg" /><meta property="article:section" content="posts" />
@@ -66,7 +66,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content="https://GWblog.github.io/images/sanli.jpg" />
 <meta name="twitter:title" content="3.8 相抵标准型及其应用"/>
-<meta name="twitter:description" content="3.8 相抵标准型及其应用 任一$m \tumes n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp; O\\ O &amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下"/>
+<meta name="twitter:description" content="3.8 相抵标准型及其应用 任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp; O\\ O &amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下"/>
 
 
 <script type="application/ld+json">
@@ -107,11 +107,11 @@
   "@type": "BlogPosting",
   "headline": "3.8 相抵标准型及其应用",
   "name": "3.8 相抵标准型及其应用",
-  "description": "3.8 相抵标准型及其应用 任一$m \\tumes n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \\begin{pmatrix} I_{r} \u0026amp; O\\\\ O \u0026amp; O \\end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下",
+  "description": "3.8 相抵标准型及其应用 任一$m \\times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \\begin{pmatrix} I_{r} \u0026amp; O\\\\ O \u0026amp; O \\end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下",
   "keywords": [
     "相抵标准型及其应用"
   ],
-  "articleBody": "3.8 相抵标准型及其应用 任一$m \\tumes n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \\begin{pmatrix} I_{r} \u0026 O\\\\ O \u0026 O \\end{pmatrix} $$\n其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下的全系不变量，即两个同阶矩阵相抵当且仅当他们的秩相等，在2.5节初等变换及其应用我们已经看到了相抵标准型的一些应用，在引入矩阵的秩这个概念后，我们可以得到更多关于矩阵相抵标准型的应用，一个通常的方法是，先对相抵标准型证明该问题成立，然后再处理一般矩阵的问题，看下面的问题吧\n89. 求证: 秩为r的矩阵可以表示为r个秩为1的矩阵之和，但是不能表示为少于r个秩为1的矩阵之和 90. 设$A, B, C$分别为$m \\times n, p \\times q, m \\times q$阶矩阵， $ M=\\begin{pmatrix} A \u0026C\\\\ O \u0026B \\end{pmatrix} $\n证明: $r(M)=r(A)+r(B)$的充要条件是矩阵方程$AX+YB=C$有解，其中$X,Y$分别是$n \\times q, m \\times p$未知矩阵\n91. 设$A$是$m \\times n$矩阵，求证: (1) 若$r(A)=n$，即$A$是列满秩矩阵，则必存在秩为n的$ n \\times m$矩阵$B$，使得$BA=I_{n}$，(这样的矩阵B称为是A的左逆) (2) 若$r(A)=m$，即$A$是行满秩矩阵，则必存在秩为m的$ n \\times m$矩阵$C$，使得$AC=I_{m}$，(这样的矩阵C称为是A的右逆) 推论: 列满秩矩阵适合左消去律，同理，行满秩适合右消去律 92. (满秩分解) 设$m \\times n$矩阵$A$的秩为r，证明:\n(1) $A=BC$，$B$是$m \\times r$矩阵且$r(B)=r$，$C$是$r \\times n$矩阵且$r(C)=r$，(这种分解称为$A$的满秩分解) (2) 若$A$有两个满秩分解$A=B_{1}C_{1}=B_{2}C_{2}$，则存在r阶非异阵$P$，使得$B_{2}=B_{1}P, C_{2}=P^{-1}C_{1}$ 小老弟，看我手指这是几🖖\n从几何观点看，$A=BC$是满秩分解当且仅当是B的r个列向量是A的n个列向量张成的线性空间的一组基，同理，C的r个行向量是A的m个行向量张成的线性空间的一组基(请民娜桑自行证明)，有了这个理论，我们就可以不用求相抵标准型，也能得到满秩分解\n93. 设$A$是$m \\times n$矩阵，证明: 存在$n \\times m$矩阵，使得$ABA=A$ 94. 设$A, B$分别是$3\\times 2 ,2 \\times 3$矩阵，且满足 $$ AB=\\begin{pmatrix} 8 \u00262 \u0026-2\\\\ 2 \u00265 \u00264\\\\ -2 \u00264 \u00265 \\end{pmatrix} $$ 试求$BA$\n下面我们给出幂等矩阵关于满秩分解的一个刻画 设$A$是n阶方阵且秩为r，求证: $A^{2}=A$的充要条件是存在秩为r的$n \\times r$矩阵$S$，存在秩为r的$r \\times n$矩阵$T$，使得$A=ST, TS=I_{r}$\n小老弟，看我手指这是几🖖\n如果使用相似标准型的知识证明会更简单\n推论: 设A为n阶幂等矩阵，则$tr(A)=r(A)$ 小老弟，看我手指这是几🖖\n在后面的章节还会学到，用矩阵的相抵标准型可以化简线性映射的表示矩阵(例4.22)，证明特征值的降价公式(6.19)，研究矩阵方程$AX=XB$的解(6.23)以及处理矩阵的相似问题等(6.47)\n",
+  "articleBody": "3.8 相抵标准型及其应用 任一$m \\times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \\begin{pmatrix} I_{r} \u0026 O\\\\ O \u0026 O \\end{pmatrix} $$\n其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下的全系不变量，即两个同阶矩阵相抵当且仅当他们的秩相等，在2.5节初等变换及其应用我们已经看到了相抵标准型的一些应用，在引入矩阵的秩这个概念后，我们可以得到更多关于矩阵相抵标准型的应用，一个通常的方法是，先对相抵标准型证明该问题成立，然后再处理一般矩阵的问题，看下面的问题吧\n89. 求证: 秩为r的矩阵可以表示为r个秩为1的矩阵之和，但是不能表示为少于r个秩为1的矩阵之和 90. 设$A, B, C$分别为$m \\times n, p \\times q, m \\times q$阶矩阵， $ M=\\begin{pmatrix} A \u0026C\\\\ O \u0026B \\end{pmatrix} $\n证明: $r(M)=r(A)+r(B)$的充要条件是矩阵方程$AX+YB=C$有解，其中$X,Y$分别是$n \\times q, m \\times p$未知矩阵\n91. 设$A$是$m \\times n$矩阵，求证: (1) 若$r(A)=n$，即$A$是列满秩矩阵，则必存在秩为n的$ n \\times m$矩阵$B$，使得$BA=I_{n}$，(这样的矩阵B称为是A的左逆) (2) 若$r(A)=m$，即$A$是行满秩矩阵，则必存在秩为m的$ n \\times m$矩阵$C$，使得$AC=I_{m}$，(这样的矩阵C称为是A的右逆) 推论: 列满秩矩阵适合左消去律，同理，行满秩适合右消去律 92. (满秩分解) 设$m \\times n$矩阵$A$的秩为r，证明:\n(1) $A=BC$，$B$是$m \\times r$矩阵且$r(B)=r$，$C$是$r \\times n$矩阵且$r(C)=r$，(这种分解称为$A$的满秩分解) (2) 若$A$有两个满秩分解$A=B_{1}C_{1}=B_{2}C_{2}$，则存在r阶非异阵$P$，使得$B_{2}=B_{1}P, C_{2}=P^{-1}C_{1}$ 小老弟，看我手指这是几🖖\n从几何观点看，$A=BC$是满秩分解当且仅当是B的r个列向量是A的n个列向量张成的线性空间的一组基，同理，C的r个行向量是A的m个行向量张成的线性空间的一组基(请民娜桑自行证明)，有了这个理论，我们就可以不用求相抵标准型，也能得到满秩分解\n93. 设$A$是$m \\times n$矩阵，证明: 存在$n \\times m$矩阵，使得$ABA=A$ 94. 设$A, B$分别是$3\\times 2 ,2 \\times 3$矩阵，且满足 $$ AB=\\begin{pmatrix} 8 \u00262 \u0026-2\\\\ 2 \u00265 \u00264\\\\ -2 \u00264 \u00265 \\end{pmatrix} $$ 试求$BA$\n下面我们给出幂等矩阵关于满秩分解的一个刻画 设$A$是n阶方阵且秩为r，求证: $A^{2}=A$的充要条件是存在秩为r的$n \\times r$矩阵$S$，存在秩为r的$r \\times n$矩阵$T$，使得$A=ST, TS=I_{r}$\n小老弟，看我手指这是几🖖\n如果使用相似标准型的知识证明会更简单\n推论: 设A为n阶幂等矩阵，则$tr(A)=r(A)$ 小老弟，看我手指这是几🖖\n在后面的章节还会学到，用矩阵的相抵标准型可以化简线性映射的表示矩阵(例4.22)，证明特征值的降价公式(6.19)，研究矩阵方程$AX=XB$的解(6.23)以及处理矩阵的相似问题等(6.47)\n",
   "wordCount" : "1165",
   "inLanguage": "zh",
   "image":"https://GWblog.github.io/images/sanli.jpg","datePublished": "2024-02-29T00:00:00Z",
@@ -377,7 +377,7 @@
 
 
   <div class="post-content"><h2 id="38-相抵标准型及其应用">3.8 相抵标准型及其应用<a hidden class="anchor" aria-hidden="true" href="#38-相抵标准型及其应用">#</a></h2>
-<p>任一$m \tumes n$矩阵$A$均可通过初等变换变成相抵标准型
+<p>任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型
 $$
 \begin{pmatrix}
 I_{r} &amp; O\\
