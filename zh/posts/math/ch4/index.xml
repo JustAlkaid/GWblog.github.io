@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chapter 4 on 避风港</title>
+    <link>https://GWblog.github.io/zh/posts/math/ch4/</link>
+    <description>Recent content in chapter 4 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/posts/math/ch4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.3 线性同构</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch4/4.3/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.3/</guid>
+      <description>4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映</description>
+    </item>
+  </channel>
+</rss>

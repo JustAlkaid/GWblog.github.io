@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>线性同构</title>
+      <link>https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E5%90%8C%E6%9E%84/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E5%90%8C%E6%9E%84/</guid>
+      <description></description>
+    </item>
     <item>
       <title>带参数线方的解的讨论</title>
       <link>https://GWblog.github.io/zh/tags/%E5%B8%A6%E5%8F%82%E6%95%B0%E7%BA%BF%E6%96%B9%E7%9A%84%E8%A7%A3%E7%9A%84%E8%AE%A8%E8%AE%BA/</link>
@@ -102,13 +109,6 @@
       <link>https://GWblog.github.io/zh/tags/%E5%87%A0%E4%BD%95%E9%97%AE%E9%A2%98%E4%BB%A3%E6%95%B0%E5%8C%96/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/tags/%E5%87%A0%E4%BD%95%E9%97%AE%E9%A2%98%E4%BB%A3%E6%95%B0%E5%8C%96/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>线性同构</title>
-      <link>https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E5%90%8C%E6%9E%84/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E5%90%8C%E6%9E%84/</guid>
       <description></description>
     </item>
     <item>
