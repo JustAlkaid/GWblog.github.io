@@ -20,6 +20,18 @@
   
   var dataMap = new Map();
   
+    var key = "2024-04-05";
+    var value = dataMap.get(key);
+    var wordCount =  1159 ;
+    var link = "/zh/posts/math/ch4/4.5/";
+    var title = "4.5 像空间和核空间";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2024-03-15";
     var value = dataMap.get(key);
     var wordCount =  1899 ;

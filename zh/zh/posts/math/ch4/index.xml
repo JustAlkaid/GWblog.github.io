@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/zh/posts/math/ch4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.5 像空间和核空间</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.5/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.5/</guid>
+      <description>4.5 像空间和核空间 利用像空间和核空间来讨论线性映射的满性和单性是常见的方法，因此他们是相伴于线性映射的两个重要的子空间. 如何来确定线性映射的像</description>
+    </item>
     <item>
       <title>4.3 线性同构</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/</link>
