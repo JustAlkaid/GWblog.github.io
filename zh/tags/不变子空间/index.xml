@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>不变子空间 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E4%B8%8D%E5%8F%98%E5%AD%90%E7%A9%BA%E9%97%B4/</link>
+    <description>Recent content in 不变子空间 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E4%B8%8D%E5%8F%98%E5%AD%90%E7%A9%BA%E9%97%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.6 不变子空间</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch4/4.6/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.6/</guid>
+      <description>4.6 不变子空间 通过不变子空间来研究线性变换是常用的方法，他可以将全空间上的问题转化为维数较小的子空间上的问题，因此许多问题中常常需要证明，一个</description>
+    </item>
+    <item>
+      <title>4.6 不变子空间</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.6/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.6/</guid>
+      <description>4.6 不变子空间 通过不变子空间来研究线性变换是常用的方法，他可以将全空间上的问题转化为维数较小的子空间上的问题，因此许多问题中常常需要证明，一个</description>
+    </item>
+  </channel>
+</rss>
