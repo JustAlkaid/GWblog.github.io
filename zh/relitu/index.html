@@ -24,7 +24,19 @@
     var value = dataMap.get(key);
     var wordCount =  870 ;
     var link = "/zh/posts/math/ch5/5.5-5.6/";
-    var title = "5.5-5.7 多项式函数与根，复系数多项式，实系数多项式";
+    var title = "5.5-5.6 多项式函数与根，复系数多项式";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "2024-04-20";
+    var value = dataMap.get(key);
+    var wordCount =  1328 ;
+    var link = "/zh/posts/math/ch5/5.7-5.8/";
+    var title = "5.7-5.8 实系数多项式，有理系数多项式";
     
     
     if (value == null) {
