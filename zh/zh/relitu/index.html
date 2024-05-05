@@ -346,6 +346,18 @@
     }
     var key = "0001-01-01";
     var value = dataMap.get(key);
+    var wordCount =  2633 ;
+    var link = "/zh/posts/math/ch6/6.2/";
+    var title = "6.2  特征值与特征向量";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
+    var key = "0001-01-01";
+    var value = dataMap.get(key);
     var wordCount =  494 ;
     var link = "/zh/posts/bilibili/";
     var title = "test";
