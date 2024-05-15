@@ -20,6 +20,18 @@
   
   var dataMap = new Map();
   
+    var key = "2024-05-08";
+    var value = dataMap.get(key);
+    var wordCount =  2100 ;
+    var link = "/zh/posts/python_learn/";
+    var title = "python_learn";
+    
+    
+    if (value == null) {
+      dataMap.set(key, [{wordCount, link, title}]);
+    } else {
+      value.push({wordCount, link, title});
+    }
     var key = "2024-04-20";
     var value = dataMap.get(key);
     var wordCount =  870 ;
