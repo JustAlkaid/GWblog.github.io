@@ -10,7 +10,7 @@
 <meta name="description" content="3.7 矩阵的秩 矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定向量组的线性关系等，秩的等式(不等式)">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/ch3/3.7/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.46f685e1fab64c7bce873bdddd988247d1bff07a70aec0f309b5b74594e8d35e.css" integrity="" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c6205b082dab468bee3051e49fc2027e2df9483a2c27da31494bb5d614536ffe.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
@@ -134,18 +134,6 @@
   }
 }
 </script>
- <script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                history.back();
-            }
-        }
-    })();
-</script>
-
-
 </head>
 
 <body class="" id="top">
@@ -253,6 +241,7 @@
         </ul>
     </nav>
 </header>
+
 <main class="main">
 
 <article class="post-single">
@@ -262,17 +251,6 @@
       3.7 矩阵的秩
     </h1>
     <div class="post-meta"><span title='2024-02-28 00:00:00 +0000 UTC'>2024-02-28</span>&nbsp;·&nbsp;7 分钟&nbsp;·&nbsp;3172 字&nbsp;·&nbsp;G.W
-
-
-
-
-
-
-
-
-
-
-创建:&amp;nbsp;&lt;span title=&#39;2024-02-28 00:00:00 &#43;0000 UTC&#39;&gt;2024-02-28&lt;/span&gt;&amp;nbsp;|&amp;nbsp;时长: 7分钟&amp;nbsp;|&amp;nbsp;G.W
 
 </div>
   </header> 
@@ -489,9 +467,131 @@ B
 <h3 id="58-设a是m-times-n阶矩阵k-ne-0求证rkara">58. 设$A$是$m \times n$阶矩阵，$k \ne 0$，求证：$r(kA)=r(A)$<a hidden class="anchor" aria-hidden="true" href="#58-设a是m-times-n阶矩阵k-ne-0求证rkara">#</a></h3>
 <h3 id="59-设aa_ijbb_ij是m-times-n阶矩阵且b_ij-1ija_ij-求证rarb">59. 设$A=a_{ij},B=b_{ij}$是$m \times n$阶矩阵，且$b_{ij}=(-1)^{i+j}a_{ij}$. 求证$r(A)=r(B)$<a hidden class="anchor" aria-hidden="true" href="#59-设aa_ijbb_ij是m-times-n阶矩阵且b_ij-1ija_ij-求证rarb">#</a></h3>
 <h3 id="60-求证-rab-le-minra-rb">60. 求证: $r(AB) \le min\{r(A), r(B)\}$;<a hidden class="anchor" aria-hidden="true" href="#60-求证-rab-le-minra-rb">#</a></h3>
-<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative}</style>
-<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></symbol><symbol id="note-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></symbol><symbol id="warning-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></symbol><symbol id="info-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></symbol></svg></div><div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>上例即是说，矩阵相乘之后秩相等或变小，这是一个证明秩不等式时候的重要技巧，关键是如何选取一个合适的矩阵(可以是奇异阵)，以便取得想要的效果</p></div>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>上例即是说，矩阵相乘之后秩相等或变小，这是一个证明秩不等式时候的重要技巧，关键是如何选取一个合适的矩阵(可以是奇异阵)，以便取得想要的效果</p></div>
 <h3 id="61-求证">61. 求证:<a hidden class="anchor" aria-hidden="true" href="#61-求证">#</a></h3>
 <p>$r\begin{pmatrix}
 A &amp;O\\
@@ -499,7 +599,10 @@ O &amp;B
 \end{pmatrix}
 =r(A)+r(B) $</p>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>例3.61是关于矩阵秩的一个<strong>十分基本的公式</strong>，她除了告诉我们分块对角矩阵的秩序等于每个对角矩阵秩的和之外，我们还可以反过来逆向使用这个公式，即看到两个矩阵之和时，可以把这两个矩阵拼成一个分块对角阵来思考问题，但如果是分块上(下)三角矩阵，通常我们只能得到如下秩的不等式</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>例3.61是关于矩阵秩的一个<strong>十分基本的公式</strong>，她除了告诉我们分块对角矩阵的秩序等于每个对角矩阵秩的和之外，我们还可以反过来逆向使用这个公式，即看到两个矩阵之和时，可以把这两个矩阵拼成一个分块对角阵来思考问题，但如果是分块上(下)三角矩阵，通常我们只能得到如下秩的不等式</p></div>
 <h3 id="62-求证">62. 求证:<a hidden class="anchor" aria-hidden="true" href="#62-求证">#</a></h3>
 <p>$r\begin{pmatrix}
 A &amp;C\\
@@ -582,7 +685,10 @@ $$</p>
 <p>即<strong>齐次线性方程组的解空间维数与系数矩阵的秩序之和等于未知数的个数</strong>，根据上述公式，由矩阵的秩可以讨论线性方程组解的性质; <strong>反过来</strong>，也可以由线性方程组解的性质讨论矩阵的秩序. 下面的几个是典型例题</p>
 <h3 id="76-设a是m-times-n实矩阵求证-raaraara">76. 设$A$是$m \times n$实矩阵，求证: $r(A&rsquo;A)=r(AA&rsquo;)=r(A)$<a hidden class="anchor" aria-hidden="true" href="#76-设a是m-times-n实矩阵求证-raaraara">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>用类似的方法可以证明，A是复矩阵的情况</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>用类似的方法可以证明，A是复矩阵的情况</p></div>
 <h3 id="77-设a和b是数域mathbbk上的n阶矩阵若线性方程组ax0与bx0同解且每个线性方程组的基础解系含m个线性无关的向量求证-ra-b-le-n-m">77. 设$A$和$B$是数域$\mathbb{K}$上的n阶矩阵，若线性方程组$Ax=0$与$Bx=0$同解，且每个线性方程组的基础解系含m个线性无关的向量，求证: $r(A-B) \le n-m$<a hidden class="anchor" aria-hidden="true" href="#77-设a和b是数域mathbbk上的n阶矩阵若线性方程组ax0与bx0同解且每个线性方程组的基础解系含m个线性无关的向量求证-ra-b-le-n-m">#</a></h3>
 <h3 id="78-设a是m-times-n矩阵b是n-times-k矩阵证明-方程组abx0和bx0同解的充要条件是rabrb">78. 设$A$是$m \times n$矩阵，$B$是$n \times k$矩阵，证明: 方程组$ABx=0$和$Bx=0$同解的充要条件是$r(AB)=r(B)$<a hidden class="anchor" aria-hidden="true" href="#78-设a是m-times-n矩阵b是n-times-k矩阵证明-方程组abx0和bx0同解的充要条件是rabrb">#</a></h3>
 <h3 id="79-设a是m-times-n矩阵b是n-times-k矩阵若ab和b有相同的秩求证-对任意的k-times-l矩阵crabcrbc">79. 设$A$是$m \times n$矩阵，$B$是$n \times k$矩阵，若$AB$和$B$有相同的秩，求证: 对任意的$k \times l$矩阵$C$，$r(ABC)=r(BC)$<a hidden class="anchor" aria-hidden="true" href="#79-设a是m-times-n矩阵b是n-times-k矩阵若ab和b有相同的秩求证-对任意的k-times-l矩阵crabcrbc">#</a></h3>
@@ -598,11 +704,17 @@ A_{in}
 $$</p>
 <h3 id="81-设n阶矩阵a的行列式等于零证明-a的秩不超过1">81. 设$n$阶矩阵$A$的行列式等于零，证明: $A^{*}$的秩不超过1<a hidden class="anchor" aria-hidden="true" href="#81-设n阶矩阵a的行列式等于零证明-a的秩不超过1">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>当$n&gt;2$ 时，若$A$不是可逆矩阵，则$(A^{<em>})^{</em>}=O$，这就是例2.39的证法3</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>当$n&gt;2$ 时，若$A$不是可逆矩阵，则$(A^{<em>})^{</em>}=O$，这就是例2.39的证法3</p></div>
 <h3 id="第二章解答题14">第二章解答题14<a hidden class="anchor" aria-hidden="true" href="#第二章解答题14">#</a></h3>
 <p>设n阶矩阵$A$的每一行每一列的元素之和都为零，证明: 每个元素的代数余子式都相等</p>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>由$dimV_{A}+r(A)=n$可以得到一个简单的推论，即</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>由$dimV_{A}+r(A)=n$可以得到一个简单的推论，即</p></div>
 <h3 id="82-设a是实反对称矩阵ddiagd_1-d_2-cdots-d_n是同阶对角阵且主对角元全大于零求证-ad0特别地i_n-pm-a0从而i_n-pm-a都是非异阵">82. 设$A$是实反对称矩阵，$D=diag\{d_{1}, d_{2}, \cdots, d_{n}\}$是同阶对角阵，且主对角元全大于零，求证: $|A+D|&gt;0$，特别地，$|I_{n} \pm A|&gt;0$，从而，$|I_{n} \pm A|$都是非异阵<a hidden class="anchor" aria-hidden="true" href="#82-设a是实反对称矩阵ddiagd_1-d_2-cdots-d_n是同阶对角阵且主对角元全大于零求证-ad0特别地i_n-pm-a0从而i_n-pm-a都是非异阵">#</a></h3>
 <h3 id="83-如果n阶实方阵a满足条件">83. 如果n阶实方阵$A$满足条件<a hidden class="anchor" aria-hidden="true" href="#83-如果n阶实方阵a满足条件">#</a></h3>
 <p>$$
@@ -630,7 +742,10 @@ D &amp;B
 \ge r(A)+r(B)
 $;</p>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>一个定义: 设$A$是矩阵，$D$是$A$的r阶子式，$A$中所有包含$D$这个r阶子式的$r+1$阶子式称为$D$的$r+1$阶<strong>加边子式</strong></p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>一个定义: 设$A$是矩阵，$D$是$A$的r阶子式，$A$中所有包含$D$这个r阶子式的$r+1$阶子式称为$D$的$r+1$阶<strong>加边子式</strong></p></div>
 <h3 id="85-下面的例题给出了秩关于加边子式的判定">85. (下面的例题给出了秩关于加边子式的判定)<a hidden class="anchor" aria-hidden="true" href="#85-下面的例题给出了秩关于加边子式的判定">#</a></h3>
 <p>矩阵$A$的秩为r的充要条件是$A$存在一个r阶子式不为零，而所有$r+1$阶子式都为零</p>
 <h3 id="86-设mtimes-n矩阵a的m个行向量为alpha_1-alpha_2-cdots-alpha_m且alpha_i1-alpha_i2-cdots-alpha_ir是极大无关组又设a的n个列向量为beta_1-beta_2-cdots-beta_n且beta_j1-beta_j2-cdots-beta_jr是其极大无关组求证-alpha_i1-alpha_i2-cdots-alpha_ir和beta_j1-beta_j2-cdots-beta_jr交叉点上的元素组成的子矩阵d的行列式不等于零">86. 设$m\times n$矩阵$A$的$m$个行向量为$\alpha_{1}, \alpha_{2}, \cdots, \alpha_{m}$，且$\alpha_{i1}, \alpha_{i2}, \cdots, \alpha_{ir}$是极大无关组，又设$A$的$n$个列向量为$\beta_{1}, \beta_{2}, \cdots, \beta_{n}$，且$\beta_{j1}, \beta_{j2}, \cdots, \beta_{jr}$是其极大无关组，求证: $\alpha_{i1}, \alpha_{i2}, \cdots, \alpha_{ir}$和$\beta_{j1}, \beta_{j2}, \cdots, \beta_{jr}$交叉点上的元素组成的子矩阵$D$的行列式不等于零<a hidden class="anchor" aria-hidden="true" href="#86-设mtimes-n矩阵a的m个行向量为alpha_1-alpha_2-cdots-alpha_m且alpha_i1-alpha_i2-cdots-alpha_ir是极大无关组又设a的n个列向量为beta_1-beta_2-cdots-beta_n且beta_j1-beta_j2-cdots-beta_jr是其极大无关组求证-alpha_i1-alpha_i2-cdots-alpha_ir和beta_j1-beta_j2-cdots-beta_jr交叉点上的元素组成的子矩阵d的行列式不等于零">#</a></h3>
@@ -638,7 +753,10 @@ $;</p>
 <h3 id="88-证明-反对称阵的秩必为偶数">88. 证明: 反对称阵的秩必为偶数<a hidden class="anchor" aria-hidden="true" href="#88-证明-反对称阵的秩必为偶数">#</a></h3>
 <h3 id="75-第三种证法">75. (第三种证法)<a hidden class="anchor" aria-hidden="true" href="#75-第三种证法">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>3.75这个例题的三种证明方法正好对应了开头讲的三种方法，其实，第一种初等变换方法正好对应了代数，后两种对应了几何，实际上后两种线性空间和线性方程组实质上是对应线性映射的核空间和像空间的，是一种</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>3.75这个例题的三种证明方法正好对应了开头讲的三种方法，其实，第一种初等变换方法正好对应了代数，后两种对应了几何，实际上后两种线性空间和线性方程组实质上是对应线性映射的核空间和像空间的，是一种</p></div>
 
 
   </div>
@@ -729,21 +847,8 @@ $;</p>
     </li>
 </ul>
 
-  </footer><script src="https://giscus.app/client.js"
-        data-repo="GWblog/GWblog.github.io"
-        data-repo-id="R_kgDOLNZqMw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLNZqM84CdPfR"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
+  </footer>
+
 </article>
     </main>
     
@@ -970,7 +1075,8 @@ code.has-jax {
     }
     setInterval("createtime()",250); 
 </script> 
+
+
 </body>
 
 </html>
-

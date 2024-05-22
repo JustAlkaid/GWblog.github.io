@@ -10,7 +10,7 @@
 <meta name="description" content="6.2 * 特征值与特征向量 特征值和特征向量是矩阵和线性变换蕴含的最本质的信息之一，它们的计算及其性质的研究是相似标准型理论的起点. 本节我们将从6个">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/ch6/6.2/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.46f685e1fab64c7bce873bdddd988247d1bff07a70aec0f309b5b74594e8d35e.css" integrity="" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c6205b082dab468bee3051e49fc2027e2df9483a2c27da31494bb5d614536ffe.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
@@ -134,18 +134,6 @@
   }
 }
 </script>
- <script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                history.back();
-            }
-        }
-    })();
-</script>
-
-
 </head>
 
 <body class="" id="top">
@@ -253,6 +241,7 @@
         </ul>
     </nav>
 </header>
+
 <main class="main">
 
 <article class="post-single">
@@ -262,17 +251,6 @@
       6.2  特征值与特征向量
     </h1>
     <div class="post-meta">8 分钟&nbsp;·&nbsp;3754 字&nbsp;·&nbsp;G.W
-
-
-
-
-
-
-
-
-
-
-时长: 8分钟&amp;nbsp;|&amp;nbsp;G.W
 
 </div>
   </header> 
@@ -448,9 +426,131 @@
 
   <div class="post-content"><h2 id="62--特征值与特征向量">6.2 * 特征值与特征向量<a hidden class="anchor" aria-hidden="true" href="#62--特征值与特征向量">#</a></h2>
 <p>特征值和特征向量是矩阵和线性变换蕴含的最本质的信息之一，它们的计算及其性质的研究是相似标准型理论的起点. 本节我们将从6个方面来阐述相关的方法.</p>
-<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative}</style>
-<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></symbol><symbol id="note-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></symbol><symbol id="warning-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></symbol><symbol id="info-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></symbol></svg></div><div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>注: 代数基本定理保证了任一 $n(n \ge 1)$ 阶复矩阵 $A$ 或 $n$ 维复线性空间 $V$ 上的线性变换 $\varepsilon$ 至少有一个复特征向量. 如果是在数域 $\mathbb{F}$ 上，则需要 $A$ 或 $\varepsilon$ 的特征值 $\varepsilon_{0}$ 属于 $\mathbb{F}$ ，然后线性方程组的求解理论才能够保证 $\varepsilon_{0}$ 在 $\mathbb{F}^{n}$ 或 $V$ 中有对应的特征向量. 因此 ，<strong>后面如无特殊说明，总是假设在复数域$\mathbb{C}$上考虑问题</strong></p></div>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注: 代数基本定理保证了任一 $n(n \ge 1)$ 阶复矩阵 $A$ 或 $n$ 维复线性空间 $V$ 上的线性变换 $\varepsilon$ 至少有一个复特征向量. 如果是在数域 $\mathbb{F}$ 上，则需要 $A$ 或 $\varepsilon$ 的特征值 $\varepsilon_{0}$ 属于 $\mathbb{F}$ ，然后线性方程组的求解理论才能够保证 $\varepsilon_{0}$ 在 $\mathbb{F}^{n}$ 或 $V$ 中有对应的特征向量. 因此 ，<strong>后面如无特殊说明，总是假设在复数域$\mathbb{C}$上考虑问题</strong></p></div>
 <h3 id="1-直接利用定义计算和证明">1. 直接利用定义计算和证明<a hidden class="anchor" aria-hidden="true" href="#1-直接利用定义计算和证明">#</a></h3>
 <h3 id="61-设-v-是-n-阶矩阵全体组成的线性空间varepsilon-是-v-上的线性变换-varepsilonx--ax-其中-a-是一个-n-阶矩阵求证-varepsilon-和-a-具有相同的特征值-重数可能不同">6.1 设 $V$ 是 $n$ 阶矩阵全体组成的线性空间，$\varepsilon$ 是 $V$ 上的线性变换: $\varepsilon(X) = AX$ ，其中 $A$ 是一个 $n$ 阶矩阵，求证: $\varepsilon$ 和 $A$ 具有相同的特征值 (重数可能不同)<a hidden class="anchor" aria-hidden="true" href="#61-设-v-是-n-阶矩阵全体组成的线性空间varepsilon-是-v-上的线性变换-varepsilonx--ax-其中-a-是一个-n-阶矩阵求证-varepsilon-和-a-具有相同的特征值-重数可能不同">#</a></h3>
 <h3 id="62-设-lambda_1-lambda_2-是矩阵-a-的两个不同的特征值-alpha_1-alpha_2-分别是-lambda_1-lambda_2-的特征向量求证-alpha_1--alpha_2-必定不是-a-的特征向量">6.2 设 $\lambda_{1}, \lambda_{2}$ 是矩阵 $A$ 的两个不同的特征值， $\alpha_{1}, \alpha_{2}$ 分别是 $\lambda_{1}, \lambda_{2}$ 的特征向量，求证: $\alpha_{1} + \alpha_{2}$ 必定不是 $A$ 的特征向量<a hidden class="anchor" aria-hidden="true" href="#62-设-lambda_1-lambda_2-是矩阵-a-的两个不同的特征值-alpha_1-alpha_2-分别是-lambda_1-lambda_2-的特征向量求证-alpha_1--alpha_2-必定不是-a-的特征向量">#</a></h3>
@@ -468,7 +568,10 @@ $$</p>
 V = V_{1,0} \oplus V_{2,0} \oplus \dots \oplus V_{m,0},
 $$</p>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>注: 如果将6.3的条件和结论映射到代数语言时，可知: 对分块对角矩阵: $A = diag{A_{1}, A_{2}, \dots, A_{m}}$ 的任一特征值$\lambda_{0}$的代数重数等于每个分块的代数重数之和，其几何重数等于每个分块的几何重数之和. 进一步还可以得到如下构造极大线性无关特征向量组(即特征子空间的一组基)的结论</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注: 如果将6.3的条件和结论映射到代数语言时，可知: 对分块对角矩阵: $A = diag{A_{1}, A_{2}, \dots, A_{m}}$ 的任一特征值$\lambda_{0}$的代数重数等于每个分块的代数重数之和，其几何重数等于每个分块的几何重数之和. 进一步还可以得到如下构造极大线性无关特征向量组(即特征子空间的一组基)的结论</p></div>
 <h3 id="64-设-n-阶分块对角阵-a--diaga_1-a_2-dots-a_m-其中-a_i-是-n_i-阶矩阵">6.4 设 $n$ 阶分块对角阵 $A = diag{A_{1}, A_{2}, \dots, A_{m}}$ ，其中 $A_{i}$ 是 $n_{i}$ 阶矩阵.<a hidden class="anchor" aria-hidden="true" href="#64-设-n-阶分块对角阵-a--diaga_1-a_2-dots-a_m-其中-a_i-是-n_i-阶矩阵">#</a></h3>
 <p>(1) 任取 $A_{i}$ 的特征值 $\lambda_{i}$ 及其特征向量 $x_{i} \in \mathbb{C}^{n_{i}}$，求证: 可在 $x_{i}$ 的上下添加适当多的零，得到非零向量 $\widetilde{x_{i}} \in \mathbb{C}^{n}$，使得 $A \widetilde{x_{i}} = \lambda_{i} \widetilde{x_{i}}$，即 $\widetilde{x_{i}}$ 是 $A$ 关于特征值 $\lambda_{i}$ 的特征向量，称为 $x_{i}$ 的<strong>延拓</strong></p>
 <p>(2) 任取 $A$ 的特征值 $\lambda_{0}$，并设 $\lambda_{0}$ 是 $A_{i1}, \dots, A_{ir}$ 的特征值，但不是其他 $A_{j}(1 \le j \le m, j \neq i_{1}, \dots, i_{r})$ 的特征值，求证: $A$ 关于特征值 $\lambda_{0}$ 的特征子空间的一组基可取为 $A_{ik} (1 \le k \le r)$ 关于特征值 $\lambda_{0}$ 的特征子空间的一组基的延拓的并集.</p>
@@ -491,7 +594,10 @@ $$</p>
 <p>矩阵 $A$ 的特征值与矩阵 $f(A)$ 的特征值之间有着密切的关系，这就是例题6.7</p>
 <h3 id="67-设-n-阶矩阵-a-的全体特征值为-lambda_1-lambda_2-dots-lambda_n-fx-是一个多项式求证-fa-的全体特征值为-flambda_1-flambda_2-dots-flambda_n">6.7 设 $n$ 阶矩阵 $A$ 的全体特征值为 $\Lambda_{1}, \lambda_{2}, \dots, \lambda_{n}$ ，$f(x)$ 是一个多项式，求证: $f(A)$ 的全体特征值为 $f(\Lambda_{1}), f(\lambda_{2}), \dots, f(\lambda_{n})$.<a hidden class="anchor" aria-hidden="true" href="#67-设-n-阶矩阵-a-的全体特征值为-lambda_1-lambda_2-dots-lambda_n-fx-是一个多项式求证-fa-的全体特征值为-flambda_1-flambda_2-dots-flambda_n">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>注: 一般一个结论，我们都需要从多个角度考虑，最常见是正反两个方面，比如6.7告诉我们对于一个矩阵的多项式，他的特征值就是矩阵特征值的多项式，仔细观察条件“矩阵和矩阵的多项式(函数)”，我们先入的理解是先有矩阵，再有矩阵的多项式，但是这并不是所有情况，比如有可能先有矩阵的多项式，再有矩阵，也就是说<strong>能把矩阵
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注: 一般一个结论，我们都需要从多个角度考虑，最常见是正反两个方面，比如6.7告诉我们对于一个矩阵的多项式，他的特征值就是矩阵特征值的多项式，仔细观察条件“矩阵和矩阵的多项式(函数)”，我们先入的理解是先有矩阵，再有矩阵的多项式，但是这并不是所有情况，比如有可能先有矩阵的多项式，再有矩阵，也就是说<strong>能把矩阵
 写成一个简单矩阵的多项式</strong>，那么就可以根据简单矩阵的特征值得到复杂矩阵的特征值.
 当然，这其实是废话，但凡受过一点数学教育也能看出来，不过技巧都是朴实的</p></div>
 <h3 id="8-设-n-阶矩阵-a-的全体特征值为-lambda_1-lambda_2-dots-lambda_n-求-2n-阶矩阵">8. 设 $n$ 阶矩阵 $A$ 的全体特征值为 $\Lambda_{1}, \lambda_{2}, \dots, \lambda_{n}$ ，求 $2n$ 阶矩阵<a hidden class="anchor" aria-hidden="true" href="#8-设-n-阶矩阵-a-的全体特征值为-lambda_1-lambda_2-dots-lambda_n-求-2n-阶矩阵">#</a></h3>
@@ -513,7 +619,10 @@ a_{2} &amp; a_{3} &amp; a_{4} &amp; \dots &amp; a_{1}
 $$</p>
 <h3 id="10-设矩阵-a-的特征多项式为-flambda-a-的全体特征值为-lambda_1-lambda_2-dots-lambda_n-glambda-为任一多项式-证明-矩阵-ga-的行列式等于-flambda-glambda-的结式-rfg">10. 设矩阵 $A$ 的特征多项式为 $f(\lambda)$ ，$A$ 的全体特征值为 $\Lambda_{1}, \lambda_{2}, \dots, \lambda_{n}$ ，$g(\lambda)$ 为任一多项式. 证明: 矩阵 $g(A)$ 的行列式等于 $f(\lambda), g(\lambda)$ 的结式 $R(f,g)$<a hidden class="anchor" aria-hidden="true" href="#10-设矩阵-a-的特征多项式为-flambda-a-的全体特征值为-lambda_1-lambda_2-dots-lambda_n-glambda-为任一多项式-证明-矩阵-ga-的行列式等于-flambda-glambda-的结式-rfg">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>注: 分析6.10可知，若 $f(\lambda) g(\lambda)$ 互素，则 $|g(A)| = R(f,g) \neq 0$，从而 $g(A)$ 是非异阵. 进一步讨论还可以参考例6.84</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注: 分析6.10可知，若 $f(\lambda) g(\lambda)$ 互素，则 $|g(A)| = R(f,g) \neq 0$，从而 $g(A)$ 是非异阵. 进一步讨论还可以参考例6.84</p></div>
 <h3 id="11-设首一多项式-fx--x_n--a_n-1x_n-1--dots--a_1x--a_0-的友阵">11. 设首一多项式 $f(x) = x_{n} + a_{n-1}x_{n-1} + \dots + a_{1}x + a_{0}$ 的友阵<a hidden class="anchor" aria-hidden="true" href="#11-设首一多项式-fx--x_n--a_n-1x_n-1--dots--a_1x--a_0-的友阵">#</a></h3>
 <p>$$
 A = \begin{pmatrix}
@@ -527,7 +636,10 @@ $$</p>
 <h3 id="3-反向利用矩阵的多项式">3. 反向利用矩阵的多项式<a hidden class="anchor" aria-hidden="true" href="#3-反向利用矩阵的多项式">#</a></h3>
 <h3 id="612-设-n-阶矩阵-a-适合一个多项式-gx-即-ga--o-求证-a-的特征值-lambda_0-也适合-gx-即glambda_0--0">6.12 设 $n$ 阶矩阵 $A$ 适合一个多项式 $g(x)$ ，即 $g(A) = O$. 求证: $A$ 的特征值 $\lambda_{0}$ 也适合 $g(x)$ 即$g(\lambda_{0}) = 0$<a hidden class="anchor" aria-hidden="true" href="#612-设-n-阶矩阵-a-适合一个多项式-gx-即-ga--o-求证-a-的特征值-lambda_0-也适合-gx-即glambda_0--0">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>分析6.12可知，可以由 $A$ 适合的多项式得到 $A$ 可能的特征值. 一般地，还可以由 $g(A)$ 的特征值的约束条件得到 $A$ 的特征值的约束条件. 下面几个例题是应用这一技巧的典型例题</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>分析6.12可知，可以由 $A$ 适合的多项式得到 $A$ 可能的特征值. 一般地，还可以由 $g(A)$ 的特征值的约束条件得到 $A$ 的特征值的约束条件. 下面几个例题是应用这一技巧的典型例题</p></div>
 <h3 id="613-求证-矩阵-a-是幂零矩阵的充要条件是-a-的特征值全为零">6.13 求证: 矩阵 $A$ 是幂零矩阵的充要条件是 $A$ 的特征值全为零<a hidden class="anchor" aria-hidden="true" href="#613-求证-矩阵-a-是幂零矩阵的充要条件是-a-的特征值全为零">#</a></h3>
 <h3 id="614-设-v-是数域-mathbbf-上的全体-n-阶方阵构成的线性空间有-n-阶方阵">6.14 设 $V$ 是数域 $\mathbb{F}$ 上的全体 $n$ 阶方阵构成的线性空间，有 $n$ 阶方阵<a hidden class="anchor" aria-hidden="true" href="#614-设-v-是数域-mathbbf-上的全体-n-阶方阵构成的线性空间有-n-阶方阵">#</a></h3>
 <p>$$
@@ -564,7 +676,10 @@ a_{n}a_{1} &amp; a_{n}a_{2}+1 &amp; \dots &amp; a_{n}^{2}
 \end{pmatrix}
 $$</p>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>在例6.19的3种证法中(详情见书300页)，我们用了分块矩阵的方法，这在特征值的理论分析中是一种常用的方法，为了使读者有更深的印象，我们再给几个例子</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>在例6.19的3种证法中(详情见书300页)，我们用了分块矩阵的方法，这在特征值的理论分析中是一种常用的方法，为了使读者有更深的印象，我们再给几个例子</p></div>
 <h3 id="623-设-abc-分别是-m-times-m-n-times-n-m-times-n-矩阵满足-ac--cb-rc--r-求证a-和-b-至少有-r-个相同的特征值">6.23 设 $A,B,C$ 分别是 $m \times m, n \times n, m \times n$ 矩阵，满足: $AC = CB, r(C) = r$ ，求证：$A$ 和 $B$ 至少有 $r$ 个相同的特征值<a hidden class="anchor" aria-hidden="true" href="#623-设-abc-分别是-m-times-m-n-times-n-m-times-n-矩阵满足-ac--cb-rc--r-求证a-和-b-至少有-r-个相同的特征值">#</a></h3>
 <h3 id="5-特征值与特征多项式的关系">5. 特征值与特征多项式的关系<a hidden class="anchor" aria-hidden="true" href="#5-特征值与特征多项式的关系">#</a></h3>
 <p>下面的例题描述了特征值与特征多项式的系数之间的关系</p>
@@ -591,7 +706,10 @@ i_{1} &amp; i_{2} &amp; \dots &amp; i_{r}
 (1 \le r \le n)
 $$</p>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>上述结论中最常见的就是$r = 1, r = n$</p>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>上述结论中最常见的就是$r = 1, r = n$</p>
 <p>$$
 \sum_{i = 1}^{n} \lambda_{i} = tr(A), \prod_{i = 1}^{n} \lambda_{i} = |A|
 $$</p>
@@ -616,7 +734,10 @@ $$</p>
 <h3 id="31-求证-n-阶矩阵-a-为幂零矩阵的充要条件是-trak--01-le-k-le-n">31. 求证: $n$ 阶矩阵 $A$ 为幂零矩阵的充要条件是 $tr(A^{k}) = 0(1 \le k \le n)$<a hidden class="anchor" aria-hidden="true" href="#31-求证-n-阶矩阵-a-为幂零矩阵的充要条件是-trak--01-le-k-le-n">#</a></h3>
 <h3 id="32-设-a-b-c-是-n-阶矩阵其中-c--ab---ba-若他们满足条件-ac--ca-bc--cb求证-c-的特征值全为零--又若将条件减弱为-abc--cab-bac--cba则上述结论不再成立">32. 设 $A, B, C$ 是 $n$ 阶矩阵，其中 $C = AB - BA$. 若他们满足条件 $AC = CA, BC = CB$，求证: $C$ 的特征值全为零.  又若将条件减弱为 $ABC = CAB, BAC = CBA$，则上述结论不再成立<a hidden class="anchor" aria-hidden="true" href="#32-设-a-b-c-是-n-阶矩阵其中-c--ab---ba-若他们满足条件-ac--ca-bc--cb求证-c-的特征值全为零--又若将条件减弱为-abc--cab-bac--cba则上述结论不再成立">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>注: 从上述证明不难看出: 只需要 $AC = CA, BC = CB$ 这两个条件中的一个就能证明本题的结论. 如果这两个条件都有，我们将在后面给出另外两个证明: 分别是一个利用矩阵乘法交换性诱导的同时性质，另一个是 $Jordan$ 标准型理论的应用. 另外我们还将证明: $A, B, C$ 可同时上三角化</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注: 从上述证明不难看出: 只需要 $AC = CA, BC = CB$ 这两个条件中的一个就能证明本题的结论. 如果这两个条件都有，我们将在后面给出另外两个证明: 分别是一个利用矩阵乘法交换性诱导的同时性质，另一个是 $Jordan$ 标准型理论的应用. 另外我们还将证明: $A, B, C$ 可同时上三角化</p></div>
 <h3 id="6-特征值的统计">6. 特征值的统计<a hidden class="anchor" aria-hidden="true" href="#6-特征值的统计">#</a></h3>
 <h3 id="383">3.83<a hidden class="anchor" aria-hidden="true" href="#383">#</a></h3>
 <h3 id="可以在某些问题中引进变量-t-利用连续性来证明某些结论也是一种常用的方法可以看成某种摄动法下年我们用这个方法来估计特征值的范围">可以在某些问题中引进变量 $t$ ，利用连续性来证明某些结论也是一种常用的方法（可以看成某种摄动法），下年我们用这个方法来估计特征值的范围<a hidden class="anchor" aria-hidden="true" href="#可以在某些问题中引进变量-t-利用连续性来证明某些结论也是一种常用的方法可以看成某种摄动法下年我们用这个方法来估计特征值的范围">#</a></h3>
@@ -710,21 +831,8 @@ $$</p>
     </li>
 </ul>
 
-  </footer><script src="https://giscus.app/client.js"
-        data-repo="GWblog/GWblog.github.io"
-        data-repo-id="R_kgDOLNZqMw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLNZqM84CdPfR"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
+  </footer>
+
 </article>
     </main>
     
@@ -951,7 +1059,8 @@ code.has-jax {
     }
     setInterval("createtime()",250); 
 </script> 
+
+
 </body>
 
 </html>
-

@@ -10,7 +10,7 @@
 <meta name="description" content="线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.46f685e1fab64c7bce873bdddd988247d1bff07a70aec0f309b5b74594e8d35e.css" integrity="" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c6205b082dab468bee3051e49fc2027e2df9483a2c27da31494bb5d614536ffe.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
@@ -134,18 +134,6 @@
   }
 }
 </script>
- <script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                history.back();
-            }
-        }
-    })();
-</script>
-
-
 </head>
 
 <body class="" id="top">
@@ -253,6 +241,7 @@
         </ul>
     </nav>
 </header>
+
 <main class="main">
 
 <article class="post-single">
@@ -262,17 +251,6 @@
       3.3 向量空间及其基础
     </h1>
     <div class="post-meta"><span title='2024-02-10 00:00:00 +0000 UTC'>2024-02-10</span>&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;2627 字&nbsp;·&nbsp;G.W
-
-
-
-
-
-
-
-
-
-
-创建:&amp;nbsp;&lt;span title=&#39;2024-02-10 00:00:00 &#43;0000 UTC&#39;&gt;2024-02-10&lt;/span&gt;&amp;nbsp;|&amp;nbsp;时长: 6分钟&amp;nbsp;|&amp;nbsp;G.W
 
 </div>
   </header> 
@@ -392,9 +370,131 @@
 <p>(3) 数域$\mathbb{K}$上$m×n$矩阵全体$M_{m×n}(K)$，在矩阵的加法和乘法下成为$\mathbb{K}$上的线性空间</p>
 <p>(4) 若两个数域$K_{1}*K_{2}$，则$K_{2}$可以看做是$K_{1}$上的线性空间. 向量就是$K_{2}$中的数，向量的加法就是数的加法，数乘就是$K_{1}$中的数乘上$K_{2}$中的数. 特别地，数域$K$也是它自身上的线性空间.</p>
 <p>(5) 实数域$\mathbb{R}$上的连续函数全体记为$C(R)$，函数的加法及数乘分别定义为$(f+g)(x)=f(x)+g(x)$，$(kf)(x)=kf(x)$,则$C(R)$是$R$上的线性空间</p>
-<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative}</style>
-<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></symbol><symbol id="note-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></symbol><symbol id="warning-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></symbol><symbol id="info-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></symbol></svg></div><div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>在上面的例子中，列举的线性空间及其运算(加法和数乘)在某种意义下都是标准具体的，但是下面的例题却告诉我们，某些特殊的集合或者常见线性空间上，还可以定义一些特殊的加法或数乘，他们或者是或者不是线性空间，这足以反映线性空间这一概念的包容性</p></div>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>在上面的例子中，列举的线性空间及其运算(加法和数乘)在某种意义下都是标准具体的，但是下面的例题却告诉我们，某些特殊的集合或者常见线性空间上，还可以定义一些特殊的加法或数乘，他们或者是或者不是线性空间，这足以反映线性空间这一概念的包容性</p></div>
 <h3 id="23-判断下列集合是否构成实数域r上的线性空间">23. 判断下列集合是否构成实数域$R$上的线性空间:<a hidden class="anchor" aria-hidden="true" href="#23-判断下列集合是否构成实数域r上的线性空间">#</a></h3>
 <p>(1) V为次数等于$n(n \ge 1)$的实系数多项式全体，加法和数乘就是多项式的加法和数乘</p>
 <p>(2) $V=M_{n}(R)$，数乘是矩阵的数乘，加法$⊕$定义为$A ⊕ B=AB-BA$，其中等式右边是矩阵的减法和乘法</p>
@@ -511,21 +611,8 @@
     </li>
 </ul>
 
-  </footer><script src="https://giscus.app/client.js"
-        data-repo="GWblog/GWblog.github.io"
-        data-repo-id="R_kgDOLNZqMw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLNZqM84CdPfR"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
+  </footer>
+
 </article>
     </main>
     
@@ -752,7 +839,8 @@ code.has-jax {
     }
     setInterval("createtime()",250); 
 </script> 
+
+
 </body>
 
 </html>
-

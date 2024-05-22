@@ -10,7 +10,7 @@
 <meta name="description" content="5.2 整除和带余除法 带余除法和待定系数法是讨论整除问题的两个基本方法，下面是两个简单的例子 1. 设 $g(x) = ax&#43;b \in \mathbb{F}[x]$ ，求证: $g(x) | f(x)^{2}$ 的充要条件是 $g(x) | f(x)$. 2. 设 $g(x) =">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/posts/math/ch5/5.2-5.4/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.46f685e1fab64c7bce873bdddd988247d1bff07a70aec0f309b5b74594e8d35e.css" integrity="" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c6205b082dab468bee3051e49fc2027e2df9483a2c27da31494bb5d614536ffe.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
@@ -134,18 +134,6 @@
   }
 }
 </script>
- <script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                history.back();
-            }
-        }
-    })();
-</script>
-
-
 </head>
 
 <body class="" id="top">
@@ -253,6 +241,7 @@
         </ul>
     </nav>
 </header>
+
 <main class="main">
 
 <article class="post-single">
@@ -262,17 +251,6 @@
       5.2-5.4 整除和带余除法，最大公因式与互素多项式，不可约多项式与因式分解
     </h1>
     <div class="post-meta"><span title='2024-04-15 00:00:00 +0000 UTC'>2024-04-15</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1861 字&nbsp;·&nbsp;G.W
-
-
-
-
-
-
-
-
-
-
-创建:&amp;nbsp;&lt;span title=&#39;2024-04-15 00:00:00 &#43;0000 UTC&#39;&gt;2024-04-15&lt;/span&gt;&amp;nbsp;|&amp;nbsp;时长: 4分钟&amp;nbsp;|&amp;nbsp;G.W
 
 </div>
   </header> 
@@ -421,9 +399,131 @@
 <p>$$
 \dfrac{ap - d}{a} = \dfrac{aq - c}{b} = \dfrac{ar}{c}
 $$</p>
-<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative}</style>
-<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></symbol><symbol id="note-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></symbol><symbol id="warning-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></symbol><symbol id="info-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></symbol></svg></div><div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>这里要讲一下凑项法，这个方法其实初中甚至小学应该就会接触了，是指在要证明的等式中添加若干项再减去若干项来证明结论的方法，下面是两个典型例子，请读者仔细领会</p></div>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>这里要讲一下凑项法，这个方法其实初中甚至小学应该就会接触了，是指在要证明的等式中添加若干项再减去若干项来证明结论的方法，下面是两个典型例子，请读者仔细领会</p></div>
 <h3 id="3-证明-xd---ad-整除-xn---an-的充要条件是-d--n其中-a-neq-0">3. 证明: $x^{d} - a^{d}$ 整除 $x^{n} - a^{n}$ 的充要条件是 $d | n$，其中 $a \neq 0$<a hidden class="anchor" aria-hidden="true" href="#3-证明-xd---ad-整除-xn---an-的充要条件是-d--n其中-a-neq-0">#</a></h3>
 <h3 id="4-设-fx--x3m--x3n1--x3p2-其中-m-n-p-是自然数又-gx--x2--x--1求证--gx--fx">4. 设 $f(x) = x^{3m} + x^{3n+1} + x^{3p+2}$ ，其中 $m, n, p$ 是自然数，又 $g(x) = x^{2} + x + 1$，求证 : $g(x) | f(x)$<a hidden class="anchor" aria-hidden="true" href="#4-设-fx--x3m--x3n1--x3p2-其中-m-n-p-是自然数又-gx--x2--x--1求证--gx--fx">#</a></h3>
 <h2 id="53-最大公因式与互素多项式">5.3 最大公因式与互素多项式<a hidden class="anchor" aria-hidden="true" href="#53-最大公因式与互素多项式">#</a></h2>
@@ -475,7 +575,10 @@ $$</p>
 <p>(1) 对任一代数数 $u$ ，存在唯一一个 $u$ 适合的首一有理系数多项式 $g(x)$，使得 $g(x)$ 是 $u$ 适合的所有非零有理系数多项式中次数最小者. 这样的 $g(x)$ 称为 $u$ 的极小多项式或最小多项式</p>
 <p>(2) 设 $g(x)$ 是一个 $u$ 适合的首一有理系数多项式，则 $g(x)$ 是 $u$ 的极小多项式的充要条件是 $g(x)$ 是有理数域上的不可约多项式</p>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>我们会在5.8节中给出代数数的极小多项式例子及其应用. 对于一般域上的代数扩张(不限定是有理数域)，在<strong>抽象代数</strong>课程中也会引入代数元的极小多项式的定义，其本质特征就是不可约性. 下面的例题告诉我们，数域 $\mathbb{F}$ 上的不可约多项式也满足例5.18中提及的极小多项式的基本性质</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>我们会在5.8节中给出代数数的极小多项式例子及其应用. 对于一般域上的代数扩张(不限定是有理数域)，在<strong>抽象代数</strong>课程中也会引入代数元的极小多项式的定义，其本质特征就是不可约性. 下面的例题告诉我们，数域 $\mathbb{F}$ 上的不可约多项式也满足例5.18中提及的极小多项式的基本性质</p></div>
 <h3 id="19-设-px-是数域-mathbbf-上的不可约多项式fx-是-mathbbf-上的多项式-证明若-px-的某个复根-a-也是-fx-的根则-px--fx-特别地px-的任一复根都是-fx-的根">19. 设 $p(x)$ 是数域 $\mathbb{F}$ 上的不可约多项式，$f(x)$ 是 $\mathbb{F}$ 上的多项式. 证明:若 $p(x)$ 的某个复根 $a$ 也是 $f(x)$ 的根，则 $p(x) | f(x)$. 特别地，$p(x)$ 的任一复根都是 $f(x)$ 的根<a hidden class="anchor" aria-hidden="true" href="#19-设-px-是数域-mathbbf-上的不可约多项式fx-是-mathbbf-上的多项式-证明若-px-的某个复根-a-也是-fx-的根则-px--fx-特别地px-的任一复根都是-fx-的根">#</a></h3>
 <h3 id="多项式的标准分解是证明某些问题的有力工具下面是几个例子">多项式的标准分解是证明某些问题的有力工具，下面是几个例子<a hidden class="anchor" aria-hidden="true" href="#多项式的标准分解是证明某些问题的有力工具下面是几个例子">#</a></h3>
 <h3 id="20-证明--gx2--fx2-的充要条件是-gx--fx-">20. 证明 : $g(x)^{2} | f(x)^{2}$ 的充要条件是 $g(x) | f(x) $<a hidden class="anchor" aria-hidden="true" href="#20-证明--gx2--fx2-的充要条件是-gx--fx-">#</a></h3>
@@ -564,21 +667,8 @@ $$
     </li>
 </ul>
 
-  </footer><script src="https://giscus.app/client.js"
-        data-repo="GWblog/GWblog.github.io"
-        data-repo-id="R_kgDOLNZqMw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLNZqM84CdPfR"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
+  </footer>
+
 </article>
     </main>
     
@@ -805,7 +895,8 @@ code.has-jax {
     }
     setInterval("createtime()",250); 
 </script> 
+
+
 </body>
 
 </html>
-

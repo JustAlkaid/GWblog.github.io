@@ -455,7 +455,8 @@ A funny guy</description>
       <link>https://GWblog.github.io/zh/go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/go/</guid>
-      <description></description>
+      <description>func tiaozhuan(c *fiber.Ctx) error { dstr := &amp;ldquo;https://ysicing.me&amp;rdquo; domain := c.Query(&amp;ldquo;target&amp;rdquo;, &amp;ldquo;aHR0cHM6Ly95c2ljaW5nLm1lLw=&amp;rdquo;) d, err := base64.StdEncoding.DecodeString(domain) if err == nil { dstr = string(d) } if !strings.HasPrefix(dstr, &amp;ldquo;http&amp;rdquo;) { dstr = &amp;ldquo;https://&amp;rdquo; + dstr }
+suddomain := strings.Split(dstr, &amp;quot;//&amp;quot;)[1]suddomain = strings.Split(suddomain, &amp;quot;/&amp;quot;)[0]dstr = strings.TrimRight(dstr, &amp;quot;\n&amp;quot;)log.Debugf(&amp;quot;tiaozhuan to [%s]&amp;quot;, dstr)c.Status(http.StatusOK).Render(&amp;quot;default/tiaozhuan&amp;quot;, injectSiteData(c, fiber.Map{&amp;quot;title&amp;quot;: c.Locals(solitudes.CtxTranslator).(*translator.Translator).T(&amp;quot;tiaozhuan&amp;quot;),&amp;quot;domain&amp;quot;: dstr,&amp;quot;subdomain&amp;quot;: suddomain,}))return nil}</description>
     </item>
     <item>
       <title>test</title>

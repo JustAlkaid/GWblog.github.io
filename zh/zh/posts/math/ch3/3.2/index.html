@@ -10,7 +10,7 @@
 <meta name="description" content="向量的线性关系 对于线性空间$\mathbb{V}$中的向量$\alpha_{1},\alpha_{2},\cdots,\alpha_{n}$">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/ch3/3.2/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.46f685e1fab64c7bce873bdddd988247d1bff07a70aec0f309b5b74594e8d35e.css" integrity="" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c6205b082dab468bee3051e49fc2027e2df9483a2c27da31494bb5d614536ffe.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
@@ -134,18 +134,6 @@
   }
 }
 </script>
- <script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                history.back();
-            }
-        }
-    })();
-</script>
-
-
 </head>
 
 <body class="" id="top">
@@ -253,6 +241,7 @@
         </ul>
     </nav>
 </header>
+
 <main class="main">
 
 <article class="post-single">
@@ -262,17 +251,6 @@
       3.2 向量的线性关系
     </h1>
     <div class="post-meta">9 分钟&nbsp;·&nbsp;4123 字&nbsp;·&nbsp;G.W
-
-
-
-
-
-
-
-
-
-
-时长: 9分钟&amp;nbsp;|&amp;nbsp;G.W
 
 </div>
   </header> 
@@ -412,9 +390,131 @@
 <p>矩阵$A$的第$i$从左至右第一个非零元素称为这一行的阶梯点，若矩阵$A$的阶梯点，若矩阵A的阶梯点的列指标随着行数的增加而严格递增，则称这样的矩阵是阶梯形矩阵，利用数学归纳法可以证明：对任意矩阵$A$，经过若干次初等行变换之后，可以化为阶梯形矩阵</p>
 <h3 id="1--设-a是mn阶阶梯形矩阵证明a的秩等于其非零行的个数且阶梯点所在的列向量是a的列向量的极大无关组">1.  设 $A$是$m×n$阶阶梯形矩阵，证明：$A$的秩等于其非零行的个数，且阶梯点所在的列向量是A的列向量的极大无关组<a hidden class="anchor" aria-hidden="true" href="#1--设-a是mn阶阶梯形矩阵证明a的秩等于其非零行的个数且阶梯点所在的列向量是a的列向量的极大无关组">#</a></h3>
 <h3 id="2--设-a--alpha_1alpha_2cdotsalpha_n--是一个mn矩阵其中alpha_i是m维列向量再者p是一个m阶可逆矩阵bpa-β_1β_2cdotsβ_n-其中β_jpalpha_j1-le-j-le-n">2.  设$ A= ( \alpha_{1},\alpha_{2},\cdots,\alpha_{n} ) $是一个$m×n$矩阵，其中$\alpha_{i}$是m维列向量，再者P是一个m阶可逆矩阵，$B=PA=( β_{1},β_{2},\cdots,β_{n} )$，其中$β_{j}=P\alpha_{j}(1 \le j \le n)$<a hidden class="anchor" aria-hidden="true" href="#2--设-a--alpha_1alpha_2cdotsalpha_n--是一个mn矩阵其中alpha_i是m维列向量再者p是一个m阶可逆矩阵bpa-β_1β_2cdotsβ_n-其中β_jpalpha_j1-le-j-le-n">#</a></h3>
-<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative}</style>
-<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></symbol><symbol id="note-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></symbol><symbol id="warning-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></symbol><symbol id="info-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></symbol></svg></div><div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>注：</p>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注：</p>
 <ol>
 <li>一个求矩阵的秩的方法，由于矩阵的秩在初等变换下不变，因此由3.1就能得到一个求秩的方法：<strong>用初等变换将一个矩阵A变成阶梯形矩阵B，则矩阵B的非零行的个数就是A的秩</strong></li>
 <li>上面的方法也可以求向量组的秩，具体就是向量组看成一个矩阵</li>
@@ -584,21 +684,8 @@ $$
     </li>
 </ul>
 
-  </footer><script src="https://giscus.app/client.js"
-        data-repo="GWblog/GWblog.github.io"
-        data-repo-id="R_kgDOLNZqMw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLNZqM84CdPfR"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
+  </footer>
+
 </article>
     </main>
     
@@ -825,7 +912,8 @@ code.has-jax {
     }
     setInterval("createtime()",250); 
 </script> 
+
+
 </body>
 
 </html>
-

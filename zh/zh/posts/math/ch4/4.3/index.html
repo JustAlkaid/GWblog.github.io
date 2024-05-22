@@ -10,7 +10,7 @@
 <meta name="description" content="4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.46f685e1fab64c7bce873bdddd988247d1bff07a70aec0f309b5b74594e8d35e.css" integrity="" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c6205b082dab468bee3051e49fc2027e2df9483a2c27da31494bb5d614536ffe.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
@@ -134,18 +134,6 @@
   }
 }
 </script>
- <script>
-    (function(){
-        if(''){
-            if (prompt('请输入文章密码') !== ''){
-                alert('密码错误！');
-                history.back();
-            }
-        }
-    })();
-</script>
-
-
 </head>
 
 <body class="" id="top">
@@ -253,6 +241,7 @@
         </ul>
     </nav>
 </header>
+
 <main class="main">
 
 <article class="post-single">
@@ -262,17 +251,6 @@
       4.3 线性同构
     </h1>
     <div class="post-meta"><span title='2024-03-15 00:00:00 +0000 UTC'>2024-03-15</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1899 字&nbsp;·&nbsp;G.W
-
-
-
-
-
-
-
-
-
-
-创建:&amp;nbsp;&lt;span title=&#39;2024-03-15 00:00:00 &#43;0000 UTC&#39;&gt;2024-03-15&lt;/span&gt;&amp;nbsp;|&amp;nbsp;时长: 4分钟&amp;nbsp;|&amp;nbsp;G.W
 
 </div>
   </header> 
@@ -387,9 +365,131 @@ $$
 求证: $\psi$是线性同构</p>
 <h3 id="11-lagrange插值公式">11. (Lagrange插值公式)<a hidden class="anchor" aria-hidden="true" href="#11-lagrange插值公式">#</a></h3>
 <p>设 $ a_{0}, a_{1}, \cdots, a_{n}$是数域 $\mathbb{F}$中$n+1$个不同的数， $ b_{0}, b_{1}, \cdots, b_{n}$是数域 $\mathbb{F}$中$n+1$个任意的数，求证: 必定存在$\mathbb{F}$上的次数不超过n的多项式$f(x)$，使得$f(a_{i} = b_{i})(0 \le i \le n)$，并将$f(x)$构造出来</p>
-<style type="text/css">.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative}</style>
-<div><svg width="0" height="0" display="none" xmlns="http://www.w3.org/2000/svg"><symbol id="tip-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check-circle"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></symbol><symbol id="note-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></symbol><symbol id="warning-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></symbol><symbol id="info-notice" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></symbol></svg></div><div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>要证明某个有限维线性空间$V$上的线性变换$ \psi$是自同构(可逆线性变换)，通常有三种方法. 一是可以尝试直接构造出$\psi$的逆变换. 二是证明$\psi$是单映射或是满映射(两者满足其一即可). 三是用矩阵方法，即选取$V$的一组基，设$\psi$在这组基下的表示矩阵为$A$，设法证明$A$是可逆矩阵</p></div>
+<style type="text/css">
+    .notice {
+        --root-color: #444;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #c33;
+        --warning-content: #fee;
+        --info-title: #fb7;
+        --info-content: #fec;
+        --note-title: #6be;
+        --note-content: #e7f2fa;
+        --tip-title: #5a5;
+        --tip-content: #efe
+    }
+
+    @media (prefers-color-scheme:dark) {
+        .notice {
+            --root-color: #ddd;
+            --root-background: #eff;
+            --title-color: #fff;
+            --title-background: #7bd;
+            --warning-title: #800;
+            --warning-content: #400;
+            --info-title: #a50;
+            --info-content: #420;
+            --note-title: #069;
+            --note-content: #023;
+            --tip-title: #363;
+            --tip-content: #121
+        }
+    }
+
+    body.dark .notice {
+        --root-color: #ddd;
+        --root-background: #eff;
+        --title-color: #fff;
+        --title-background: #7bd;
+        --warning-title: #800;
+        --warning-content: #400;
+        --info-title: #a50;
+        --info-content: #420;
+        --note-title: #069;
+        --note-content: #023;
+        --tip-title: #363;
+        --tip-content: #121
+    }
+
+    .notice {
+        padding: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        border-radius: 4px;
+        color: var(--root-color);
+        background: var(--root-background)
+    }
+
+    .notice p:last-child {
+        margin-bottom: 0
+    }
+
+    .notice-title {
+        margin: -18px -18px 12px;
+        padding: 4px 18px;
+        border-radius: 4px 4px 0 0;
+        font-weight: 700;
+        color: var(--title-color);
+        background: var(--title-background)
+    }
+
+    .notice.warning .notice-title {
+        background: var(--warning-title)
+    }
+
+    .notice.warning {
+        background: var(--warning-content)
+    }
+
+    .notice.info .notice-title {
+        background: var(--info-title)
+    }
+
+    .notice.info {
+        background: var(--info-content)
+    }
+
+    .notice.note .notice-title {
+        background: var(--note-title)
+    }
+
+    .notice.note {
+        background: var(--note-content)
+    }
+
+    .notice.tip .notice-title {
+        background: var(--tip-title)
+    }
+
+    .notice.tip {
+        background: var(--tip-content)
+    }
+
+    .icon-notice {
+        display: inline-flex;
+        align-self: center;
+        margin-right: 8px
+    }
+
+    .icon-notice img,
+    .icon-notice svg {
+        height: 1em;
+        width: 1em;
+        fill: currentColor
+    }
+
+    .icon-notice img,
+    .icon-notice.baseline svg {
+        top: .125em;
+        position: relative
+    }
+</style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>要证明某个有限维线性空间$V$上的线性变换$ \psi$是自同构(可逆线性变换)，通常有三种方法. 一是可以尝试直接构造出$\psi$的逆变换. 二是证明$\psi$是单映射或是满映射(两者满足其一即可). 三是用矩阵方法，即选取$V$的一组基，设$\psi$在这组基下的表示矩阵为$A$，设法证明$A$是可逆矩阵</p></div>
 <p>下面是几个典型例子</p>
 <h3 id="12-设psi是数域mathbbf上的线性空间v上的线性变换若存在正整数n以及-a_1-a_2-cdots-a_n-in-mathbbf使得">12. 设$\psi$是数域$\mathbb{F}$上的线性空间$V$上的线性变换，若存在正整数$n$以及 $a_{1}, a_{2}, ,\cdots a_{n} \in \mathbb{F}$，使得<a hidden class="anchor" aria-hidden="true" href="#12-设psi是数域mathbbf上的线性空间v上的线性变换若存在正整数n以及-a_1-a_2-cdots-a_n-in-mathbbf使得">#</a></h3>
 <p>$$
@@ -401,7 +501,10 @@ $$
 <h3 id="15-设-psi-是n维线性空间-v-上的线性变换若对-v-中任意向量-alpha-总存在正整数-mm-可能与-alpha-有关使得-psim--0-求证-i_v---psi-是自同构">15. 设 $\psi$ 是n维线性空间 $V$ 上的线性变换，若对 $V$ 中任意向量 $\alpha $，总存在正整数 $m$(m 可能与 $\alpha$ 有关)，使得 $\psi^{m} = 0$. 求证: $I_{V} - \psi$ 是自同构<a hidden class="anchor" aria-hidden="true" href="#15-设-psi-是n维线性空间-v-上的线性变换若对-v-中任意向量-alpha-总存在正整数-mm-可能与-alpha-有关使得-psim--0-求证-i_v---psi-是自同构">#</a></h3>
 <h3 id="16-设--v--m_nmathbbf-是数域-mathbbf-上n阶矩阵全体组成的线性空间-a-b-是两个n阶矩阵定义-v-上的变换-psix--axb--求证-psi-是v上的线性变换psi是可逆变换的充要条件是-a-和-b-都是可逆矩阵">16. 设 $ V = M_{n}(\mathbb{F})$ 是数域 $\mathbb{F}$ 上n阶矩阵全体组成的线性空间，$ A, B $是两个n阶矩阵，定义 $V$ 上的变换: $\psi(X) = AXB $. 求证: $\psi $是$V$上的线性变换，$\psi$是可逆变换的充要条件是 $A$ 和 $B$ 都是可逆矩阵<a hidden class="anchor" aria-hidden="true" href="#16-设--v--m_nmathbbf-是数域-mathbbf-上n阶矩阵全体组成的线性空间-a-b-是两个n阶矩阵定义-v-上的变换-psix--axb--求证-psi-是v上的线性变换psi是可逆变换的充要条件是-a-和-b-都是可逆矩阵">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>对于无限维线性空间之间的线性映射，我们没有定义表示矩阵这一概念，也没有维数公式等结论，因此研究线性映射或线性变换，无限维线性空间的情形远比有限维线性空间的情形要难得多，也常会出现对于有限维线性空间成立的结论但是在无限维线性空间不成立的情形，例如，要证明无限维线性空间上的线性变换是自同构，只能按照定义证明它既是单映射又是满映射，而不能像有限维上只证明是单或者满</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>对于无限维线性空间之间的线性映射，我们没有定义表示矩阵这一概念，也没有维数公式等结论，因此研究线性映射或线性变换，无限维线性空间的情形远比有限维线性空间的情形要难得多，也常会出现对于有限维线性空间成立的结论但是在无限维线性空间不成立的情形，例如，要证明无限维线性空间上的线性变换是自同构，只能按照定义证明它既是单映射又是满映射，而不能像有限维上只证明是单或者满</p></div>
 <h3 id="17-设-v-是实系数多项式全体组成的实线性空间定义v上的变换ds如下">17. 设 $V$ 是实系数多项式全体组成的实线性空间，定义$V$上的变换$D,S$如下:<a hidden class="anchor" aria-hidden="true" href="#17-设-v-是实系数多项式全体组成的实线性空间定义v上的变换ds如下">#</a></h3>
 <p>$$
 D(f(x)) = \frac{\mathrm{d}}{\mathrm{d}x}f(x), S(f(x)) = \int_{0}^{x} f(t) dt.
@@ -412,10 +515,16 @@ $$
 <p>(1) 证明: $\psi$和$\Psi$都是可逆变换的充要条件是$\psi \Psi$和$\Psi \psi$ 都是可逆变换;
 (2) 若 $\Psi \psi = I_{V}$，则称$\Psi$ 是 $\psi$ 的<strong>左逆变换</strong>，$\psi$ 是 $\Psi$ 的<strong>右逆变换</strong>. 证明: $\psi$ 是可逆变换的充要条件是$\psi$有且仅有一个左逆变换(右逆变换)</p>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>注: 用例4.18 的结论来看例 4.17，就能发现$D$，之所以不是可逆变换，是因为它的右逆变换除了 $S$ 之外，还有无穷多个.</p></div>
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注: 用例4.18 的结论来看例 4.17，就能发现$D$，之所以不是可逆变换，是因为它的右逆变换除了 $S$ 之外，还有无穷多个.</p></div>
 <h3 id="19-试着构造无限维线性空间-v-以及v上的线性变换psi-psi使得psi-psi---psi-psi--i_v">19. 试着构造无限维线性空间 $V$ 以及$V$上的线性变换，$\psi, \Psi$，使得$\psi \Psi - \Psi \psi = I_{V}$.<a hidden class="anchor" aria-hidden="true" href="#19-试着构造无限维线性空间-v-以及v上的线性变换psi-psi使得psi-psi---psi-psi--i_v">#</a></h3>
 <div class="notice tip" >
-<p class="first notice-title"><span class="icon-notice baseline"><svg><use href="#tip-notice"></use></svg></span>小老弟，看我手指这是几🖖</p><p>注: 事实上，满足上述性质的线性变换$\psi \Psi$绝不可能存在于有限维线性空间 $V$ 上. 若存在，取 $V$ 的一组基并设$\psi \Psi$的表示矩阵为$A,B$，则有 $AB - BA = I$成立，上式两边同时取迹，可得
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注: 事实上，满足上述性质的线性变换$\psi \Psi$绝不可能存在于有限维线性空间 $V$ 上. 若存在，取 $V$ 的一组基并设$\psi \Psi$的表示矩阵为$A,B$，则有 $AB - BA = I$成立，上式两边同时取迹，可得
 $$
 0 = tr(AB - BA) = tr(I) = dimV,
 $$
@@ -509,21 +618,8 @@ $$
     </li>
 </ul>
 
-  </footer><script src="https://giscus.app/client.js"
-        data-repo="GWblog/GWblog.github.io"
-        data-repo-id="R_kgDOLNZqMw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOLNZqM84CdPfR"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
+  </footer>
+
 </article>
     </main>
     
@@ -750,7 +846,8 @@ code.has-jax {
     }
     setInterval("createtime()",250); 
 </script> 
+
+
 </body>
 
 </html>
-
