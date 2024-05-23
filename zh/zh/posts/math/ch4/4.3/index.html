@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>4.3 线性同构 | 避风港</title>
-<meta name="keywords" content="线性同构">
+<meta name="keywords" content="线性同构, math">
 <meta name="description" content="4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.c6205b082dab468bee3051e49fc2027e2df9483a2c27da31494bb5d614536ffe.css" integrity="" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.af6b0b973ea9519642d7e3dbbf40e2d44cdbdeff45dc9bf69abe4d6d40a7fbb0.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="32x32" href="https://GWblog.github.io/images/fav.jpg">
@@ -109,7 +109,7 @@
   "name": "4.3 线性同构",
   "description": "4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映",
   "keywords": [
-    "线性同构"
+    "线性同构", "math"
   ],
   "articleBody": "4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映射 $\\psi : V \\rightarrow U$ 是线性同构，通常一方面要验证$\\psi$是单射(或者等价证明 $Ker \\psi = 0$)，另一方面需要证明$\\psi $是满映射(或者等价证明$ Im \\psi = U $). 但若已知前后两个空间维数相等，则由线性映射的维数公式容易证明，$\\psi$ 是线性同构当且仅当$\\psi $是单映射，也当且仅当$\\psi $是满映射，从而只需要验证$\\psi$ 是单射或者满射即可得到$\\psi$是线性同构，在§3.4节中我们已经看过了线性同构的一些例子和应用，下面是一些典型例题\n10. 设 $ a_{0}, a_{1}, \\cdots, a_{n}$是数域 $\\mathbb{F}$中$n+1$个不同的数，$V$是$\\mathbb{F}$上次数不超过n的多项式全体组成的线性空间，设$\\psi$是$V$到$n+1$维行向量空间$U$的映射: $$ \\psi (f)= (f(a_{0}), f(a_{1}), \\cdots, f(a_{n}) ), $$ 求证: $\\psi$是线性同构\n11. (Lagrange插值公式) 设 $ a_{0}, a_{1}, \\cdots, a_{n}$是数域 $\\mathbb{F}$中$n+1$个不同的数， $ b_{0}, b_{1}, \\cdots, b_{n}$是数域 $\\mathbb{F}$中$n+1$个任意的数，求证: 必定存在$\\mathbb{F}$上的次数不超过n的多项式$f(x)$，使得$f(a_{i} = b_{i})(0 \\le i \\le n)$，并将$f(x)$构造出来\n小老弟，看我手指这是几🖖\n要证明某个有限维线性空间$V$上的线性变换$ \\psi$是自同构(可逆线性变换)，通常有三种方法. 一是可以尝试直接构造出$\\psi$的逆变换. 二是证明$\\psi$是单映射或是满映射(两者满足其一即可). 三是用矩阵方法，即选取$V$的一组基，设$\\psi$在这组基下的表示矩阵为$A$，设法证明$A$是可逆矩阵\n下面是几个典型例子\n12. 设$\\psi$是数域$\\mathbb{F}$上的线性空间$V$上的线性变换，若存在正整数$n$以及 $a_{1}, a_{2}, ,\\cdots a_{n} \\in \\mathbb{F}$，使得 $$ \\psi^{n} + a_{1}\\psi^{n-1} + \\cdots + a_{n-1}\\psi + a_{n}I_{V} = 0 $$ 其中 $I_{V}$ 表示恒等变换，并且 $ a_{n} \\ne 0$，求证: $\\psi$ 是$V$上的自同构.\n13. 设$\\psi$是n维线性空间$V$上的线性变换，证明: $\\psi$ 是可逆变换的充要条件是$\\psi$将$V$ 的基变为基 14. 设 $U_{1}, U_{2}$ 是n维线性空间 $V$ 的子空间，假设它们维数相等. 求证: 存在 $V$上的可逆线性变换 $\\psi$ ，使得 $U_{2} = \\psi(U_{1})$ 15. 设 $\\psi$ 是n维线性空间 $V$ 上的线性变换，若对 $V$ 中任意向量 $\\alpha $，总存在正整数 $m$(m 可能与 $\\alpha$ 有关)，使得 $\\psi^{m} = 0$. 求证: $I_{V} - \\psi$ 是自同构 16. 设 $ V = M_{n}(\\mathbb{F})$ 是数域 $\\mathbb{F}$ 上n阶矩阵全体组成的线性空间，$ A, B $是两个n阶矩阵，定义 $V$ 上的变换: $\\psi(X) = AXB $. 求证: $\\psi $是$V$上的线性变换，$\\psi$是可逆变换的充要条件是 $A$ 和 $B$ 都是可逆矩阵 小老弟，看我手指这是几🖖\n对于无限维线性空间之间的线性映射，我们没有定义表示矩阵这一概念，也没有维数公式等结论，因此研究线性映射或线性变换，无限维线性空间的情形远比有限维线性空间的情形要难得多，也常会出现对于有限维线性空间成立的结论但是在无限维线性空间不成立的情形，例如，要证明无限维线性空间上的线性变换是自同构，只能按照定义证明它既是单映射又是满映射，而不能像有限维上只证明是单或者满\n17. 设 $V$ 是实系数多项式全体组成的实线性空间，定义$V$上的变换$D,S$如下: $$ D(f(x)) = \\frac{\\mathrm{d}}{\\mathrm{d}x}f(x), S(f(x)) = \\int_{0}^{x} f(t) dt. $$ 证明: $D,S$ 均为$V$上的线性变换且$DS = I_{V}$，但 $SD \\ne I_{V}$.\n下面的命题对于有限维线性空间上的线性变换显然是成立的\n18. 设 $V$ 是 $\\mathbb{K}$ 上无限维线性空间，$\\psi, \\Psi$ 是$V$ 上的线性变换. (1) 证明: $\\psi$和$\\Psi$都是可逆变换的充要条件是$\\psi \\Psi$和$\\Psi \\psi$ 都是可逆变换; (2) 若 $\\Psi \\psi = I_{V}$，则称$\\Psi$ 是 $\\psi$ 的左逆变换，$\\psi$ 是 $\\Psi$ 的右逆变换. 证明: $\\psi$ 是可逆变换的充要条件是$\\psi$有且仅有一个左逆变换(右逆变换)\n小老弟，看我手指这是几🖖\n注: 用例4.18 的结论来看例 4.17，就能发现$D$，之所以不是可逆变换，是因为它的右逆变换除了 $S$ 之外，还有无穷多个.\n19. 试着构造无限维线性空间 $V$ 以及$V$上的线性变换，$\\psi, \\Psi$，使得$\\psi \\Psi - \\Psi \\psi = I_{V}$. 小老弟，看我手指这是几🖖\n注: 事实上，满足上述性质的线性变换$\\psi \\Psi$绝不可能存在于有限维线性空间 $V$ 上. 若存在，取 $V$ 的一组基并设$\\psi \\Psi$的表示矩阵为$A,B$，则有 $AB - BA = I$成立，上式两边同时取迹，可得 $$ 0 = tr(AB - BA) = tr(I) = dimV, $$ 导出矛盾. 上述三个例题从一个侧面反映了无限维线性空间和有限维线性空间之间的巨大差异，虽然俺们不打算深入探究这个问题，但仍然提醒读者在学习过程中加以注意\n",
   "wordCount" : "1899",
@@ -234,6 +234,11 @@
                 </a>
             </li>
             <li>
+                <a href="https://GWblog.github.io/zh/random" title="🫰逛街">
+                    <span>🫰逛街</span>
+                </a>
+            </li>
+            <li>
                 <a href="https://GWblog.github.io/zh/talk" title="🤡">
                     <span>🤡</span>
                 </a>
@@ -242,7 +247,7 @@
     </nav>
 </header>
 
-<main class="main">
+<a href="/random/">Random Page</a><main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -536,6 +541,7 @@ $$
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E5%90%8C%E6%9E%84/">线性同构</a></li>
+      <li><a href="https://GWblog.github.io/zh/tags/math/">math</a></li>
     </ul>
 <nav class="paginav">
   <a class="prev" href="https://GWblog.github.io/zh/zh/posts/math/ch4/4.5/">
@@ -554,7 +560,7 @@ $$
 <ul class="share-buttons">
     <li>
         <a target="_blank" rel="noopener noreferrer" aria-label="share 4.3 线性同构 on x"
-            href="https://x.com/intent/tweet/?text=4.3%20%e7%ba%bf%e6%80%a7%e5%90%8c%e6%9e%84&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch4%2f4.3%2f&amp;hashtags=%e7%ba%bf%e6%80%a7%e5%90%8c%e6%9e%84">
+            href="https://x.com/intent/tweet/?text=4.3%20%e7%ba%bf%e6%80%a7%e5%90%8c%e6%9e%84&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch4%2f4.3%2f&amp;hashtags=%e7%ba%bf%e6%80%a7%e5%90%8c%e6%9e%84%2cmath">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
@@ -848,6 +854,7 @@ code.has-jax {
 </script> 
 
 
-</body>
+
+<script defer crossorigin="anonymous" src="/js/random_image.min.js"></script></body>
 
 </html>
