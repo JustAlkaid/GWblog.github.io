@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>抽卡 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E6%8A%BD%E5%8D%A1/</link>
+    <description>Recent content in 抽卡 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 15 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E6%8A%BD%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>抽卡</title>
+      <link>https://GWblog.github.io/zh/posts/chouka/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/chouka/</guid>
+      <description>很显然这是一篇关于我在游戏中的抽卡记录 虽然这是一次炫耀的记录，但是也算是一种memory 鸣潮wuthering waver 1 2 3 4 5 6 7 8 9 10 11 12 13 14</description>
+    </item>
+    <item>
+      <title>抽卡</title>
+      <link>https://GWblog.github.io/zh/zh/posts/chouka/</link>
+      <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/chouka/</guid>
+      <description>很显然这是一篇关于我在游戏中的抽卡记录 虽然这是一次炫耀的记录，但是也算是一种memory 鸣潮wuthering waver 1 2 3 4 5 6 7 8 9 10 11 12 13 14</description>
+    </item>
+  </channel>
+</rss>
