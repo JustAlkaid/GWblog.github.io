@@ -84,6 +84,27 @@
   ]
 }
 </script>
+<style>
+    .gallery-photos{width:100%;}
+    .gallery-photo{width:24.9%;position: relative;visibility: hidden;overflow: hidden;}
+    .gallery-photo.visible{visibility: visible;animation: fadeIn 2s;}
+    .gallery-photo img{display: block;width:100%;border-radius:0;padding:4px;animation: fadeIn 1s;cursor: pointer;transition: all .4s ease-in-out;}
+    .gallery-photo span.photo-title,.gallery-photo span.photo-time{background: rgba(0, 0, 0, 0.3);padding:0px 8px;font-size:0.9rem;color: #fff;display:none;animation: fadeIn 1s;}
+    .gallery-photo span.photo-title{position:absolute;bottom:4px;left:4px;}
+    .gallery-photo span.photo-time{position:absolute;top:4px;left:4px;font-size:0.8rem;}
+    .gallery-photo:hover span.photo-title{display:block;}
+    .gallery-photo:hover img{transform: scale(1.1);}
+    @media screen and (max-width: 1800px) {
+      .gallery-photo{width:33.3%;}
+    }
+    @media screen and (max-width: 860px) {
+      .gallery-photo{width:49.9%;}
+    }
+    @keyframes fadeIn{
+      0% {opacity: 0;}
+       100% {opacity: 1;}
+    }
+    </style>
 </head>
 
 <body class="list" id="top">
@@ -264,6 +285,15 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">抽卡
+    </h2>
+  </header>
+  <footer class="entry-footer"><span title='2023-07-15 00:00:00 +0000 UTC'>2023-07-15</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;298 字&nbsp;·&nbsp;G.W</footer>
+  <a class="entry-link" aria-label="post link to 抽卡" href="https://GWblog.github.io/zh/zh/posts/chouka/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">
     </h2>
   </header>
@@ -323,15 +353,6 @@
   </header>
   <footer class="entry-footer">2 分钟&nbsp;·&nbsp;815 字&nbsp;·&nbsp;G.W</footer>
   <a class="entry-link" aria-label="post link to 2.7 矩阵的迹" href="https://GWblog.github.io/zh/zh/posts/math/ch2/2.7/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">2.8 矩阵乘法与行列式的关系
-    </h2>
-  </header>
-  <footer class="entry-footer">1 分钟&nbsp;·&nbsp;406 字&nbsp;·&nbsp;G.W</footer>
-  <a class="entry-link" aria-label="post link to 2.8 矩阵乘法与行列式的关系" href="https://GWblog.github.io/zh/zh/posts/math/ch2/2.8/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
@@ -523,6 +544,62 @@ code.has-jax {
 
 
 
-<script defer crossorigin="anonymous" src="/js/random_image.min.js"></script></body>
+<script defer crossorigin="anonymous" src="/js/random_image.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+
+
+<script src="https://immmmm.com/waterfall.min.js"></script>
+<script src="https://immmmm.com/imgStatus.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+var photosAll = document.getElementsByTagName('gallery') || '';
+if(photosAll){
+  for(var i=0;i < photosAll.length;i++){
+    photosAll[i].innerHTML = '<div class="gallery-photos">'+photosAll[i].innerHTML+'</div>'
+    var photosIMG = photosAll[i].getElementsByTagName('img')
+    for(var j=0;j < photosIMG.length;j++){
+      wrap(photosIMG[j], document.createElement('div'));
+    }
+  }
+}
+function wrap(el, wrapper) {
+  wrapper.className = "gallery-photo";
+  el.parentNode.insertBefore(wrapper, el);
+  wrapper.appendChild(el);
+}
+
+let galleryPhotos = document.querySelectorAll('.gallery-photos') || ''
+if(galleryPhotos){
+  imgStatus.watch('.gallery-photo img', function(imgs) {
+    if(imgs.isDone()){
+      for(var i=0;i < galleryPhotos.length;i++){
+        waterfall(galleryPhotos[i]);
+        let pagePhoto = galleryPhotos[i].querySelectorAll('.gallery-photo');
+        for(var j=0;j < pagePhoto.length;j++){pagePhoto[j].className += " visible"};
+      }
+    }
+  });
+  window.addEventListener('resize', function () {
+    for(var i=0;i < galleryPhotos.length;i++){
+      waterfall(galleryPhotos[i]);
+    }
+  });
+}
+});
+</script>
+
+<script src="https://immmmm.com/view-image.js"></script>
+<script src="https://immmmm.com/lately.min.js"></script>
+<script>
+  window.Lately && Lately.init({ target: '.photo-time'});
+  window.ViewImage && ViewImage.init('.gallery-photo img')
+</script>
+
+</body>
 
 </html>
