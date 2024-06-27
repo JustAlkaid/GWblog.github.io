@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
@@ -43,6 +43,34 @@ A funny guy</description>
       <guid>https://GWblog.github.io/zh/zh/friends/</guid>
       <description>Tony
 A funny guy</description>
+    </item>
+    <item>
+      <title>6.3  乘法交换性诱导的同时性质 </title>
+      <link>https://GWblog.github.io/zh/posts/math/ch6/6.3/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.3/</guid>
+      <description>6.3 乘法交换性诱导的同时性质 矩阵乘法和线性交换的乘法运算一般没有交换性，这会触发很多与数的乘法运算不一样的性质和现象，因此矩阵和线性变换的不可</description>
+    </item>
+    <item>
+      <title>6.3  乘法交换性诱导的同时性质 </title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch6/6.3/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch6/6.3/</guid>
+      <description>6.3 乘法交换性诱导的同时性质 矩阵乘法和线性交换的乘法运算一般没有交换性，这会触发很多与数的乘法运算不一样的性质和现象，因此矩阵和线性变换的不可</description>
+    </item>
+    <item>
+      <title> An Epsilon of Room, : Real Analysis</title>
+      <link>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</guid>
+      <description>real anaylsis 1.1 A quick review of measure and integration theory 在本节中，我们快速回顾抽象测度论和积分理论的基础知识，这些基础知识在上一课程中已介绍过，但在当前课程中当然会依赖这些基</description>
+    </item>
+    <item>
+      <title> An Epsilon of Room, : Real Analysis</title>
+      <link>https://GWblog.github.io/zh/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</guid>
+      <description>real anaylsis 1.1 A quick review of measure and integration theory 在本节中，我们快速回顾抽象测度论和积分理论的基础知识，这些基础知识在上一课程中已介绍过，但在当前课程中当然会依赖这些基</description>
     </item>
     <item>
       <title>python_learn</title>
@@ -351,20 +379,6 @@ A funny guy</description>
       <pubDate>Sat, 15 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/chouka/</guid>
       <description>很显然这是一篇关于我在游戏中的抽卡记录 虽然这是一次炫耀的记录，但是也算是一种memory 鸣潮wuthering waver 1 2 3 4 5 6 7 8 9 10 11 12 13 14</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</guid>
-      <description>12345ffxv</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://GWblog.github.io/zh/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</guid>
-      <description>12345ffxv</description>
     </item>
     <item>
       <title>122</title>
