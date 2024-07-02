@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/posts/math/ch6/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>6.3  乘法交换性诱导的同时性质 </title>
+      <title>6.4  乘法交换性诱导的同时性质 </title>
       <link>https://GWblog.github.io/zh/posts/math/ch6/6.3/</link>
-      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/math/ch6/6.3/</guid>
       <description>6.3 乘法交换性诱导的同时性质 矩阵乘法和线性交换的乘法运算一般没有交换性，这会触发很多与数的乘法运算不一样的性质和现象，因此矩阵和线性变换的不可</description>
+    </item>
+    <item>
+      <title>6.4  矩阵相似和可对角化的计算 </title>
+      <link>https://GWblog.github.io/zh/posts/math/ch6/6.4/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.4/</guid>
+      <description>6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 1. 相似初等变换及其应用 利用相似初等变换来讨论矩阵的相似问</description>
     </item>
     <item>
       <title>6.2  特征值与特征向量</title>
