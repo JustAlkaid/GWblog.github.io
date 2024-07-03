@@ -22,10 +22,17 @@
     </item>
     <item>
       <title>6.4  矩阵相似和可对角化的计算 </title>
+      <link>https://GWblog.github.io/zh/posts/math/ch6/6.5/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.5/</guid>
+      <description>6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初</description>
+    </item>
+    <item>
+      <title>6.5 可对角化的判定(1) </title>
       <link>https://GWblog.github.io/zh/posts/math/ch6/6.4/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/math/ch6/6.4/</guid>
-      <description>6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 1. 相似初等变换及其应用 利用相似初等变换来讨论矩阵的相似问</description>
+      <description>6.5 可对角化的判定(1) 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初等变</description>
     </item>
     <item>
       <title>6.2  特征值与特征向量</title>
