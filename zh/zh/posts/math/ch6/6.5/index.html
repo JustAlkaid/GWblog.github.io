@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>6.4  矩阵相似和可对角化的计算  | 避风港</title>
-<meta name="keywords" content="矩阵相似和可对角化">
-<meta name="description" content="6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初">
+<title>6.5 可对角化的判定(1)  | 避风港</title>
+<meta name="keywords" content="可对角化判定">
+<meta name="description" content="6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/ch6/6.5/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.360681178b41ee49e48d7c6acb463e4f7ef1b547bb774c2f6a52cca7ac25b304.css" integrity="" rel="preload stylesheet" as="style">
@@ -55,8 +55,8 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="6.4  矩阵相似和可对角化的计算 " />
-<meta property="og:description" content="6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初" />
+</noscript><meta property="og:title" content="6.5 可对角化的判定(1) " />
+<meta property="og:description" content="6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://GWblog.github.io/zh/zh/posts/math/ch6/6.5/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="article:section" content="zh" />
 <meta property="article:published_time" content="2024-06-28T00:00:00+00:00" />
@@ -65,8 +65,8 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://GWblog.github.io/images/fav.jpg"/>
 
-<meta name="twitter:title" content="6.4  矩阵相似和可对角化的计算 "/>
-<meta name="twitter:description" content="6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初"/>
+<meta name="twitter:title" content="6.5 可对角化的判定(1) "/>
+<meta name="twitter:description" content="6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难"/>
 
 
 <script type="application/ld+json">
@@ -95,7 +95,7 @@
     {
       "@type": "ListItem",
       "position":  4 ,
-      "name": "6.4  矩阵相似和可对角化的计算 ",
+      "name": "6.5 可对角化的判定(1) ",
       "item": "https://GWblog.github.io/zh/zh/posts/math/ch6/6.5/"
     }
   ]
@@ -105,14 +105,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "6.4  矩阵相似和可对角化的计算 ",
-  "name": "6.4  矩阵相似和可对角化的计算 ",
-  "description": "6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初",
+  "headline": "6.5 可对角化的判定(1) ",
+  "name": "6.5 可对角化的判定(1) ",
+  "description": "6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难",
   "keywords": [
-    "矩阵相似和可对角化"
+    "可对角化判定"
   ],
-  "articleBody": " 6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法\n(本节彩蛋，例题6.54 Fibonacci数列)\n1. 相似初等变换及其应用 利用相似初等变换来讨论矩阵的相似问题是最常用的方法之一 . 设 $A$ 为 $n$ 阶矩阵，容易验证以下三种变换都是相似变换，称为相似初等变换：\n(1) 对换 $A$ 的第 $i$ 行和第 $j$ 行，再对换 $A$ 的第 $i$ 列和第 $j$ 列;\n(2) 将 $A$ 的第 $i$ 行乘以某个非零常数 $c$ ，再将第 $i$ 列乘以 $c^{-1}$;\n(3) 将 $A$ 的第 $i$ 行乘以某个非零常数 $c$ 加到第 $j$ 行，再将第 $j$ 列乘以 $-c$ 加到第 $i$ 列上;\n设 $A$ 是具有相同的行列分块方式的分块矩阵，容易验证以下三种变换都是相似变换，我们称为相似分块初等变换\n(1) 对换 $A$ 的第 $i$ 分块行和第 $j$ 分块行，再对换 $A$ 的第 $i$ 分块列和第 $j$ 分块列;\n(2) 将 $A$ 的第 $i$ 分块行左乘以某个非异阵 $M$ ，再将第 $i$ 分块列右乘以 $M^{-1}$;\n(3) 将 $A$ 的第 $i$ 分块行左乘以某个非异阵 $M$ 加到第 $j$ 行，再将第 $j$ 分块列右乘 $-M$ 加到第 $i$ 分块列上;\n容易验证：任意相似变换都是若干次相似初等变换的复合。下面我们给出相似初等变换应用的两个典型例题\n6.46 设 $A = diag{A_{1},A_{2},…,A_{m}}$ 是分块对角阵，其中 $A_{i}$ 都是方阵，求证： $A = diag{A_{1},A_{2},…,A_{m}}$ 相似于 $A = diag{A_{i1},A_i{2},…,A_{im}}$ ，其中 $A_{i1},A_i{2},…,A_{im}$ 是 $A_{1},A_{2},…,A_{m}$ 的某个排列 6.47 设 $n$ 阶方阵 $A,B$ 满足 $r(ABA) = r(B)$ ，求证：$AB$ 与 $BA$ 相似 利用相似不变量来判定矩阵不相似 相似的矩阵有相似的迹，行列式，特征多项式和极小多项式等，故他们北辰为矩阵相似关系下的相似不变量，因此如果两个矩阵的相似不变量不相同，则它们不相似\n6.48 设 $A,B$ 为 $n$ 阶方阵，求证：$AB - BA$ 必不相似于 $kI_{n}$ ，其中 $k$ 是非零常数 6.49 设 $A,B$ 为 $n$ 阶正交阵，且线性方程组 $(A + B)x = 0$ 的解空间维数是奇数，，求证：$A$ 和 $B$ 必定不相似 3. 过度矩阵 $P$ 的计算 首先我们来介绍一下，当矩阵相似于对角矩阵的时候求过度矩阵的方法，设 $n$ 阶矩阵 $A$ 的特征值 $λ_{1},λ_{2},\\dots,λ_{n}$ ，可逆矩阵 $P = {α_{1},α_{2},\\dots,α_{n}}$ 为其分块列，且\n$$ P^{-1}AP = diag{λ_{1},λ_{2},\\dots,λ_{n}}, $$\n则\n$$ AP = P diag{λ_{1},λ_{2},\\dots,λ_{n}}, $$\n即\n$$ (Aα_{1},Aα_{2},\\dots,Aα_{n}) = (λ_{1}α_{1},λ_{2}α_{2},\\dots,λ_{n}α_{n}) $$\n于是就有 $Aα_{i} = λ_{i}α_{i}$ ，这表明 $α_{i}$ 就是属于特征值 $λ_{i}$ 的特征向量。因此 $P$ 的 $n$ 个列向量是 $A$ 的 $n$ 个线性无关的特征向量。注意：因为特征向量不唯一，所以过度矩阵 $P$ 也不唯一。另外，$P$ 的第 $i$ 个列向量对应于 $A$ 的第 $i$ 个特征值，下面看例题\n6.50 设三阶矩阵 $A$ 的特征值为 $1,1,4$ ，对应的特征向量依次为 $$ (2,1,0)’, (-1,0,1)’, (0,1,1)’ $$ 求矩阵 $A$\n4. 可对角化判定的计算 6.51 已知矩阵 $$A = \\begin{pmatrix} 1 \u0026 -1 \u0026 1\\\\ 2 \u0026 x \u0026 2\\\\ -3 \u0026 -3 \u0026 y \\end{pmatrix} ,\nB = \\begin{pmatrix} 2 \u0026 0 \u0026 0\\\\ 0 \u0026 2 \u0026 02\\\\ 0 \u0026 0 \u0026 z \\end{pmatrix} $$ 相似。\n（1）求 $x,y,z$ 的值；\n（2）求一个满足 $P^{-1}AP = B$ 可逆矩阵 $P$\n6.52 设 $A = \\begin{pmatrix} 3 \u0026 2 \u0026 -2\\\\ -k \u0026 -1 \u0026 k\\\\ 4 \u0026 2 \u0026 -3 \\end{pmatrix}$ ，当 $k$ 为何值时，存在可逆矩阵 $P$ ，使得 $P^{-1}AP$ 是对角矩阵，并求出 $P$ 和对角矩阵\n可对角化矩阵的应用 6.53 设矩阵 $A = \\begin{pmatrix} 1 \u0026 -1 \u0026 1\\\\ 2 \u0026 4 \u0026 2\\\\ -3 \u0026 -3 \u0026 5 \\end{pmatrix}$ ，求 $A^{n}$\n6.54 下列数列成为==称为$Fibonacci$数列 $$ a_{0} = 0, a_{1} = 1, a_{2} = 1, a_{3} = 2, … $$\n用递推式表示为 $a_{n+2} = a_{n+1} + a_{n}$，试求 $Fiboinacci$ 数列通项的显式\n小老弟，看我手指这是几🖖\n注意： 本例为求用递推式定义的数列通项提供发了一个一般性方法，在例题 1.14 中，我们技巧性求出了一类递推式的通项\n$$ D_{n} = aD_{n-1} - bcD_{n-2}, D_{1} = a , D_{2} = a^{2} -bc $$\n现在请大家用刚讲的方法来自己做一遍\n",
-  "wordCount" : "1541",
+  "articleBody": " 6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难点和热点. 判定 $n$ 阶复矩阵 $A$ (或 $n$ 维复线性空间 $V$ 上的线性变换 $φ$ )是否可对角化，通常有以下$7$种方法：\n（1）$A$ 可对角化的充要条件是 $A$ 有 $n$ 个线性无关的特征向量\n（2）若 $A$ 有 $n$ 个不同的特征值，则 $A$ 可对角化\n（3）$A$ 可对角化的充要条件是 $\\mathbb{C}^{n}$ 是 $A$ 的特征子空间的直和\n（4）$A$ 可对角化的充要条件是 $A$ 有完全的特征向量系，即对 $A$ 的任一特征值，其几何重数等于其代数重数\n（5）$A$ 可对角化的充要条件是 $A$ 的极小多项式无重根\n（6）$A$ 可对角化的充要条件是 $A$ 的 $Jordan$ 块都是一阶的(或者 $A$ 的初等因子都是一次多项式)\n（7）若 $A$ 相似于实对称矩阵或复对称矩阵，则 $A$ 可对角化.\n上述的第五、六种方法将在 $\\S 7.5$ 节进行讨论。另外例题7.42 也是可对角化判定准则的一个补充；第七种方法将放在 $§ 9.7$ 节的第4部分进行讨论；本节主要阐述可对角化判定的前$4$种方法.\n小老弟，看我手指这是几🖖\n注意：若要考虑数域 $\\mathbb{F}$ 上的 $n$ 阶矩阵(或 $\\mathbb{F}$ 上的 $n$ 维线性空间 $V$ 线性变换 $φ$) 在 $\\mathbb{F}$ 上的可对角化问题，那么首先需要验证 $A(或 φ )$ 的特征值都在 $\\mathbb{F}$ 中，否则由可对角化的定义可知， $A(或 φ )$ 在 $\\mathbb{F}$ 上必不可对角化. 若假设 $A(或 φ )$ 的特征值都在 $\\mathbb{F}$ 中，则 $A(或 φ )$ 在 $\\mathbb{F}$ 上的可对角化准则也是上述前六种方法. 因此，为了突出重点，本节总是在复数域 $\\mathbb{C}$ 上考虑可对角化问题. 请读者自行将某些例题推广到数域 $\\mathbb{F}$ 的情形.\n(本节彩蛋，例题6.54 Fibonacci数列)\n1. 方法一：有 $n$ 个线性无关的特征向量 寻找 $A$ 的 $n$ 个线性无关的特征向量，等价于寻找 $n$ 阶可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵，下面来看两个典型例题\n6.55 求证：复数域上的 $n$ 阶循环矩阵 $$ A = \\begin{pmatrix} a_{1} \u0026 a_{2} \u0026 a_{3} \u0026 … \u0026 a_{n} \\\\ a_{n} \u0026 a_{1} \u0026 a_{2} \u0026 … \u0026 a_{n-1} \\\\ ⋮ \u0026 ⋮ \u0026 ⋮ \u0026 \u0026 ⋮ \\\\ a_{2} \u0026 a_{3} \u0026 a_{4} \u0026 … \u0026 a_{1} \\end{pmatrix} $$ 可对角化，并求出它相似的对角阵及过度矩阵\n6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵 $\\begin{pmatrix} A \u0026 A^{2}\\\\ A^{2} \u0026 A \\end{pmatrix}$ 也可对角化\n小老弟，看我手指这是几🖖\n在例题6.14种，$M_{n}(\\mathbb{F})$ 上的线性变换 $η$ 恰有 $n^{2}$ 个线性无关的特征向量，因此 $η$ 可对角化. 我们还有如下两个例题\n6.57 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AXA$ ，其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化 6.58 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AX - XA$， 其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化 2. 方法二：有 $n$ 个不同的特征值 由于属于不同特征值的特征向量线性无关，故若 $A$ 有 $n$ 个不同的特征值，则 $A$ 必有 $n$ 个线性无关的特征向量，从而可对角化，请注意 $A$ 有 $n$ 个不同的特征值只是可对角化的充分条件，而非必要条件(也就是说可对角化的矩阵不一定有 $n$ 个不同的特征值). 不过在做题的过程中，这个判定方法还是很有用的，比如在例题6.34中，当 $0 \u003c s ≤ 1 或 s ≥ 0$ 时，$n$ 阶矩阵 $A(s)$ 有 $n$ 个不同的特征值，从而可对角化，我们再来看几个典型例题\n",
+  "wordCount" : "1263",
   "inLanguage": "zh",
   "datePublished": "2024-06-28T00:00:00Z",
   "dateModified": "2024-06-28T00:00:00Z",
@@ -274,9 +274,9 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      6.4  矩阵相似和可对角化的计算 
+      6.5 可对角化的判定(1) 
     </h1>
-    <div class="post-meta"><span title='2024-06-28 00:00:00 +0000 UTC'>2024-06-28</span>&nbsp;·&nbsp;4 分钟&nbsp;·&nbsp;1541 字&nbsp;·&nbsp;G.W
+    <div class="post-meta"><span title='2024-06-28 00:00:00 +0000 UTC'>2024-06-28</span>&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;1263 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -288,36 +288,20 @@
 
             <div class="inner"><ul>
                     <li>
-                        <a href="#64--%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e8%ae%a1%e7%ae%97" aria-label="6.4  矩阵相似和可对角化的计算">6.4  矩阵相似和可对角化的计算</a><ul>
+                        <a href="#65-%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a1" aria-label="6.5* 可对角化的判定(1)">6.5* 可对角化的判定(1)</a><ul>
                             
                     <li>
-                        <a href="#1-%e7%9b%b8%e4%bc%bc%e5%88%9d%e7%ad%89%e5%8f%98%e6%8d%a2%e5%8f%8a%e5%85%b6%e5%ba%94%e7%94%a8" aria-label="1. 相似初等变换及其应用">1. 相似初等变换及其应用</a></li>
+                        <a href="#1-%e6%96%b9%e6%b3%95%e4%b8%80%e6%9c%89-n-%e4%b8%aa%e7%ba%bf%e6%80%a7%e6%97%a0%e5%85%b3%e7%9a%84%e7%89%b9%e5%be%81%e5%90%91%e9%87%8f" aria-label="1. 方法一：有 $n$ 个线性无关的特征向量">1. 方法一：有 $n$ 个线性无关的特征向量</a></li>
                     <li>
-                        <a href="#646-%e8%ae%be-a--diaga_1a_2a_m-%e6%98%af%e5%88%86%e5%9d%97%e5%af%b9%e8%a7%92%e9%98%b5%e5%85%b6%e4%b8%ad-a_i-%e9%83%bd%e6%98%af%e6%96%b9%e9%98%b5%e6%b1%82%e8%af%81-a--diaga_1a_2a_m-%e7%9b%b8%e4%bc%bc%e4%ba%8e--a--diaga_i1a_i2a_im-%e5%85%b6%e4%b8%ad-a_i1a_i2a_im-%e6%98%af-a_1a_2a_m-%e7%9a%84%e6%9f%90%e4%b8%aa%e6%8e%92%e5%88%97" aria-label="6.46 设 $A = diag{A_{1},A_{2},…,A_{m}}$ 是分块对角阵，其中 $A_{i}$ 都是方阵，求证： $A = diag{A_{1},A_{2},…,A_{m}}$ 相似于  $A = diag{A_{i1},A_i{2},…,A_{im}}$ ，其中 $A_{i1},A_i{2},…,A_{im}$ 是 $A_{1},A_{2},…,A_{m}$ 的某个排列">6.46 设 $A = diag{A_{1},A_{2},…,A_{m}}$ 是分块对角阵，其中 $A_{i}$ 都是方阵，求证： $A = diag{A_{1},A_{2},…,A_{m}}$ 相似于  $A = diag{A_{i1},A_i{2},…,A_{im}}$ ，其中 $A_{i1},A_i{2},…,A_{im}$ 是 $A_{1},A_{2},…,A_{m}$ 的某个排列</a></li>
+                        <a href="#655-%e6%b1%82%e8%af%81%e5%a4%8d%e6%95%b0%e5%9f%9f%e4%b8%8a%e7%9a%84-n-%e9%98%b6%e5%be%aa%e7%8e%af%e7%9f%a9%e9%98%b5" aria-label="6.55 求证：复数域上的 $n$ 阶循环矩阵">6.55 求证：复数域上的 $n$ 阶循环矩阵</a></li>
                     <li>
-                        <a href="#647-%e8%ae%be-n-%e9%98%b6%e6%96%b9%e9%98%b5-ab-%e6%bb%a1%e8%b6%b3-raba--rb-%e6%b1%82%e8%af%81ab-%e4%b8%8e-ba-%e7%9b%b8%e4%bc%bc" aria-label="6.47 设 $n$ 阶方阵 $A,B$ 满足 $r(ABA) = r(B)$ ，求证：$AB$ 与 $BA$ 相似">6.47 设 $n$ 阶方阵 $A,B$ 满足 $r(ABA) = r(B)$ ，求证：$AB$ 与 $BA$ 相似</a></li>
+                        <a href="#656-%e8%ae%be-n-%e9%98%b6%e5%a4%8d%e7%9f%a9%e9%98%b5-a-%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e8%af%81%e6%98%8e%e7%9f%a9%e9%98%b5" aria-label="6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵">6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵</a></li>
                     <li>
-                        <a href="#%e5%88%a9%e7%94%a8%e7%9b%b8%e4%bc%bc%e4%b8%8d%e5%8f%98%e9%87%8f%e6%9d%a5%e5%88%a4%e5%ae%9a%e7%9f%a9%e9%98%b5%e4%b8%8d%e7%9b%b8%e4%bc%bc" aria-label="利用相似不变量来判定矩阵不相似">利用相似不变量来判定矩阵不相似</a></li>
+                        <a href="#657-%e8%ae%be-v-%e4%b8%ba-n-%e9%98%b6%e7%9f%a9%e9%98%b5%e5%85%a8%e4%bd%93%e6%9e%84%e6%88%90%e7%9a%84%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4v-%e4%b8%8a%e7%9a%84%e7%ba%bf%e6%80%a7%e5%8f%98%e6%8d%a2-%cf%86-%e5%ae%9a%e4%b9%89%e4%b8%ba-%cf%86x--axa--%e5%85%b6%e4%b8%ad-a--v-%e8%af%81%e6%98%8e%e8%8b%a5-a-%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e5%88%99-%cf%86-%e4%b9%9f%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96" aria-label="6.57 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AXA$  ，其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化">6.57 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AXA$  ，其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化</a></li>
                     <li>
-                        <a href="#648-%e8%ae%be-ab-%e4%b8%ba-n-%e9%98%b6%e6%96%b9%e9%98%b5%e6%b1%82%e8%af%81ab---ba-%e5%bf%85%e4%b8%8d%e7%9b%b8%e4%bc%bc%e4%ba%8e-ki_n-%e5%85%b6%e4%b8%ad-k-%e6%98%af%e9%9d%9e%e9%9b%b6%e5%b8%b8%e6%95%b0" aria-label="6.48 设 $A,B$ 为 $n$ 阶方阵，求证：$AB - BA$ 必不相似于 $kI_{n}$ ，其中 $k$ 是非零常数">6.48 设 $A,B$ 为 $n$ 阶方阵，求证：$AB - BA$ 必不相似于 $kI_{n}$ ，其中 $k$ 是非零常数</a></li>
+                        <a href="#658-%e8%ae%be-v-%e4%b8%ba-n-%e9%98%b6%e7%9f%a9%e9%98%b5%e5%85%a8%e4%bd%93%e6%9e%84%e6%88%90%e7%9a%84%e7%ba%bf%e6%80%a7%e7%a9%ba%e9%97%b4v-%e4%b8%8a%e7%9a%84%e7%ba%bf%e6%80%a7%e5%8f%98%e6%8d%a2-%cf%86-%e5%ae%9a%e4%b9%89%e4%b8%ba-%cf%86x--ax---xa-%e5%85%b6%e4%b8%ad-a--v-%e8%af%81%e6%98%8e%e8%8b%a5-a-%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e5%88%99-%cf%86-%e4%b9%9f%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96" aria-label="6.58 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AX - XA$， 其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化">6.58 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AX - XA$， 其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化</a></li>
                     <li>
-                        <a href="#649-%e8%ae%be-ab-%e4%b8%ba-n-%e9%98%b6%e6%ad%a3%e4%ba%a4%e9%98%b5%e4%b8%94%e7%ba%bf%e6%80%a7%e6%96%b9%e7%a8%8b%e7%bb%84-a--bx--0-%e7%9a%84%e8%a7%a3%e7%a9%ba%e9%97%b4%e7%bb%b4%e6%95%b0%e6%98%af%e5%a5%87%e6%95%b0%e6%b1%82%e8%af%81a-%e5%92%8c-b-%e5%bf%85%e5%ae%9a%e4%b8%8d%e7%9b%b8%e4%bc%bc" aria-label="6.49 设 $A,B$ 为 $n$ 阶正交阵，且线性方程组 $(A &#43; B)x = 0$ 的解空间维数是奇数，，求证：$A$ 和 $B$ 必定不相似">6.49 设 $A,B$ 为 $n$ 阶正交阵，且线性方程组 $(A + B)x = 0$ 的解空间维数是奇数，，求证：$A$ 和 $B$ 必定不相似</a></li>
-                    <li>
-                        <a href="#3-%e8%bf%87%e5%ba%a6%e7%9f%a9%e9%98%b5-p-%e7%9a%84%e8%ae%a1%e7%ae%97" aria-label="3. 过度矩阵 $P$ 的计算">3. 过度矩阵 $P$ 的计算</a></li>
-                    <li>
-                        <a href="#650-%e8%ae%be%e4%b8%89%e9%98%b6%e7%9f%a9%e9%98%b5-a-%e7%9a%84%e7%89%b9%e5%be%81%e5%80%bc%e4%b8%ba-114-%e5%af%b9%e5%ba%94%e7%9a%84%e7%89%b9%e5%be%81%e5%90%91%e9%87%8f%e4%be%9d%e6%ac%a1%e4%b8%ba" aria-label="6.50 设三阶矩阵 $A$ 的特征值为 $1,1,4$ ，对应的特征向量依次为">6.50 设三阶矩阵 $A$ 的特征值为 $1,1,4$ ，对应的特征向量依次为</a></li>
-                    <li>
-                        <a href="#4-%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e5%88%a4%e5%ae%9a%e7%9a%84%e8%ae%a1%e7%ae%97" aria-label="4. 可对角化判定的计算">4. 可对角化判定的计算</a></li>
-                    <li>
-                        <a href="#651-%e5%b7%b2%e7%9f%a5%e7%9f%a9%e9%98%b5" aria-label="6.51 已知矩阵">6.51 已知矩阵</a></li>
-                    <li>
-                        <a href="#652-%e8%ae%be" aria-label="6.52 设">6.52 设</a></li>
-                    <li>
-                        <a href="#%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9f%a9%e9%98%b5%e7%9a%84%e5%ba%94%e7%94%a8" aria-label="可对角化矩阵的应用">可对角化矩阵的应用</a></li>
-                    <li>
-                        <a href="#653-%e8%ae%be%e7%9f%a9%e9%98%b5" aria-label="6.53 设矩阵">6.53 设矩阵</a></li>
-                    <li>
-                        <a href="#654-%e4%b8%8b%e5%88%97%e6%95%b0%e5%88%97%e6%88%90%e4%b8%ba%e7%a7%b0%e4%b8%bafibonacci%e6%95%b0%e5%88%97" aria-label="6.54 下列数列成为==称为$Fibonacci$数列">6.54 下列数列成为==称为$Fibonacci$数列</a>
+                        <a href="#2-%e6%96%b9%e6%b3%95%e4%ba%8c%e6%9c%89-n-%e4%b8%aa%e4%b8%8d%e5%90%8c%e7%9a%84%e7%89%b9%e5%be%81%e5%80%bc" aria-label="2. 方法二：有 $n$ 个不同的特征值">2. 方法二：有 $n$ 个不同的特征值</a>
                     </li>
                 </ul>
                 </li>
@@ -392,97 +376,32 @@
      
      
 />
-<h2 id="64--矩阵相似和可对角化的计算">6.4  矩阵相似和可对角化的计算<a hidden class="anchor" aria-hidden="true" href="#64--矩阵相似和可对角化的计算">#</a></h2>
-<p>本节将从5个方面阐述<strong>矩阵相似和可对角化的计算</strong>相关的计算方法</p>
-<p>(本节彩蛋，例题6.54 Fibonacci数列)</p>
-<h3 id="1-相似初等变换及其应用">1. 相似初等变换及其应用<a hidden class="anchor" aria-hidden="true" href="#1-相似初等变换及其应用">#</a></h3>
-<p>利用相似初等变换来讨论矩阵的相似问题是最常用的方法之一 . 设 $A$ 为 $n$ 阶矩阵，容易验证以下三种变换都是相似变换，称为<strong>相似初等变换</strong>：</p>
+<h2 id="65-可对角化的判定1">6.5* 可对角化的判定(1)<a hidden class="anchor" aria-hidden="true" href="#65-可对角化的判定1">#</a></h2>
+<p>矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难点和热点. 判定 $n$ 阶复矩阵 $A$ (或 $n$ 维复线性空间 $V$ 上的线性变换 $φ$ )是否可对角化，通常有以下$7$种方法：</p>
 <ul>
 <li>
-<p>(1) 对换 $A$ 的第 $i$ 行和第 $j$ 行，再对换 $A$ 的第 $i$ 列和第 $j$ 列;</p>
+<p>（1）$A$ 可对角化的充要条件是 $A$ 有 $n$ 个线性无关的特征向量</p>
 </li>
 <li>
-<p>(2) 将 $A$ 的第 $i$ 行乘以某个非零常数 $c$ ，再将第 $i$ 列乘以 $c^{-1}$;</p>
+<p>（2）若 $A$ 有 $n$ 个不同的特征值，则 $A$ 可对角化</p>
 </li>
 <li>
-<p>(3) 将 $A$ 的第 $i$ 行乘以某个非零常数 $c$ 加到第 $j$ 行，再将第 $j$ 列乘以 $-c$ 加到第 $i$ 列上;</p>
+<p>（3）$A$ 可对角化的充要条件是 $\mathbb{C}^{n}$ 是 $A$ 的特征子空间的直和</p>
+</li>
+<li>
+<p>（4）$A$ 可对角化的充要条件是 $A$ 有完全的特征向量系，即对 $A$ 的任一特征值，其几何重数等于其代数重数</p>
+</li>
+<li>
+<p>（5）$A$ 可对角化的充要条件是 $A$ 的极小多项式无重根</p>
+</li>
+<li>
+<p>（6）$A$ 可对角化的充要条件是 $A$ 的 $Jordan$ 块都是一阶的(或者 $A$ 的初等因子都是一次多项式)</p>
+</li>
+<li>
+<p>（7）若 $A$ 相似于实对称矩阵或复对称矩阵，则 $A$ 可对角化.</p>
 </li>
 </ul>
-<p>设 $A$ 是具有相同的行列分块方式的分块矩阵，容易验证以下三种变换都是相似变换，我们称为<strong>相似分块初等变换</strong></p>
-<ul>
-<li>
-<p>(1) 对换 $A$ 的第 $i$ 分块行和第 $j$ 分块行，再对换 $A$ 的第 $i$ 分块列和第 $j$ 分块列;</p>
-</li>
-<li>
-<p>(2) 将 $A$ 的第 $i$ 分块行左乘以某个非异阵 $M$ ，再将第 $i$ 分块列右乘以 $M^{-1}$;</p>
-</li>
-<li>
-<p>(3) 将 $A$ 的第 $i$ 分块行左乘以某个非异阵 $M$ 加到第 $j$ 行，再将第 $j$ 分块列右乘 $-M$ 加到第 $i$ 分块列上;</p>
-</li>
-</ul>
-<p>容易验证：任意相似变换都是若干次相似初等变换的复合。下面我们给出相似初等变换应用的两个典型例题</p>
-<h3 id="646-设-a--diaga_1a_2a_m-是分块对角阵其中-a_i-都是方阵求证-a--diaga_1a_2a_m-相似于--a--diaga_i1a_i2a_im-其中-a_i1a_i2a_im-是-a_1a_2a_m-的某个排列">6.46 设 $A = diag{A_{1},A_{2},…,A_{m}}$ 是分块对角阵，其中 $A_{i}$ 都是方阵，求证： $A = diag{A_{1},A_{2},…,A_{m}}$ 相似于  $A = diag{A_{i1},A_i{2},…,A_{im}}$ ，其中 $A_{i1},A_i{2},…,A_{im}$ 是 $A_{1},A_{2},…,A_{m}$ 的某个排列<a hidden class="anchor" aria-hidden="true" href="#646-设-a--diaga_1a_2a_m-是分块对角阵其中-a_i-都是方阵求证-a--diaga_1a_2a_m-相似于--a--diaga_i1a_i2a_im-其中-a_i1a_i2a_im-是-a_1a_2a_m-的某个排列">#</a></h3>
-<h3 id="647-设-n-阶方阵-ab-满足-raba--rb-求证ab-与-ba-相似">6.47 设 $n$ 阶方阵 $A,B$ 满足 $r(ABA) = r(B)$ ，求证：$AB$ 与 $BA$ 相似<a hidden class="anchor" aria-hidden="true" href="#647-设-n-阶方阵-ab-满足-raba--rb-求证ab-与-ba-相似">#</a></h3>
-<h3 id="利用相似不变量来判定矩阵不相似">利用相似不变量来判定矩阵不相似<a hidden class="anchor" aria-hidden="true" href="#利用相似不变量来判定矩阵不相似">#</a></h3>
-<p>相似的矩阵有相似的迹，行列式，特征多项式和极小多项式等，故他们北辰为矩阵相似关系下的<strong>相似不变量</strong>，因此如果两个矩阵的相似不变量不相同，则它们不相似</p>
-<h3 id="648-设-ab-为-n-阶方阵求证ab---ba-必不相似于-ki_n-其中-k-是非零常数">6.48 设 $A,B$ 为 $n$ 阶方阵，求证：$AB - BA$ 必不相似于 $kI_{n}$ ，其中 $k$ 是非零常数<a hidden class="anchor" aria-hidden="true" href="#648-设-ab-为-n-阶方阵求证ab---ba-必不相似于-ki_n-其中-k-是非零常数">#</a></h3>
-<h3 id="649-设-ab-为-n-阶正交阵且线性方程组-a--bx--0-的解空间维数是奇数求证a-和-b-必定不相似">6.49 设 $A,B$ 为 $n$ 阶正交阵，且线性方程组 $(A + B)x = 0$ 的解空间维数是奇数，，求证：$A$ 和 $B$ 必定不相似<a hidden class="anchor" aria-hidden="true" href="#649-设-ab-为-n-阶正交阵且线性方程组-a--bx--0-的解空间维数是奇数求证a-和-b-必定不相似">#</a></h3>
-<h3 id="3-过度矩阵-p-的计算">3. 过度矩阵 $P$ 的计算<a hidden class="anchor" aria-hidden="true" href="#3-过度矩阵-p-的计算">#</a></h3>
-<p>首先我们来介绍一下，当矩阵相似于对角矩阵的时候求过度矩阵的方法，设 $n$ 阶矩阵 $A$ 的特征值 $λ_{1},λ_{2},\dots,λ_{n}$ ，可逆矩阵 $P = {α_{1},α_{2},\dots,α_{n}}$ 为其分块列，且</p>
-<p>$$
-P^{-1}AP = diag{λ_{1},λ_{2},\dots,λ_{n}},
-$$</p>
-<p>则</p>
-<p>$$
-AP = P diag{λ_{1},λ_{2},\dots,λ_{n}},
-$$</p>
-<p>即</p>
-<p>$$
-(Aα_{1},Aα_{2},\dots,Aα_{n}) = (λ_{1}α_{1},λ_{2}α_{2},\dots,λ_{n}α_{n})
-$$</p>
-<p>于是就有 $Aα_{i} = λ_{i}α_{i}$ ，这表明 $α_{i}$ 就是属于特征值 $λ_{i}$ 的特征向量。因此 $P$ 的 $n$ 个列向量是 $A$ 的 $n$ 个线性无关的特征向量。注意：因为特征向量不唯一，所以过度矩阵 $P$ 也不唯一。另外，$P$ 的第 $i$ 个列向量对应于 $A$ 的第 $i$ 个特征值，下面看例题</p>
-<h3 id="650-设三阶矩阵-a-的特征值为-114-对应的特征向量依次为">6.50 设三阶矩阵 $A$ 的特征值为 $1,1,4$ ，对应的特征向量依次为<a hidden class="anchor" aria-hidden="true" href="#650-设三阶矩阵-a-的特征值为-114-对应的特征向量依次为">#</a></h3>
-<p>$$
-(2,1,0)&rsquo;,    (-1,0,1)&rsquo;,   (0,1,1)&rsquo;
-$$
-求矩阵 $A$</p>
-<h3 id="4-可对角化判定的计算">4. 可对角化判定的计算<a hidden class="anchor" aria-hidden="true" href="#4-可对角化判定的计算">#</a></h3>
-<h3 id="651-已知矩阵">6.51 已知矩阵<a hidden class="anchor" aria-hidden="true" href="#651-已知矩阵">#</a></h3>
-<p>$$A = \begin{pmatrix}
-1 &amp; -1 &amp; 1\\
-2 &amp; x &amp; 2\\
--3 &amp; -3 &amp; y
-\end{pmatrix}
-,</p>
-<p>B = \begin{pmatrix}
-2 &amp; 0 &amp; 0\\
-0 &amp; 2 &amp; 02\\
-0 &amp; 0 &amp; z
-\end{pmatrix}
-$$
-相似。</p>
-<p>（1）求 $x,y,z$ 的值；</p>
-<p>（2）求一个满足 $P^{-1}AP = B$ 可逆矩阵 $P$</p>
-<h3 id="652-设">6.52 设<a hidden class="anchor" aria-hidden="true" href="#652-设">#</a></h3>
-<p>$A = \begin{pmatrix}
-3 &amp; 2 &amp; -2\\
--k &amp; -1 &amp; k\\
-4 &amp; 2 &amp; -3
-\end{pmatrix}$
-，当 $k$ 为何值时，存在可逆矩阵 $P$ ，使得 $P^{-1}AP$ 是对角矩阵，并求出 $P$ 和对角矩阵</p>
-<h3 id="可对角化矩阵的应用">可对角化矩阵的应用<a hidden class="anchor" aria-hidden="true" href="#可对角化矩阵的应用">#</a></h3>
-<h3 id="653-设矩阵">6.53 设矩阵<a hidden class="anchor" aria-hidden="true" href="#653-设矩阵">#</a></h3>
-<p>$A = \begin{pmatrix}
-1 &amp; -1 &amp; 1\\
-2 &amp; 4 &amp; 2\\
--3 &amp; -3 &amp; 5
-\end{pmatrix}$
-，求 $A^{n}$</p>
-<h3 id="654-下列数列成为称为fibonacci数列">6.54 下列数列成为==称为$Fibonacci$数列<a hidden class="anchor" aria-hidden="true" href="#654-下列数列成为称为fibonacci数列">#</a></h3>
-<p>$$
-a_{0} = 0, a_{1} = 1, a_{2} = 1, a_{3} = 2, …
-$$</p>
-<p>用递推式表示为 $a_{n+2} = a_{n+1} + a_{n}$，试求 $Fiboinacci$ 数列通项的显式</p>
+<p>上述的第五、六种方法将在 $\S 7.5$ 节进行讨论。另外例题7.42 也是可对角化判定准则的一个补充；第七种方法将放在 $§ 9.7$ 节的第4部分进行讨论；本节主要阐述可对角化判定的前$4$种方法.</p>
 <style type="text/css">
     .notice {
         --root-color: #444;
@@ -607,37 +526,61 @@ $$</p>
     <p class="notice-title">
         <span class="icon-notice baseline">
             
-        </span>小老弟，看我手指这是几🖖</p><p>注意： 本例为求用递推式定义的数列通项提供发了一个一般性方法，在例题 1.14 中，我们技巧性求出了一类递推式的通项</p>
+        </span>小老弟，看我手指这是几🖖</p><p>注意：若要考虑数域 $\mathbb{F}$ 上的 $n$ 阶矩阵(或  $\mathbb{F}$ 上的 $n$ 维线性空间 $V$ 线性变换 $φ$) 在 $\mathbb{F}$ 上的可对角化问题，那么首先需要验证 $A(或 φ )$ 的特征值都在 $\mathbb{F}$ 中，否则由可对角化的定义可知， $A(或 φ )$ 在 $\mathbb{F}$ 上必不可对角化. 若假设 $A(或 φ )$ 的特征值都在 $\mathbb{F}$ 中，则 $A(或 φ )$ 在 $\mathbb{F}$ 上的可对角化准则也是上述前六种方法. 因此，为了突出重点，本节总是在复数域 $\mathbb{C}$ 上考虑可对角化问题. 请读者自行将某些例题推广到数域 $\mathbb{F}$ 的情形.</p></div>
+<p>(本节彩蛋，例题6.54 Fibonacci数列)</p>
+<h3 id="1-方法一有-n-个线性无关的特征向量">1. 方法一：有 $n$ 个线性无关的特征向量<a hidden class="anchor" aria-hidden="true" href="#1-方法一有-n-个线性无关的特征向量">#</a></h3>
+<p>寻找 $A$ 的 $n$ 个线性无关的特征向量，等价于寻找 $n$ 阶可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵，下面来看两个典型例题</p>
+<h3 id="655-求证复数域上的-n-阶循环矩阵">6.55 求证：复数域上的 $n$ 阶循环矩阵<a hidden class="anchor" aria-hidden="true" href="#655-求证复数域上的-n-阶循环矩阵">#</a></h3>
 <p>$$
-D_{n} = aD_{n-1} - bcD_{n-2}, D_{1} = a , D_{2} = a^{2} -bc
-$$</p>
-<p>现在请大家用刚讲的方法来自己做一遍</p></div>
+A = \begin{pmatrix}
+a_{1} &amp; a_{2} &amp; a_{3} &amp; … &amp; a_{n} \\
+a_{n} &amp; a_{1} &amp; a_{2} &amp; … &amp; a_{n-1} \\
+⋮ &amp; ⋮ &amp; ⋮ &amp; &amp; ⋮ \\
+a_{2} &amp; a_{3} &amp; a_{4} &amp; … &amp; a_{1}
+\end{pmatrix}
+$$
+可对角化，并求出它相似的对角阵及过度矩阵</p>
+<h3 id="656-设-n-阶复矩阵-a-可对角化证明矩阵">6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵<a hidden class="anchor" aria-hidden="true" href="#656-设-n-阶复矩阵-a-可对角化证明矩阵">#</a></h3>
+<p>$\begin{pmatrix}
+A &amp; A^{2}\\
+A^{2} &amp; A
+\end{pmatrix}$
+也可对角化</p>
+<div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>在例题6.14种，$M_{n}(\mathbb{F})$ 上的线性变换 $η$ 恰有 $n^{2}$ 个线性无关的特征向量，因此 $η$ 可对角化. 我们还有如下两个例题</p></div>
+<h3 id="657-设-v-为-n-阶矩阵全体构成的线性空间v-上的线性变换-φ-定义为-φx--axa--其中-a--v-证明若-a-可对角化则-φ-也可对角化">6.57 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AXA$  ，其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化<a hidden class="anchor" aria-hidden="true" href="#657-设-v-为-n-阶矩阵全体构成的线性空间v-上的线性变换-φ-定义为-φx--axa--其中-a--v-证明若-a-可对角化则-φ-也可对角化">#</a></h3>
+<h3 id="658-设-v-为-n-阶矩阵全体构成的线性空间v-上的线性变换-φ-定义为-φx--ax---xa-其中-a--v-证明若-a-可对角化则-φ-也可对角化">6.58 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AX - XA$， 其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化<a hidden class="anchor" aria-hidden="true" href="#658-设-v-为-n-阶矩阵全体构成的线性空间v-上的线性变换-φ-定义为-φx--ax---xa-其中-a--v-证明若-a-可对角化则-φ-也可对角化">#</a></h3>
+<h3 id="2-方法二有-n-个不同的特征值">2. 方法二：有 $n$ 个不同的特征值<a hidden class="anchor" aria-hidden="true" href="#2-方法二有-n-个不同的特征值">#</a></h3>
+<p>由于属于不同特征值的特征向量线性无关，故若 $A$ 有 $n$ 个不同的特征值，则 $A$ 必有 $n$ 个线性无关的特征向量，从而可对角化，请注意 $A$ 有 $n$ 个不同的特征值只是可对角化的充分条件，而非必要条件(也就是说可对角化的矩阵不一定有 $n$ 个不同的特征值). 不过在做题的过程中，这个判定方法还是很有用的，比如在例题6.34中，当 $0 &lt; s ≤ 1 或 s ≥ 0$ 时，$n$ 阶矩阵 $A(s)$ 有 $n$ 个不同的特征值，从而可对角化，我们再来看几个典型例题</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E7%9B%B8%E4%BC%BC%E5%92%8C%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96/">矩阵相似和可对角化</a></li>
+      <li><a href="https://GWblog.github.io/zh/tags/%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96%E5%88%A4%E5%AE%9A/">可对角化判定</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://GWblog.github.io/zh/zh/posts/math/ch6/6.3/">
+  <a class="prev" href="https://GWblog.github.io/zh/zh/posts/math/ch6/6.4/">
     <span class="title">« 上一页</span>
     <br>
-    <span>6.4  乘法交换性诱导的同时性质 </span>
+    <span>6.4  矩阵相似和可对角化的计算 </span>
   </a>
-  <a class="next" href="https://GWblog.github.io/zh/zh/posts/math/ch6/6.4/">
+  <a class="next" href="https://GWblog.github.io/zh/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/">
     <span class="title">下一页 »</span>
     <br>
-    <span>6.5 可对角化的判定(1) </span>
+    <span> An Epsilon of Room, : Real Analysis</span>
   </a>
 </nav>
 
 
 <ul class="share-buttons">
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.4  矩阵相似和可对角化的计算  on x"
-            href="https://x.com/intent/tweet/?text=6.4%20%20%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e8%ae%a1%e7%ae%97%20&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&amp;hashtags=%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on x"
+            href="https://x.com/intent/tweet/?text=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&amp;hashtags=%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e5%88%a4%e5%ae%9a">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
@@ -645,8 +588,8 @@ $$</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.4  矩阵相似和可对角化的计算  on linkedin"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&amp;title=6.4%20%20%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e8%ae%a1%e7%ae%97%20&amp;summary=6.4%20%20%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e8%ae%a1%e7%ae%97%20&amp;source=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&amp;title=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&amp;summary=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&amp;source=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
@@ -654,8 +597,8 @@ $$</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.4  矩阵相似和可对角化的计算  on reddit"
-            href="https://reddit.com/submit?url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&title=6.4%20%20%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e8%ae%a1%e7%ae%97%20">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&title=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
@@ -663,7 +606,7 @@ $$</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.4  矩阵相似和可对角化的计算  on facebook"
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on facebook"
             href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
@@ -672,8 +615,8 @@ $$</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.4  矩阵相似和可对角化的计算  on whatsapp"
-            href="https://api.whatsapp.com/send?text=6.4%20%20%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e8%ae%a1%e7%ae%97%20%20-%20https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on whatsapp"
+            href="https://api.whatsapp.com/send?text=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20%20-%20https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
@@ -681,8 +624,8 @@ $$</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.4  矩阵相似和可对角化的计算  on telegram"
-            href="https://telegram.me/share/url?text=6.4%20%20%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e8%ae%a1%e7%ae%97%20&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on telegram"
+            href="https://telegram.me/share/url?text=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
@@ -690,8 +633,8 @@ $$</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.4  矩阵相似和可对角化的计算  on ycombinator"
-            href="https://news.ycombinator.com/submitlink?t=6.4%20%20%e7%9f%a9%e9%98%b5%e7%9b%b8%e4%bc%bc%e5%92%8c%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e8%ae%a1%e7%ae%97%20&u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
                 <path
