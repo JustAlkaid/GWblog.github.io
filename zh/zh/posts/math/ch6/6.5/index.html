@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>6.6 极小多项式与Cayley-Hamiltoon定理  | 避风港</title>
-<meta name="keywords" content="极小多项式, Cayley-Hamiltoon">
-<meta name="description" content="6.6 极小多项式与Cayley-Hamiltoon定理 极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例如，极">
+<title>6.5 可对角化的判定(1)  | 避风港</title>
+<meta name="keywords" content="可对角化判定">
+<meta name="description" content="6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难">
 <meta name="author" content="G.W">
 <link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/ch6/6.5/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.360681178b41ee49e48d7c6acb463e4f7ef1b547bb774c2f6a52cca7ac25b304.css" integrity="" rel="preload stylesheet" as="style">
@@ -55,18 +55,18 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="6.6 极小多项式与Cayley-Hamiltoon定理 " />
-<meta property="og:description" content="6.6 极小多项式与Cayley-Hamiltoon定理 极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例如，极" />
+</noscript><meta property="og:title" content="6.5 可对角化的判定(1) " />
+<meta property="og:description" content="6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://GWblog.github.io/zh/zh/posts/math/ch6/6.5/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="article:section" content="zh" />
-<meta property="article:published_time" content="2024-07-08T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-07-08T00:00:00+00:00" /><meta property="og:site_name" content="避风港 Haven" />
+<meta property="article:published_time" content="2024-06-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-06-28T00:00:00+00:00" /><meta property="og:site_name" content="避风港 Haven" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://GWblog.github.io/images/fav.jpg"/>
 
-<meta name="twitter:title" content="6.6 极小多项式与Cayley-Hamiltoon定理 "/>
-<meta name="twitter:description" content="6.6 极小多项式与Cayley-Hamiltoon定理 极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例如，极"/>
+<meta name="twitter:title" content="6.5 可对角化的判定(1) "/>
+<meta name="twitter:description" content="6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难"/>
 
 
 <script type="application/ld+json">
@@ -95,7 +95,7 @@
     {
       "@type": "ListItem",
       "position":  4 ,
-      "name": "6.6 极小多项式与Cayley-Hamiltoon定理 ",
+      "name": "6.5 可对角化的判定(1) ",
       "item": "https://GWblog.github.io/zh/zh/posts/math/ch6/6.5/"
     }
   ]
@@ -105,17 +105,17 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "6.6 极小多项式与Cayley-Hamiltoon定理 ",
-  "name": "6.6 极小多项式与Cayley-Hamiltoon定理 ",
-  "description": "6.6 极小多项式与Cayley-Hamiltoon定理 极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例如，极",
+  "headline": "6.5 可对角化的判定(1) ",
+  "name": "6.5 可对角化的判定(1) ",
+  "description": "6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难",
   "keywords": [
-    "极小多项式", "Cayley-Hamiltoon"
+    "可对角化判定"
   ],
-  "articleBody": " 6.6 极小多项式与Cayley-Hamiltoon定理 极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例如，极小多项式是矩阵或线性变换不变因子组中最大的那个不变因子，矩阵或线性变换可对角化当且仅当极小多项式无重根. 类似于代数数的极小多项式（例题5.18）矩阵或线性变换的极小多项式也要整除其适合的任一多项式，由于这一基本性质也能证明极小多项式的存在唯一性. 由于两个非零矩阵相乘可能会等于零矩阵，因此矩阵或线性变换的极小多项式可能不是不可约多项式. 而这一点和代数数的极小多项式有本质区别\n$Cayley-Hamiltoon$ 定理是高等代数最重要的定理之一，他告诉我们矩阵或线性变换必定适合它的特征多项式. 一方面，$Cayley-Hamiltoon$ 定理在矩阵或线性变换以及多项式理论之间建立了一个桥梁，使我们能够深入研究矩阵和线性变换的相似标准型理论. 另一方面，$Cayley-Hamiltoon$ 定理也是一个强有力的工具，他在很多问题的解答过程中起到了关键性作用. 由极小多项式基本性质和$Cayley-Hamiltoon$ 定理可知，矩阵或线性变换的极小多项式必整除其特征多项式. 在本节中，我们将从5个方面探讨极小多项式的性质以及$Cayley-Hamiltoon$ 定理的相关应用\n1. 极小多项式性质 6.75 求证：复数域上的 $n$ 阶循环矩阵 $$ A = \\begin{pmatrix} a_{1} \u0026 a_{2} \u0026 a_{3} \u0026 … \u0026 a_{n} \\\\ a_{n} \u0026 a_{1} \u0026 a_{2} \u0026 … \u0026 a_{n-1} \\\\ ⋮ \u0026 ⋮ \u0026 ⋮ \u0026 \u0026 ⋮ \\\\ a_{2} \u0026 a_{3} \u0026 a_{4} \u0026 … \u0026 a_{1} \\end{pmatrix} $$ 可对角化，并求出它相似的对角阵及过度矩阵\n6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵 $\\begin{pmatrix} A \u0026 A^{2}\\\\ A^{2} \u0026 A \\end{pmatrix}$ 也可对角化\n小老弟，看我手指这是几🖖\n在例题6.14种，$M_{n}(\\mathbb{F})$ 上的线性变换 $η$ 恰有 $n^{2}$ 个线性无关的特征向量，因此 $η$ 可对角化. 我们还有如下两个例题\n6.57 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AXA$ ，其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化 6.58 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AX - XA$， 其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化 2. 方法二：有 $n$ 个不同的特征值 由于属于不同特征值的特征向量线性无关，故若 $A$ 有 $n$ 个不同的特征值，则 $A$ 必有 $n$ 个线性无关的特征向量，从而可对角化，请注意 $A$ 有 $n$ 个不同的特征值只是可对角化的充分条件，而非必要条件(也就是说可对角化的矩阵不一定有 $n$ 个不同的特征值). 不过在做题的过程中，这个判定方法还是很有用的，比如在例题6.34中，当 $0 \u003c s ≤ 1 或 s ≥ 0$ 时，$n$ 阶矩阵 $A(s)$ 有 $n$ 个不同的特征值，从而可对角化，我们再来看几个典型例题\n6.59 设 $A$ 是实二阶矩阵且 $|A| \u003c 0$ ，求证：$A$ 实相似于对角阵 6.60 设 $A,B,C$ 都是 $n$ 阶矩阵，$A,B$ 各有 $n$ 个不同的特征值，又 $f(λ)$ 是 $A$ 的特征多项式，且 $f(B)$ 是可逆矩阵. 求证：矩阵 $$ M = \\begin{pmatrix} A\u0026C\\\\ O\u0026B \\end{pmatrix} $$ 相似于对角矩阵\n6.61 设 $n$ 阶矩阵 $A,B$ 有相同的特征值，且这 $n$ 个特征值互不相等，求证：存在 $n$ 阶矩阵 $P,Q$ 使得 $A = PQ, B = QP$ 6.62 设 $A,B$ 都是 $n$ 阶矩阵，$A$ 有 $n$ 个不同的特征值，并且 $AB = BA$，求证：$B$ 相似于对角阵(可以用几何代数两种角度) 6.63 设 $A,B$ 都是 $n$ 阶矩阵，$A$ 有 $n$ 个不同的特征值，并且 $AB = BA$，求证：存在次数不超过 $n-1$ 的多项式 $f(x)$ ，使得 $B = f(A)$ 小老弟，看我手指这是几🖖\n注意：若 $A$ 可对角化，则对任意的多项式 $f(x)$,我们的$f(A)$ 也可对角化. 事实上，设 $P$ 为可逆矩阵，使得 $P^{-1}AP = diag{λ_{1},λ_{2},\\dots,λ_{n}}$ 为对角矩阵，则 $P^{-1}f(A)P = f(P^{-1}AP) = diag{f(λ_{1}),f(λ_{2}),\\dots,f(λ_{n})}$ 也为对角阵，这一结论提醒我们：在处理可对角化问题时候，如能将矩阵携程可对角化矩阵的多项式，则往往讨论起来更加方便，来看例子\n6.64 设 $A$ 是 $n$ 阶复矩阵且有 $n$ 个不同的特征值，求证：$n$ 阶复矩阵 $B$ 可对角化的充要条件是存在次数不超过 $n-1$ 的多项式 $f(x)$ ，使得 $B$ 相似于 $f(A)$. 下面的推论是例题6.55的推广\n例题6.55推论 $n$ 阶复矩阵 $B$ 可对角化的充要条件是 $B$ 相似于某个循环矩阵 6.56 (新的证法) 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵 $\\begin{pmatrix} A \u0026 A^{2} \\\\ A^{2} \u0026 A \\end{pmatrix}$ 也可对角化\n6.65 设 $a,b,c$ 为复数且 $ba ≠ 0$，证明下列矩阵 $A$ 可对角化 $$ A = \\begin{pmatrix} a \u0026 b\\\\ c \u0026 a \u0026 b\\\\ \u0026 c \u0026 a \u0026 b\\\\ \u0026 \u0026 ⋱ \u0026 ⋱ \u0026 ⋱\\\\ \u0026 \u0026 \u0026 c \u0026 a \u0026 b\\\\ \u0026 \u0026 \u0026 \u0026 c \u0026 a \\end{pmatrix} $$\n3. 全空间等于特征子空间的直和 矩阵或线性变换可对角化当且仅当全空间等于特征子空间的直和这一判定准则，不仅给了我们很多几何想象的空间（如例题4.52的证法2），而且与矩阵和线性变换适合的多项式密切相关（如例题6.66），我们来看以下几道典型的例题\n6.66 设 $n$ 阶矩阵 $A$ 适合首一多项式 $g(x)$ ，并且 $g(x)$ 在复数域中无重根，证明：$A$ 可对角化 6.67 求证： （1）若 $n$ 阶矩阵 $A$ 适合 $A^{2} = I_{n}$，则 $A$ 必可对角化.\n（2）若 $n$ 阶矩阵 $A$ 适合 $A^{2} = A$，则 $A$ 必可对角化.\n小老弟，看我手指这是几🖖\n在例题6.14中，$M_{n}(\\mathbb{F})$ 上的线性变换 $η$ 满足 $η^{3} = I_{V}$，故 $η$ 可对角化\n4.52 （新的证法） 4. 有完全的特征向量系 矩阵和线性变换有完全的特征向量系，即任一特征值的代数重数等于其几何重数，也就是说特征值无线性无关的特征向量完全一一对应. 无论从计算的层面看 (如例题6.51和例题6.52)，还是从证明的层面上看，这都是一个十分实用的判定可对角化的方法，下面我们来砍几刀典型例题\n6.68 若矩阵 $A,B$ 有完全的特征向量系，求证： $ \\begin{pmatrix} A\u0026B\\\\ O\u0026B \\end{pmatrix} $ 也有完全的特征向量系\n6.69 设 $n$ 阶矩阵 $ \\begin{pmatrix} I_{r}\u0026B\\\\ O\u0026-I_{n-r} \\end{pmatrix} $ 求证： $A$ 可对角化（请用三种证法证明）\n以下是 $\\S 6.2$ 的四道例题，在那里已经计算出全部特征值，只需要在计算出几何重数即可，便可得到矩阵可对角化的充要条件，请大家自行证明\n6.6 充要条件是 $a = b = 0$ 或 $ab ≠ 0$\n6.20 $I^{n} - 2αα^{’}$ 可对角化\n6.21 $Aαβ^{’}$ 可对角化的充要条件是 $β^{’}Aα ≠ 0$ 或 $Aαβ^{’} = O$\n6.22 *****\n下面的这个例题是例题6.60和6.69的推广\n6.70 设 $m$ 阶矩阵 $A$ 与 $n$ 阶矩阵 $B$ 没有公共的特征值，且 $A,B$ 均可对角化，又 $C$ 为 $m × n$ 矩阵，求证： $M =\\begin{pmatrix} A\u0026C\\\\ O\u0026B \\end{pmatrix}$ 也可对角化\n在某种意义下，例题6.71在某种意义上可以看成是6.70的逆命题\n6.71 设$A$ 为 $m$ 阶矩阵，$B$ 为 $n$ 阶矩阵，$C$ 为 $m × n$ 阶矩阵 $ M=\\begin{pmatrix} A\u0026C\\\\ O\u0026B \\end{pmatrix} $\n求证：若 $M$ 可对角化，则 $A,B$ 均可对角化\n小老弟，看我手指这是几🖖\n注意：例题6.71的几何版本是：设 $φ$ 是复线性空间 $V$ 上的线性变换，$U$ 是 $φ-$ 不变子空间，若 $φ$ 可对角化，则 $φ$ 在不变子空间上的限制变换 $φ|_{U}$ 以及 $φ$ 在商空间 $V/U$ 上的诱导变换 $\\overline{φ} $ 均可对角化\n6.72 设$A$ 为 $m×n$ 阶矩阵,$B$ 为 $n×m$ 阶矩阵，又 $|BA| ≠ 0$ 求证：$AB$ 可对角化的充要条件是 $BA$ 可对角化 3.94（解法3） 下面是关于证明不能对角化的例题，这方面我们基本是用反证法来转化\n6.73 求证： （1）若 $n$ 阶矩阵 $A$ 的特征值都是 $λ_{0}$ ，但 $A$ 不是纯量矩阵，则 $A$ 不可对角化，特别地，非零的幂零矩阵不可对角化\n（2）若 $n$ 阶实矩阵 $A$ 适合 $A^{2} + A + I_{n} = O$ 则 $A$ 在实数域上不可对角化\n下面最后一题告诉我们：例题6.72中的条件 $|BA| ≠ 0$ 是必要的\n6.74 设 $n(n\u003e1)$ 阶矩阵 $A$ 的秩为 $1$ ，求证：$A$ 可对角化的充要条件是 $tr(A) ≠ 0$ 加纳\n",
-  "wordCount" : "2946",
+  "articleBody": " 6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难点和热点. 判定 $n$ 阶复矩阵 $A$ (或 $n$ 维复线性空间 $V$ 上的线性变换 $φ$ )是否可对角化，通常有以下$7$种方法：\n（1）$A$ 可对角化的充要条件是 $A$ 有 $n$ 个线性无关的特征向量\n（2）若 $A$ 有 $n$ 个不同的特征值，则 $A$ 可对角化\n（3）$A$ 可对角化的充要条件是 $\\mathbb{C}^{n}$ 是 $A$ 的特征子空间的直和\n（4）$A$ 可对角化的充要条件是 $A$ 有完全的特征向量系，即对 $A$ 的任一特征值，其几何重数等于其代数重数\n（5）$A$ 可对角化的充要条件是 $A$ 的极小多项式无重根\n（6）$A$ 可对角化的充要条件是 $A$ 的 $Jordan$ 块都是一阶的(或者 $A$ 的初等因子都是一次多项式)\n（7）若 $A$ 相似于实对称矩阵或复对称矩阵，则 $A$ 可对角化.\n上述的第五、六种方法将在 $\\S 7.5$ 节进行讨论。另外例题7.42 也是可对角化判定准则的一个补充；第七种方法将放在 $§ 9.7$ 节的第4部分进行讨论；本节主要阐述可对角化判定的前$4$种方法.\n小老弟，看我手指这是几🖖\n注意：若要考虑数域 $\\mathbb{F}$ 上的 $n$ 阶矩阵(或 $\\mathbb{F}$ 上的 $n$ 维线性空间 $V$ 线性变换 $φ$) 在 $\\mathbb{F}$ 上的可对角化问题，那么首先需要验证 $A(或 φ )$ 的特征值都在 $\\mathbb{F}$ 中，否则由可对角化的定义可知， $A(或 φ )$ 在 $\\mathbb{F}$ 上必不可对角化. 若假设 $A(或 φ )$ 的特征值都在 $\\mathbb{F}$ 中，则 $A(或 φ )$ 在 $\\mathbb{F}$ 上的可对角化准则也是上述前六种方法. 因此，为了突出重点，本节总是在复数域 $\\mathbb{C}$ 上考虑可对角化问题. 请读者自行将某些例题推广到数域 $\\mathbb{F}$ 的情形.\n(本节彩蛋，例题6.54 Fibonacci数列)\n1. 方法一：有 $n$ 个线性无关的特征向量 寻找 $A$ 的 $n$ 个线性无关的特征向量，等价于寻找 $n$ 阶可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵，下面来看两个典型例题\n6.55 求证：复数域上的 $n$ 阶循环矩阵 $$ A = \\begin{pmatrix} a_{1} \u0026 a_{2} \u0026 a_{3} \u0026 … \u0026 a_{n} \\\\ a_{n} \u0026 a_{1} \u0026 a_{2} \u0026 … \u0026 a_{n-1} \\\\ ⋮ \u0026 ⋮ \u0026 ⋮ \u0026 \u0026 ⋮ \\\\ a_{2} \u0026 a_{3} \u0026 a_{4} \u0026 … \u0026 a_{1} \\end{pmatrix} $$ 可对角化，并求出它相似的对角阵及过度矩阵\n6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵 $\\begin{pmatrix} A \u0026 A^{2}\\\\ A^{2} \u0026 A \\end{pmatrix}$ 也可对角化\n小老弟，看我手指这是几🖖\n在例题6.14种，$M_{n}(\\mathbb{F})$ 上的线性变换 $η$ 恰有 $n^{2}$ 个线性无关的特征向量，因此 $η$ 可对角化. 我们还有如下两个例题\n6.57 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AXA$ ，其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化 6.58 设 $V$ 为 $n$ 阶矩阵全体构成的线性空间，$V$ 上的线性变换 $φ$ 定义为 $φ(X) = AX - XA$， 其中 $A ∈ V$ ，证明：若 $A$ 可对角化，则 $φ$ 也可对角化 2. 方法二：有 $n$ 个不同的特征值 由于属于不同特征值的特征向量线性无关，故若 $A$ 有 $n$ 个不同的特征值，则 $A$ 必有 $n$ 个线性无关的特征向量，从而可对角化，请注意 $A$ 有 $n$ 个不同的特征值只是可对角化的充分条件，而非必要条件(也就是说可对角化的矩阵不一定有 $n$ 个不同的特征值). 不过在做题的过程中，这个判定方法还是很有用的，比如在例题6.34中，当 $0 \u003c s ≤ 1 或 s ≥ 0$ 时，$n$ 阶矩阵 $A(s)$ 有 $n$ 个不同的特征值，从而可对角化，我们再来看几个典型例题\n6.59 设 $A$ 是实二阶矩阵且 $|A| \u003c 0$ ，求证：$A$ 实相似于对角阵 6.60 设 $A,B,C$ 都是 $n$ 阶矩阵，$A,B$ 各有 $n$ 个不同的特征值，又 $f(λ)$ 是 $A$ 的特征多项式，且 $f(B)$ 是可逆矩阵. 求证：矩阵 $$ M = \\begin{pmatrix} A\u0026C\\\\ O\u0026B \\end{pmatrix} $$ 相似于对角矩阵\n6.61 设 $n$ 阶矩阵 $A,B$ 有相同的特征值，且这 $n$ 个特征值互不相等，求证：存在 $n$ 阶矩阵 $P,Q$ 使得 $A = PQ, B = QP$ 6.62 设 $A,B$ 都是 $n$ 阶矩阵，$A$ 有 $n$ 个不同的特征值，并且 $AB = BA$，求证：$B$ 相似于对角阵(可以用几何代数两种角度) 6.63 设 $A,B$ 都是 $n$ 阶矩阵，$A$ 有 $n$ 个不同的特征值，并且 $AB = BA$，求证：存在次数不超过 $n-1$ 的多项式 $f(x)$ ，使得 $B = f(A)$ 小老弟，看我手指这是几🖖\n注意：若 $A$ 可对角化，则对任意的多项式 $f(x)$,我们的$f(A)$ 也可对角化. 事实上，设 $P$ 为可逆矩阵，使得 $P^{-1}AP = diag{λ_{1},λ_{2},\\dots,λ_{n}}$ 为对角矩阵，则 $P^{-1}f(A)P = f(P^{-1}AP) = diag{f(λ_{1}),f(λ_{2}),\\dots,f(λ_{n})}$ 也为对角阵，这一结论提醒我们：在处理可对角化问题时候，如能将矩阵携程可对角化矩阵的多项式，则往往讨论起来更加方便，来看例子\n6.64 设 $A$ 是 $n$ 阶复矩阵且有 $n$ 个不同的特征值，求证：$n$ 阶复矩阵 $B$ 可对角化的充要条件是存在次数不超过 $n-1$ 的多项式 $f(x)$ ，使得 $B$ 相似于 $f(A)$. 下面的推论是例题6.55的推广\n例题6.55推论 $n$ 阶复矩阵 $B$ 可对角化的充要条件是 $B$ 相似于某个循环矩阵 6.56 (新的证法) 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵 $\\begin{pmatrix} A \u0026 A^{2} \\\\ A^{2} \u0026 A \\end{pmatrix}$ 也可对角化\n6.65 设 $a,b,c$ 为复数且 $ba ≠ 0$，证明下列矩阵 $A$ 可对角化 $$ A = \\begin{pmatrix} a \u0026 b\\\\ c \u0026 a \u0026 b\\\\ \u0026 c \u0026 a \u0026 b\\\\ \u0026 \u0026 ⋱ \u0026 ⋱ \u0026 ⋱\\\\ \u0026 \u0026 \u0026 c \u0026 a \u0026 b\\\\ \u0026 \u0026 \u0026 \u0026 c \u0026 a \\end{pmatrix} $$\n3. 全空间等于特征子空间的直和 矩阵或线性变换可对角化当且仅当全空间等于特征子空间的直和这一判定准则，不仅给了我们很多几何想象的空间（如例题4.52的证法2），而且与矩阵和线性变换适合的多项式密切相关（如例题6.66），我们来看以下几道典型的例题\n6.66 设 $n$ 阶矩阵 $A$ 适合首一多项式 $g(x)$ ，并且 $g(x)$ 在复数域中无重根，证明：$A$ 可对角化 6.67 求证： （1）若 $n$ 阶矩阵 $A$ 适合 $A^{2} = I_{n}$，则 $A$ 必可对角化.\n（2）若 $n$ 阶矩阵 $A$ 适合 $A^{2} = A$，则 $A$ 必可对角化.\n小老弟，看我手指这是几🖖\n在例题6.14中，$M_{n}(\\mathbb{F})$ 上的线性变换 $η$ 满足 $η^{3} = I_{V}$，故 $η$ 可对角化\n4.52 （新的证法） 4. 有完全的特征向量系 矩阵和线性变换有完全的特征向量系，即任一特征值的代数重数等于其几何重数，也就是说特征值无线性无关的特征向量完全一一对应. 无论从计算的层面看 (如例题6.51和例题6.52)，还是从证明的层面上看，这都是一个十分实用的判定可对角化的方法，下面我们来砍几刀典型例题\n6.68 若矩阵 $A,B$ 有完全的特征向量系，求证： $ \\begin{pmatrix} A\u0026B\\\\ O\u0026B \\end{pmatrix} $ 也有完全的特征向量系\n6.69 设 $n$ 阶矩阵 $ \\begin{pmatrix} I_{r}\u0026B\\\\ O\u0026-I_{n-r} \\end{pmatrix} $ 求证： $A$ 可对角化（请用三种证法证明）\n以下是 $\\S 6.2$ 的四道例题，在那里已经计算出全部特征值，只需要在计算出几何重数即可，便可得到矩阵可对角化的充要条件，请大家自行证明\n6.6 充要条件是 $a = b = 0$ 或 $ab ≠ 0$\n6.20 $I^{n} - 2αα^{’}$ 可对角化\n6.21 $Aαβ^{’}$ 可对角化的充要条件是 $β^{’}Aα ≠ 0$ 或 $Aαβ^{’} = O$\n6.22 *****\n下面的这个例题是例题6.60和6.69的推广\n6.70 设 $m$ 阶矩阵 $A$ 与 $n$ 阶矩阵 $B$ 没有公共的特征值，且 $A,B$ 均可对角化，又 $C$ 为 $m × n$ 矩阵，求证： $M =\\begin{pmatrix} A\u0026C\\\\ O\u0026B \\end{pmatrix}$ 也可对角化\n在某种意义下，例题6.71在某种意义上可以看成是6.70的逆命题\n6.71 设$A$ 为 $m$ 阶矩阵，$B$ 为 $n$ 阶矩阵，$C$ 为 $m × n$ 阶矩阵 $ M=\\begin{pmatrix} A\u0026C\\\\ O\u0026B \\end{pmatrix} $\n求证：若 $M$ 可对角化，则 $A,B$ 均可对角化\n小老弟，看我手指这是几🖖\n注意：例题6.71的几何版本是：设 $φ$ 是复线性空间 $V$ 上的线性变换，$U$ 是 $φ-$ 不变子空间，若 $φ$ 可对角化，则 $φ$ 在不变子空间上的限制变换 $φ|_{U}$ 以及 $φ$ 在商空间 $V/U$ 上的诱导变换 $\\overline{φ} $ 均可对角化\n6.72 设$A$ 为 $m×n$ 阶矩阵,$B$ 为 $n×m$ 阶矩阵，又 $|BA| ≠ 0$ 求证：$AB$ 可对角化的充要条件是 $BA$ 可对角化 3.94（解法3） 下面是关于证明不能对角化的例题，这方面我们基本是用反证法来转化\n6.73 求证： （1）若 $n$ 阶矩阵 $A$ 的特征值都是 $λ_{0}$ ，但 $A$ 不是纯量矩阵，则 $A$ 不可对角化，特别地，非零的幂零矩阵不可对角化\n（2）若 $n$ 阶实矩阵 $A$ 适合 $A^{2} + A + I_{n} = O$ 则 $A$ 在实数域上不可对角化\n下面最后一题告诉我们：例题6.72中的条件 $|BA| ≠ 0$ 是必要的\n6.74 设 $n(n\u003e1)$ 阶矩阵 $A$ 的秩为 $1$ ，求证：$A$ 可对角化的充要条件是 $tr(A) ≠ 0$ 加纳\n",
+  "wordCount" : "3129",
   "inLanguage": "zh",
-  "datePublished": "2024-07-08T00:00:00Z",
-  "dateModified": "2024-07-08T00:00:00Z",
+  "datePublished": "2024-06-28T00:00:00Z",
+  "dateModified": "2024-06-28T00:00:00Z",
   "author":{
     "@type": "Person",
     "name": "G.W"
@@ -274,9 +274,9 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      6.6 极小多项式与Cayley-Hamiltoon定理 
+      6.5 可对角化的判定(1) 
     </h1>
-    <div class="post-meta"><span title='2024-07-08 00:00:00 +0000 UTC'>2024-07-08</span>&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;2946 字&nbsp;·&nbsp;G.W
+    <div class="post-meta"><span title='2024-06-28 00:00:00 +0000 UTC'>2024-06-28</span>&nbsp;·&nbsp;7 分钟&nbsp;·&nbsp;3129 字&nbsp;·&nbsp;G.W
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -288,12 +288,12 @@
 
             <div class="inner"><ul>
                     <li>
-                        <a href="#66-%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%8ecayley-hamiltoon%e5%ae%9a%e7%90%86" aria-label="6.6 极小多项式与Cayley-Hamiltoon定理">6.6 极小多项式与Cayley-Hamiltoon定理</a><ul>
+                        <a href="#65-%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a1" aria-label="6.5* 可对角化的判定(1)">6.5* 可对角化的判定(1)</a><ul>
                             
                     <li>
-                        <a href="#1-%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e6%80%a7%e8%b4%a8" aria-label="1. 极小多项式性质">1. 极小多项式性质</a></li>
+                        <a href="#1-%e6%96%b9%e6%b3%95%e4%b8%80%e6%9c%89-n-%e4%b8%aa%e7%ba%bf%e6%80%a7%e6%97%a0%e5%85%b3%e7%9a%84%e7%89%b9%e5%be%81%e5%90%91%e9%87%8f" aria-label="1. 方法一：有 $n$ 个线性无关的特征向量">1. 方法一：有 $n$ 个线性无关的特征向量</a></li>
                     <li>
-                        <a href="#675-%e6%b1%82%e8%af%81%e5%a4%8d%e6%95%b0%e5%9f%9f%e4%b8%8a%e7%9a%84-n-%e9%98%b6%e5%be%aa%e7%8e%af%e7%9f%a9%e9%98%b5" aria-label="6.75 求证：复数域上的 $n$ 阶循环矩阵">6.75 求证：复数域上的 $n$ 阶循环矩阵</a></li>
+                        <a href="#655-%e6%b1%82%e8%af%81%e5%a4%8d%e6%95%b0%e5%9f%9f%e4%b8%8a%e7%9a%84-n-%e9%98%b6%e5%be%aa%e7%8e%af%e7%9f%a9%e9%98%b5" aria-label="6.55 求证：复数域上的 $n$ 阶循环矩阵">6.55 求证：复数域上的 $n$ 阶循环矩阵</a></li>
                     <li>
                         <a href="#656-%e8%ae%be-n-%e9%98%b6%e5%a4%8d%e7%9f%a9%e9%98%b5-a-%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e8%af%81%e6%98%8e%e7%9f%a9%e9%98%b5" aria-label="6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵">6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵</a></li>
                     <li>
@@ -420,26 +420,32 @@
      
      
 />
-<h2 id="66-极小多项式与cayley-hamiltoon定理">6.6 极小多项式与Cayley-Hamiltoon定理<a hidden class="anchor" aria-hidden="true" href="#66-极小多项式与cayley-hamiltoon定理">#</a></h2>
-<p>极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例如，极小多项式是矩阵或线性变换不变因子组中最大的那个不变因子，<strong>矩阵或线性变换可对角化当且仅当极小多项式无重根</strong>. 类似于代数数的极小多项式（例题5.18）矩阵或线性变换的极小多项式也要整除其适合的任一多项式，由于这一基本性质也能证明极小多项式的存在唯一性. 由于两个非零矩阵相乘可能会等于零矩阵，因此矩阵或线性变换的极小多项式可能不是不可约多项式. <strong>而这一点和代数数的极小多项式有本质区别</strong></p>
-<p>$Cayley-Hamiltoon$ 定理是<strong>高等代数最重要的定理之一</strong>，他告诉我们矩阵或线性变换必定适合它的特征多项式. 一方面，$Cayley-Hamiltoon$ 定理在矩阵或线性变换以及多项式理论之间建立了一个桥梁，使我们能够深入研究矩阵和线性变换的相似标准型理论. 另一方面，$Cayley-Hamiltoon$ 定理也是一个强有力的工具，他在很多问题的解答过程中起到了关键性作用. 由极小多项式基本性质和$Cayley-Hamiltoon$ 定理可知，矩阵或线性变换的极小多项式必整除其特征多项式. 在本节中，我们将从5个方面探讨极小多项式的性质以及$Cayley-Hamiltoon$ 定理的相关应用</p>
-<h3 id="1-极小多项式性质">1. 极小多项式性质<a hidden class="anchor" aria-hidden="true" href="#1-极小多项式性质">#</a></h3>
-<h3 id="675-求证复数域上的-n-阶循环矩阵">6.75 求证：复数域上的 $n$ 阶循环矩阵<a hidden class="anchor" aria-hidden="true" href="#675-求证复数域上的-n-阶循环矩阵">#</a></h3>
-<p>$$
-A = \begin{pmatrix}
-a_{1} &amp; a_{2} &amp; a_{3} &amp; … &amp; a_{n} \\
-a_{n} &amp; a_{1} &amp; a_{2} &amp; … &amp; a_{n-1} \\
-⋮ &amp; ⋮ &amp; ⋮ &amp; &amp; ⋮ \\
-a_{2} &amp; a_{3} &amp; a_{4} &amp; … &amp; a_{1}
-\end{pmatrix}
-$$
-可对角化，并求出它相似的对角阵及过度矩阵</p>
-<h3 id="656-设-n-阶复矩阵-a-可对角化证明矩阵">6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵<a hidden class="anchor" aria-hidden="true" href="#656-设-n-阶复矩阵-a-可对角化证明矩阵">#</a></h3>
-<p>$\begin{pmatrix}
-A &amp; A^{2}\\
-A^{2} &amp; A
-\end{pmatrix}$
-也可对角化</p>
+<h2 id="65-可对角化的判定1">6.5* 可对角化的判定(1)<a hidden class="anchor" aria-hidden="true" href="#65-可对角化的判定1">#</a></h2>
+<p>矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难点和热点. 判定 $n$ 阶复矩阵 $A$ (或 $n$ 维复线性空间 $V$ 上的线性变换 $φ$ )是否可对角化，通常有以下$7$种方法：</p>
+<ul>
+<li>
+<p>（1）$A$ 可对角化的充要条件是 $A$ 有 $n$ 个线性无关的特征向量</p>
+</li>
+<li>
+<p>（2）若 $A$ 有 $n$ 个不同的特征值，则 $A$ 可对角化</p>
+</li>
+<li>
+<p>（3）$A$ 可对角化的充要条件是 $\mathbb{C}^{n}$ 是 $A$ 的特征子空间的直和</p>
+</li>
+<li>
+<p>（4）$A$ 可对角化的充要条件是 $A$ 有完全的特征向量系，即对 $A$ 的任一特征值，其几何重数等于其代数重数</p>
+</li>
+<li>
+<p>（5）$A$ 可对角化的充要条件是 $A$ 的极小多项式无重根</p>
+</li>
+<li>
+<p>（6）$A$ 可对角化的充要条件是 $A$ 的 $Jordan$ 块都是一阶的(或者 $A$ 的初等因子都是一次多项式)</p>
+</li>
+<li>
+<p>（7）若 $A$ 相似于实对称矩阵或复对称矩阵，则 $A$ 可对角化.</p>
+</li>
+</ul>
+<p>上述的第五、六种方法将在 $\S 7.5$ 节进行讨论。另外例题7.42 也是可对角化判定准则的一个补充；第七种方法将放在 $§ 9.7$ 节的第4部分进行讨论；本节主要阐述可对角化判定的前$4$种方法.</p>
 <style type="text/css">
     .notice {
         --root-color: #444;
@@ -561,6 +567,30 @@ A^{2} &amp; A
         position: relative
     }
 </style><div class="notice tip" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            
+        </span>小老弟，看我手指这是几🖖</p><p>注意：若要考虑数域 $\mathbb{F}$ 上的 $n$ 阶矩阵(或  $\mathbb{F}$ 上的 $n$ 维线性空间 $V$ 线性变换 $φ$) 在 $\mathbb{F}$ 上的可对角化问题，那么首先需要验证 $A(或 φ )$ 的特征值都在 $\mathbb{F}$ 中，否则由可对角化的定义可知， $A(或 φ )$ 在 $\mathbb{F}$ 上必不可对角化. 若假设 $A(或 φ )$ 的特征值都在 $\mathbb{F}$ 中，则 $A(或 φ )$ 在 $\mathbb{F}$ 上的可对角化准则也是上述前六种方法. 因此，为了突出重点，本节总是在复数域 $\mathbb{C}$ 上考虑可对角化问题. 请读者自行将某些例题推广到数域 $\mathbb{F}$ 的情形.</p></div>
+<p>(本节彩蛋，例题6.54 Fibonacci数列)</p>
+<h3 id="1-方法一有-n-个线性无关的特征向量">1. 方法一：有 $n$ 个线性无关的特征向量<a hidden class="anchor" aria-hidden="true" href="#1-方法一有-n-个线性无关的特征向量">#</a></h3>
+<p>寻找 $A$ 的 $n$ 个线性无关的特征向量，等价于寻找 $n$ 阶可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵，下面来看两个典型例题</p>
+<h3 id="655-求证复数域上的-n-阶循环矩阵">6.55 求证：复数域上的 $n$ 阶循环矩阵<a hidden class="anchor" aria-hidden="true" href="#655-求证复数域上的-n-阶循环矩阵">#</a></h3>
+<p>$$
+A = \begin{pmatrix}
+a_{1} &amp; a_{2} &amp; a_{3} &amp; … &amp; a_{n} \\
+a_{n} &amp; a_{1} &amp; a_{2} &amp; … &amp; a_{n-1} \\
+⋮ &amp; ⋮ &amp; ⋮ &amp; &amp; ⋮ \\
+a_{2} &amp; a_{3} &amp; a_{4} &amp; … &amp; a_{1}
+\end{pmatrix}
+$$
+可对角化，并求出它相似的对角阵及过度矩阵</p>
+<h3 id="656-设-n-阶复矩阵-a-可对角化证明矩阵">6.56 设 $n$ 阶复矩阵 $A$ 可对角化，证明：矩阵<a hidden class="anchor" aria-hidden="true" href="#656-设-n-阶复矩阵-a-可对角化证明矩阵">#</a></h3>
+<p>$\begin{pmatrix}
+A &amp; A^{2}\\
+A^{2} &amp; A
+\end{pmatrix}$
+也可对角化</p>
+<div class="notice tip" >
     <p class="notice-title">
         <span class="icon-notice baseline">
             
@@ -688,27 +718,26 @@ $</p>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://GWblog.github.io/zh/tags/%E6%9E%81%E5%B0%8F%E5%A4%9A%E9%A1%B9%E5%BC%8F/">极小多项式</a></li>
-      <li><a href="https://GWblog.github.io/zh/tags/cayley-hamiltoon/">Cayley-Hamiltoon</a></li>
+      <li><a href="https://GWblog.github.io/zh/tags/%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96%E5%88%A4%E5%AE%9A/">可对角化判定</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://GWblog.github.io/zh/zh/friends/">
+  <a class="prev" href="https://GWblog.github.io/zh/zh/posts/math/ch6/6.4/">
     <span class="title">« 上一页</span>
     <br>
-    <span>friends</span>
+    <span>6.4  矩阵相似和可对角化的计算 </span>
   </a>
-  <a class="next" href="https://GWblog.github.io/zh/zh/posts/math/ch6/6.3/">
+  <a class="next" href="https://GWblog.github.io/zh/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/">
     <span class="title">下一页 »</span>
     <br>
-    <span>6.4  乘法交换性诱导的同时性质 </span>
+    <span> An Epsilon of Room, : Real Analysis</span>
   </a>
 </nav>
 
 
 <ul class="share-buttons">
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.6 极小多项式与Cayley-Hamiltoon定理  on x"
-            href="https://x.com/intent/tweet/?text=6.6%20%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%8eCayley-Hamiltoon%e5%ae%9a%e7%90%86%20&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&amp;hashtags=%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%2cCayley-Hamiltoon">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on x"
+            href="https://x.com/intent/tweet/?text=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&amp;hashtags=%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e5%88%a4%e5%ae%9a">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
@@ -716,8 +745,8 @@ $</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.6 极小多项式与Cayley-Hamiltoon定理  on linkedin"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&amp;title=6.6%20%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%8eCayley-Hamiltoon%e5%ae%9a%e7%90%86%20&amp;summary=6.6%20%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%8eCayley-Hamiltoon%e5%ae%9a%e7%90%86%20&amp;source=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&amp;title=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&amp;summary=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&amp;source=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
@@ -725,8 +754,8 @@ $</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.6 极小多项式与Cayley-Hamiltoon定理  on reddit"
-            href="https://reddit.com/submit?url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&title=6.6%20%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%8eCayley-Hamiltoon%e5%ae%9a%e7%90%86%20">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f&title=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
@@ -734,7 +763,7 @@ $</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.6 极小多项式与Cayley-Hamiltoon定理  on facebook"
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on facebook"
             href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
@@ -743,8 +772,8 @@ $</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.6 极小多项式与Cayley-Hamiltoon定理  on whatsapp"
-            href="https://api.whatsapp.com/send?text=6.6%20%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%8eCayley-Hamiltoon%e5%ae%9a%e7%90%86%20%20-%20https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on whatsapp"
+            href="https://api.whatsapp.com/send?text=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20%20-%20https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
@@ -752,8 +781,8 @@ $</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.6 极小多项式与Cayley-Hamiltoon定理  on telegram"
-            href="https://telegram.me/share/url?text=6.6%20%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%8eCayley-Hamiltoon%e5%ae%9a%e7%90%86%20&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on telegram"
+            href="https://telegram.me/share/url?text=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&amp;url=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
@@ -761,8 +790,8 @@ $</p>
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.6 极小多项式与Cayley-Hamiltoon定理  on ycombinator"
-            href="https://news.ycombinator.com/submitlink?t=6.6%20%e6%9e%81%e5%b0%8f%e5%a4%9a%e9%a1%b9%e5%bc%8f%e4%b8%8eCayley-Hamiltoon%e5%ae%9a%e7%90%86%20&u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 6.5 可对角化的判定(1)  on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=6.5%20%e5%8f%af%e5%af%b9%e8%a7%92%e5%8c%96%e7%9a%84%e5%88%a4%e5%ae%9a%281%29%20&u=https%3a%2f%2fGWblog.github.io%2fzh%2fzh%2fposts%2fmath%2fch6%2f6.5%2f">
             <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
                 <path
