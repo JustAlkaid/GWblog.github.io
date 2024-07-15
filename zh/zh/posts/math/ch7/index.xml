@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chapter 7 on 避风港</title>
+    <link>https://GWblog.github.io/zh/zh/posts/math/ch7/</link>
+    <description>Recent content in chapter 7 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/zh/posts/math/ch7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7.2 矩阵相似的全系不变量</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/ch7/7.2/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/ch7/7.2/</guid>
+      <description>$§$ 7.2 矩阵相似的全系不变量 利用等价关系对矩阵进行分类，这是一种常见的研究方法，通常有三个步骤，</description>
+    </item>
+  </channel>
+</rss>
