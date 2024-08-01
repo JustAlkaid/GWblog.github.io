@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/posts/math/ch7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7.3 有理标准型几何意义与应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/ch7/7.3/</link>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/ch7/7.3/</guid>
+      <description>$§$ 7.3 有理标准型的几何与应用 有理标准型是利用不变因子组构造的相似标准型. 从因式分解的层级看，不变银子组并非是最简单的相似关系全系不变量，从</description>
+    </item>
     <item>
       <title>7.2 矩阵相似的全系不变量</title>
       <link>https://GWblog.github.io/zh/posts/math/ch7/7.2/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/math/ch7/7.2/</guid>
-      <description>$§$ 7.2 矩阵相似的全系不变量 利用等价关系对矩阵进行分类，这是一种常见的研究方法，通常有三个步骤，</description>
+      <description>$§$ 7.2 矩阵相似的全系不变量 利用等价关系对矩阵进行分类，这是一种常见的研究方法，通常有三个步骤，首先，引入矩阵之间的一种等价关系，它将矩阵全</description>
     </item>
   </channel>
 </rss>
