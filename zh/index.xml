@@ -46,142 +46,142 @@ A funny guy</description>
     </item>
     <item>
       <title>7.6 $Jordan$ 标准型的求法</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch7/7.6/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.6/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch7/7.6/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.6/</guid>
       <description>$§$ 7.6 $Jordan$ 标准型的求法 计算 $Jordan$ 标准型是一个重要的问题，也是后续专业课的需要，对于数字矩阵 $A$ ，通常的方法是利用 $λ-$ 矩阵的初等变换求出特殊矩阵</description>
     </item>
     <item>
       <title>7.6 $Jordan$ 标准型的求法</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch7/7.6/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.6/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch7/7.6/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.6/</guid>
       <description>$§$ 7.6 $Jordan$ 标准型的求法 计算 $Jordan$ 标准型是一个重要的问题，也是后续专业课的需要，对于数字矩阵 $A$ ，通常的方法是利用 $λ-$ 矩阵的初等变换求出特殊矩阵</description>
     </item>
     <item>
       <title>7.5 可对角化的判定（二）</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch7/7.5/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.5/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch7/7.5/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.5/</guid>
       <description>$§$ 7.5 可对角化的判定（二） 我们曾经在 $§ 6.5$ 节中讨论过矩阵可对角化的若干判定准则，现在我们又多了两个判定准则（高代Ⅱ一个重要的核心内容就是对</description>
     </item>
     <item>
       <title>7.5 可对角化的判定（二）</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch7/7.5/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.5/</link>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch7/7.5/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.5/</guid>
       <description>$§$ 7.5 可对角化的判定（二） 我们曾经在 $§ 6.5$ 节中讨论过矩阵可对角化的若干判定准则，现在我们又多了两个判定准则（高代Ⅱ一个重要的核心内容就是对</description>
     </item>
     <item>
       <title>7.4 乘法交换性诱导的多项式表示</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch7/7.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.4/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch7/7.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.4/</guid>
       <description>$§$ 7.4 乘法交换性诱导的多项式表示 设 $A$ 是数域 $\mathbb{K}$ 上的 $n$ 阶矩阵，定义 $\mathbb{K}[A] = {f(A) | f(x) ∈ \mathbb{K}[x]}$ 为 $A$ 的多项式全体构成的线性空间，$C(A) = {B ∈ M_{n}(\mathbb{K} | AB = BA)}$ 为与</description>
     </item>
     <item>
       <title>7.4 乘法交换性诱导的多项式表示</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch7/7.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.4/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch7/7.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.4/</guid>
       <description>$§$ 7.4 乘法交换性诱导的多项式表示 设 $A$ 是数域 $\mathbb{K}$ 上的 $n$ 阶矩阵，定义 $\mathbb{K}[A] = {f(A) | f(x) ∈ \mathbb{K}[x]}$ 为 $A$ 的多项式全体构成的线性空间，$C(A) = {B ∈ M_{n}(\mathbb{K} | AB = BA)}$ 为与</description>
     </item>
     <item>
       <title>7.3 有理标准型几何意义与应用</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch7/7.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.3/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch7/7.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.3/</guid>
       <description>$§$ 7.3 有理标准型的几何与应用 有理标准型是利用不变因子组构造的相似标准型. 从因式分解的层级看，不变银子组并非是最简单的相似关系全系不变量，从</description>
     </item>
     <item>
       <title>7.3 有理标准型几何意义与应用</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch7/7.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.3/</link>
       <pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch7/7.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.3/</guid>
       <description>$§$ 7.3 有理标准型的几何与应用 有理标准型是利用不变因子组构造的相似标准型. 从因式分解的层级看，不变银子组并非是最简单的相似关系全系不变量，从</description>
     </item>
     <item>
       <title>7.2 矩阵相似的全系不变量</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch7/7.2/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.2/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch7/7.2/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.2/</guid>
       <description>$§$ 7.2 矩阵相似的全系不变量 利用等价关系对矩阵进行分类，这是一种常见的研究方法，通常有三个步骤，首先，引入矩阵之间的一种等价关系，它将矩阵全</description>
     </item>
     <item>
       <title>7.2 矩阵相似的全系不变量</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch7/7.2/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.2/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch7/7.2/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch7/7.2/</guid>
       <description>$§$ 7.2 矩阵相似的全系不变量 利用等价关系对矩阵进行分类，这是一种常见的研究方法，通常有三个步骤，首先，引入矩阵之间的一种等价关系，它将矩阵全</description>
     </item>
     <item>
       <title>6.6 极小多项式与Cayley-Hamiltoon定理 </title>
-      <link>https://GWblog.github.io/zh/posts/math/ch6/6.6/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.6/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.6/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.6/</guid>
       <description>$§$ 6.6 极小多项式与Cayley-Hamiltoon定理 极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例</description>
     </item>
     <item>
       <title>6.6 极小多项式与Cayley-Hamiltoon定理 </title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch6/6.6/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.6/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch6/6.6/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.6/</guid>
       <description>$§$ 6.6 极小多项式与Cayley-Hamiltoon定理 极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例</description>
     </item>
     <item>
       <title>6.7 矩阵的 $Kronecker$ 和 </title>
-      <link>https://GWblog.github.io/zh/posts/math/ch6/6.7/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.7/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.7/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.7/</guid>
       <description>$§$ 6.7 矩阵的 $Kronecker$ 和 矩阵的 $Kronecker$ 和是一个重要的概念，他在数学的众多领域中都有着重要的应用，利用多重线性代数的理论可以证明：两个线性映射的张量积的表</description>
     </item>
     <item>
       <title>6.7 矩阵的 $Kronecker$ 和 </title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch6/6.7/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.7/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch6/6.7/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.7/</guid>
       <description>$§$ 6.7 矩阵的 $Kronecker$ 和 矩阵的 $Kronecker$ 和是一个重要的概念，他在数学的众多领域中都有着重要的应用，利用多重线性代数的理论可以证明：两个线性映射的张量积的表</description>
     </item>
     <item>
       <title>6.4  乘法交换性诱导的同时性质 </title>
-      <link>https://GWblog.github.io/zh/posts/math/ch6/6.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.3/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.3/</guid>
       <description>6.3 乘法交换性诱导的同时性质 矩阵乘法和线性交换的乘法运算一般没有交换性，这会触发很多与数的乘法运算不一样的性质和现象，因此矩阵和线性变换的不可</description>
     </item>
     <item>
       <title>6.4  乘法交换性诱导的同时性质 </title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch6/6.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.3/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch6/6.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.3/</guid>
       <description>6.3 乘法交换性诱导的同时性质 矩阵乘法和线性交换的乘法运算一般没有交换性，这会触发很多与数的乘法运算不一样的性质和现象，因此矩阵和线性变换的不可</description>
     </item>
     <item>
       <title>6.4  矩阵相似和可对角化的计算 </title>
-      <link>https://GWblog.github.io/zh/posts/math/ch6/6.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.4/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.4/</guid>
       <description>6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初</description>
     </item>
     <item>
       <title>6.4  矩阵相似和可对角化的计算 </title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch6/6.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.4/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch6/6.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.4/</guid>
       <description>6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初</description>
     </item>
     <item>
       <title>6.5 可对角化的判定(1) </title>
-      <link>https://GWblog.github.io/zh/posts/math/ch6/6.5/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.5/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.5/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.5/</guid>
       <description>6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难</description>
     </item>
     <item>
       <title>6.5 可对角化的判定(1) </title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch6/6.5/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.5/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch6/6.5/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.5/</guid>
       <description>6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难</description>
     </item>
     <item>
@@ -214,114 +214,114 @@ A funny guy</description>
     </item>
     <item>
       <title>5.5-5.6 多项式函数与根，复系数多项式</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch5/5.5-5.6/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch5/5.5-5.6/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch5/5.5-5.6/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch5/5.5-5.6/</guid>
       <description>5.5 多项式函数与根 判别多项式有无重根的最常用方法是判别该多项式及其形式导数是否有公因式. 下面是关于该方法的几个例子 22. 证明: 数域 $\mathbb{F}$ 上任意一个不可</description>
     </item>
     <item>
       <title>5.5-5.6 多项式函数与根，复系数多项式</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch5/5.5-5.6/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.5-5.6/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch5/5.5-5.6/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.5-5.6/</guid>
       <description>5.5 多项式函数与根 判别多项式有无重根的最常用方法是判别该多项式及其形式导数是否有公因式. 下面是关于该方法的几个例子 22. 证明: 数域 $\mathbb{F}$ 上任意一个不可</description>
     </item>
     <item>
       <title>5.7-5.8 实系数多项式，有理系数多项式</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch5/5.7-5.8/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch5/5.7-5.8/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch5/5.7-5.8/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch5/5.7-5.8/</guid>
       <description>5.7 实系数多项式 下面的3个例题是实系数多项式的基本性质 39. 设 $f(x)$ 是复数域上的多项式，若对任意的实数 $c$，$f(c)$ 总是实数，求证: $f(x)$ 是实系数多</description>
     </item>
     <item>
       <title>5.7-5.8 实系数多项式，有理系数多项式</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch5/5.7-5.8/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.7-5.8/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch5/5.7-5.8/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.7-5.8/</guid>
       <description>5.7 实系数多项式 下面的3个例题是实系数多项式的基本性质 39. 设 $f(x)$ 是复数域上的多项式，若对任意的实数 $c$，$f(c)$ 总是实数，求证: $f(x)$ 是实系数多</description>
     </item>
     <item>
       <title>5.2-5.4 整除和带余除法，最大公因式与互素多项式，不可约多项式与因式分解</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch5/5.2-5.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch5/5.2-5.4/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch5/5.2-5.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch5/5.2-5.4/</guid>
       <description>5.2 整除和带余除法 带余除法和待定系数法是讨论整除问题的两个基本方法，下面是两个简单的例子 1. 设 $g(x) = ax+b \in \mathbb{F}[x]$ ，求证: $g(x) | f(x)^{2}$ 的充要条件是 $g(x) | f(x)$. 2. 设 $g(x) =</description>
     </item>
     <item>
       <title>5.2-5.4 整除和带余除法，最大公因式与互素多项式，不可约多项式与因式分解</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch5/5.2-5.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.2-5.4/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch5/5.2-5.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.2-5.4/</guid>
       <description>5.2 整除和带余除法 带余除法和待定系数法是讨论整除问题的两个基本方法，下面是两个简单的例子 1. 设 $g(x) = ax+b \in \mathbb{F}[x]$ ，求证: $g(x) | f(x)^{2}$ 的充要条件是 $g(x) | f(x)$. 2. 设 $g(x) =</description>
     </item>
     <item>
       <title>4.6 不变子空间</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch4/4.6/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.6/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.6/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.6/</guid>
       <description>4.6 不变子空间 通过不变子空间来研究线性变换是常用的方法，他可以将全空间上的问题转化为维数较小的子空间上的问题，因此许多问题中常常需要证明，一个</description>
     </item>
     <item>
       <title>4.6 不变子空间</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.6/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.6/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.6/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.6/</guid>
       <description>4.6 不变子空间 通过不变子空间来研究线性变换是常用的方法，他可以将全空间上的问题转化为维数较小的子空间上的问题，因此许多问题中常常需要证明，一个</description>
     </item>
     <item>
       <title>4.7 幂等矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch4/4.7/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.7/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.7/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.7/</guid>
       <description>4.7 幂等变换 若线性变换 $\varphi$ 满足 $\varphi^{2} = \varphi$ 则称为幂等变换，这是一类比较简单但又有重要用途的线性变换，我们来看一个幂等变换的简单例子 设 $V = V_{1} \oplus V_{2} \oplus \dots \oplus V</description>
     </item>
     <item>
       <title>4.7 幂等矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.7/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.7/</link>
       <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.7/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.7/</guid>
       <description>4.7 幂等变换 若线性变换 $\varphi$ 满足 $\varphi^{2} = \varphi$ 则称为幂等变换，这是一类比较简单但又有重要用途的线性变换，我们来看一个幂等变换的简单例子 设 $V = V_{1} \oplus V_{2} \oplus \dots \oplus V</description>
     </item>
     <item>
       <title>4.5 像空间和核空间</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch4/4.5/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.5/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.5/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.5/</guid>
       <description>4.5 像空间和核空间 利用像空间和核空间来讨论线性映射的满性和单性是常见的方法，因此他们是相伴于线性映射的两个重要的子空间. 如何来确定线性映射的像</description>
     </item>
     <item>
       <title>4.5 像空间和核空间</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.5/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.5/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.5/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.5/</guid>
       <description>4.5 像空间和核空间 利用像空间和核空间来讨论线性映射的满性和单性是常见的方法，因此他们是相伴于线性映射的两个重要的子空间. 如何来确定线性映射的像</description>
     </item>
     <item>
       <title>4.3 线性同构</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch4/4.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.3/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.3/</guid>
       <description>4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映</description>
     </item>
     <item>
       <title>4.3 线性同构</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.3/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.3/</guid>
       <description>4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映</description>
     </item>
     <item>
       <title>4.4 线性映射与矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch4/4.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.4/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.4/</guid>
       <description>4.4 线性映射与矩阵 本节的线性映射与矩阵的关系是这一章的核心，线性映射是一个几何概念，矩阵是一个代数概念，他们之间的关系需要掌握以下几点: (1) 记数</description>
     </item>
     <item>
       <title>4.4 线性映射与矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.4/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.4/</guid>
       <description>4.4 线性映射与矩阵 本节的线性映射与矩阵的关系是这一章的核心，线性映射是一个几何概念，矩阵是一个代数概念，他们之间的关系需要掌握以下几点: (1) 记数</description>
     </item>
     <item>
@@ -340,128 +340,128 @@ A funny guy</description>
     </item>
     <item>
       <title>3.9 线性方程组的解及其应用</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.9/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.9/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.9/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.9/</guid>
       <description>3.9 线性方程组的解及其应用 如何求解线性方程组是高等代数中的第一个重要问题，为了彻底回答这个问题，我们引入了行列式、矩阵和线性空间等概念，并发展</description>
     </item>
     <item>
       <title>3.9 线性方程组的解及其应用</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.9/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.9/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.9/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.9/</guid>
       <description>3.9 线性方程组的解及其应用 如何求解线性方程组是高等代数中的第一个重要问题，为了彻底回答这个问题，我们引入了行列式、矩阵和线性空间等概念，并发展</description>
     </item>
     <item>
       <title>3.8 相抵标准型及其应用</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.8/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.8/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.8/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.8/</guid>
       <description>3.8 相抵标准型及其应用 任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp;amp; O\\ O &amp;amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下</description>
     </item>
     <item>
       <title>3.8 相抵标准型及其应用</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.8/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.8/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.8/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.8/</guid>
       <description>3.8 相抵标准型及其应用 任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp;amp; O\\ O &amp;amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下</description>
     </item>
     <item>
       <title>3.5 基变换与过渡矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.5/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.5/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.5/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.5/</guid>
       <description>3.5 基变换与过渡矩阵 42. 设$\{u_{1},u_{2},\cdots,u_{n}\}$, $\{e_{1},e_{2},\cdots,e_{n}\}$, $\{f_{1},f_{2},\cdots,f_{n}</description>
     </item>
     <item>
       <title>3.5 基变换与过渡矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.5/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.5/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.5/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.5/</guid>
       <description>3.5 基变换与过渡矩阵 42. 设$\{u_{1},u_{2},\cdots,u_{n}\}$, $\{e_{1},e_{2},\cdots,e_{n}\}$, $\{f_{1},f_{2},\cdots,f_{n}</description>
     </item>
     <item>
       <title>3.6 子空间与商空间</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.6/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.6/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.6/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.6/</guid>
       <description>3.6 子空间与商空间 46. 设$V=M_{n}(\mathbb{K})$是数域$\mathbb{K}$上的n阶矩阵全体组成的线性空间，$A \in V$，求证</description>
     </item>
     <item>
       <title>3.6 子空间与商空间</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.6/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.6/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.6/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.6/</guid>
       <description>3.6 子空间与商空间 46. 设$V=M_{n}(\mathbb{K})$是数域$\mathbb{K}$上的n阶矩阵全体组成的线性空间，$A \in V$，求证</description>
     </item>
     <item>
       <title>3.7 矩阵的秩</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.7/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.7/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.7/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.7/</guid>
       <description>3.7 矩阵的秩 矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定向量组的线性关系等，秩的等式(不等式)</description>
     </item>
     <item>
       <title>3.7 矩阵的秩</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.7/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.7/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.7/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.7/</guid>
       <description>3.7 矩阵的秩 矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定向量组的线性关系等，秩的等式(不等式)</description>
     </item>
     <item>
       <title>3.4 线性同构和几何问题代数化</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.4/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.4/</guid>
       <description>3.4 线性同构和几何问题代数化 同一个数域$\mathbb{K}$上的两个线性空间$V,U$称为是线性同构的，如果存在一个一一对应的$φ: V \to U$</description>
     </item>
     <item>
       <title>3.4 线性同构和几何问题代数化</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.4/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.4/</guid>
       <description>3.4 线性同构和几何问题代数化 同一个数域$\mathbb{K}$上的两个线性空间$V,U$称为是线性同构的，如果存在一个一一对应的$φ: V \to U$</description>
     </item>
     <item>
       <title>2.10 分块初等变换与降阶公式</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.10/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.10/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.10/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.10/</guid>
       <description>分块初等变换与降阶公式 这一节介绍分块初等变换在求行列式值和求逆的应用 65. 设A是n阶可逆阵，$ α,β$是n维列向量，b是常数，现有分块矩阵 $$ Q=\left(\begin{array}{cccc} A</description>
     </item>
     <item>
       <title>2.10 分块初等变换与降阶公式</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.10/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.10/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.10/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.10/</guid>
       <description>分块初等变换与降阶公式 这一节介绍分块初等变换在求行列式值和求逆的应用 65. 设A是n阶可逆阵，$ α,β$是n维列向量，b是常数，现有分块矩阵 $$ Q=\left(\begin{array}{cccc} A</description>
     </item>
     <item>
       <title>2.11 摄动法及其应用</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.11/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.11/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.11/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.11/</guid>
       <description>摄动法及其应用 摄动法通过矩阵理论中的常用方法，它利用连续函数的性质将一般矩阵的问题转化为对非异阵的讨论，本节中我们会讲述原理，在伴随矩阵性质</description>
     </item>
     <item>
       <title>2.11 摄动法及其应用</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.11/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.11/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.11/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.11/</guid>
       <description>摄动法及其应用 摄动法通过矩阵理论中的常用方法，它利用连续函数的性质将一般矩阵的问题转化为对非异阵的讨论，本节中我们会讲述原理，在伴随矩阵性质</description>
     </item>
     <item>
       <title>3.3 向量空间及其基础</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.3/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.3/</guid>
       <description>线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题</description>
     </item>
     <item>
       <title>3.3 向量空间及其基础</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.3/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.3/</guid>
       <description>线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题</description>
     </item>
     <item>
@@ -522,100 +522,100 @@ A funny guy</description>
     </item>
     <item>
       <title>2.3 矩阵的运算</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.3/</guid>
       <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
     </item>
     <item>
       <title>2.3 矩阵的运算</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.3/</guid>
       <description>2.3 一共包括加减，数乘，乘法，转置，共轭，特别的，对于方阵还有求幂，多项式，伴随，求逆等运算 7. 若$A,B$都是由非负实数组成的矩阵且$AB$有</description>
     </item>
     <item>
       <title>2.5 初等变换及其应用</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.5/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.5/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.5/</guid>
       <description>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方</description>
     </item>
     <item>
       <title>2.5 初等变换及其应用</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.5/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.5/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.5/</guid>
       <description>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方</description>
     </item>
     <item>
       <title>2.6 伴随矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.6/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.6/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.6/</guid>
       <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
     </item>
     <item>
       <title>2.6 伴随矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.6/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.6/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.6/</guid>
       <description>伴随矩阵 一个有趣的关系是$AA^{}=A^{}=|A|I_{n}$，所以当detA的值不为零，A的逆便可求出来反过来伴随矩阵$A^{*}$也</description>
     </item>
     <item>
       <title>2.7 矩阵的迹</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.7/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.7/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.7/</guid>
       <description>迹 迹$tr(A)$是研究矩阵的一个重要的相似不变量 迹在处理某些问题时有特别的方便，算是一个有趣的角度，这一节介绍一下基本性质，首先是线性，对</description>
     </item>
     <item>
       <title>2.7 矩阵的迹</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.7/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.7/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.7/</guid>
       <description>迹 迹$tr(A)$是研究矩阵的一个重要的相似不变量 迹在处理某些问题时有特别的方便，算是一个有趣的角度，这一节介绍一下基本性质，首先是线性，对</description>
     </item>
     <item>
       <title>2.8 矩阵乘法与行列式的关系</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.8/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.8/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.8/</guid>
       <description>$|AB|=|A|B|$ 这个结论是可以用来简化某些行列式的计算 $C=AB$ $CA=B$，其中A、C密切相关，B的行列式很容易计算； $CA=B$，其中A、B的行列式容易计算 以</description>
     </item>
     <item>
       <title>2.8 矩阵乘法与行列式的关系</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.8/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.8/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.8/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.8/</guid>
       <description>$|AB|=|A|B|$ 这个结论是可以用来简化某些行列式的计算 $C=AB$ $CA=B$，其中A、C密切相关，B的行列式很容易计算； $CA=B$，其中A、B的行列式容易计算 以</description>
     </item>
     <item>
       <title>3.2 向量的线性关系</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.2/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.2/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.2/</guid>
       <description>向量的线性关系 对于线性空间$\mathbb{V}$中的向量$\alpha_{1},\alpha_{2},\cdots,\alpha_{n}$</description>
     </item>
     <item>
       <title>3.2 向量的线性关系</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.2/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.2/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.2/</guid>
       <description>向量的线性关系 对于线性空间$\mathbb{V}$中的向量$\alpha_{1},\alpha_{2},\cdots,\alpha_{n}$</description>
     </item>
     <item>
       <title>6.2  特征值与特征向量</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch6/6.2/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch6/6.2/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.2/</guid>
       <description>6.2 * 特征值与特征向量 特征值和特征向量是矩阵和线性变换蕴含的最本质的信息之一，它们的计算及其性质的研究是相似标准型理论的起点. 本节我们将从6个</description>
     </item>
     <item>
       <title>6.2  特征值与特征向量</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch6/6.2/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch6/6.2/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.2/</guid>
       <description>6.2 * 特征值与特征向量 特征值和特征向量是矩阵和线性变换蕴含的最本质的信息之一，它们的计算及其性质的研究是相似标准型理论的起点. 本节我们将从6个</description>
     </item>
     <item>
@@ -662,16 +662,16 @@ A funny guy</description>
     </item>
     <item>
       <title>可逆矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.4/</guid>
       <description>2.4 判断一个矩阵是可逆阵大概有五种方法， 计算行列式的值 凑因子法 利用线性方程组求解理论判断 互素多项式的应用，见5.11节 特征值的应用，见6.2节</description>
     </item>
     <item>
       <title>可逆矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.4/</guid>
       <description>2.4 判断一个矩阵是可逆阵大概有五种方法， 计算行列式的值 凑因子法 利用线性方程组求解理论判断 互素多项式的应用，见5.11节 特征值的应用，见6.2节</description>
     </item>
     <item>
@@ -690,16 +690,16 @@ A funny guy</description>
     </item>
     <item>
       <title>特殊矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.2/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.2/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.2/</guid>
       <description>2.1 基础循环矩阵 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 1 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O</description>
     </item>
     <item>
       <title>特殊矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.2/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.2/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.2/</guid>
       <description>2.1 基础循环矩阵 1. 设n阶基础循环矩阵 $$ A=\left (\begin{array}{llll} 0 &amp;amp;1 &amp;amp; 0 &amp;amp;\cdots &amp;amp; 0 \\ 0 &amp;amp;0 &amp;amp; 1 &amp;amp;\cdots &amp;amp; 0 \\ \vdots &amp;amp; \vdots &amp;amp; \vdots &amp;amp; &amp;amp; \vdots \\ 0 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 1 \\ 1 &amp;amp; 0 &amp;amp;0 &amp;amp;&amp;hellip; &amp;amp; 0 \\ \end{array}\right) $$ 求证： $$ A^{k}=\left (\begin{array}{llll} O</description>
     </item>
     <item>

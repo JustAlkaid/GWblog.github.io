@@ -15,30 +15,30 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E5%90%8C%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4.3 线性同构</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch4/4.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.3/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.3/</guid>
       <description>4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映</description>
     </item>
     <item>
       <title>4.3 线性同构</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.3/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.3/</guid>
       <description>4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映</description>
     </item>
     <item>
       <title>3.4 线性同构和几何问题代数化</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.4/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.4/</guid>
       <description>3.4 线性同构和几何问题代数化 同一个数域$\mathbb{K}$上的两个线性空间$V,U$称为是线性同构的，如果存在一个一一对应的$φ: V \to U$</description>
     </item>
     <item>
       <title>3.4 线性同构和几何问题代数化</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.4/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.4/</guid>
       <description>3.4 线性同构和几何问题代数化 同一个数域$\mathbb{K}$上的两个线性空间$V,U$称为是线性同构的，如果存在一个一一对应的$φ: V \to U$</description>
     </item>
   </channel>

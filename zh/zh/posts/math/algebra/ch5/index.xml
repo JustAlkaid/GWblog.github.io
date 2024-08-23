@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chapter 5 on 避风港</title>
+    <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/</link>
+    <description>Recent content in chapter 5 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5.5-5.6 多项式函数与根，复系数多项式</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.5-5.6/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.5-5.6/</guid>
+      <description>5.5 多项式函数与根 判别多项式有无重根的最常用方法是判别该多项式及其形式导数是否有公因式. 下面是关于该方法的几个例子 22. 证明: 数域 $\mathbb{F}$ 上任意一个不可</description>
+    </item>
+    <item>
+      <title>5.7-5.8 实系数多项式，有理系数多项式</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.7-5.8/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.7-5.8/</guid>
+      <description>5.7 实系数多项式 下面的3个例题是实系数多项式的基本性质 39. 设 $f(x)$ 是复数域上的多项式，若对任意的实数 $c$，$f(c)$ 总是实数，求证: $f(x)$ 是实系数多</description>
+    </item>
+    <item>
+      <title>5.2-5.4 整除和带余除法，最大公因式与互素多项式，不可约多项式与因式分解</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.2-5.4/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch5/5.2-5.4/</guid>
+      <description>5.2 整除和带余除法 带余除法和待定系数法是讨论整除问题的两个基本方法，下面是两个简单的例子 1. 设 $g(x) = ax+b \in \mathbb{F}[x]$ ，求证: $g(x) | f(x)^{2}$ 的充要条件是 $g(x) | f(x)$. 2. 设 $g(x) =</description>
+    </item>
+  </channel>
+</rss>

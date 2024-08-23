@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chapter 6 on 避风港</title>
+    <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/</link>
+    <description>Recent content in chapter 6 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6.6 极小多项式与Cayley-Hamiltoon定理 </title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.6/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.6/</guid>
+      <description>$§$ 6.6 极小多项式与Cayley-Hamiltoon定理 极小多项式是矩阵与线性变换的一个相似不变量，他在相似标准型理论中起到了重要的作用. 例</description>
+    </item>
+    <item>
+      <title>6.7 矩阵的 $Kronecker$ 和 </title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.7/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.7/</guid>
+      <description>$§$ 6.7 矩阵的 $Kronecker$ 和 矩阵的 $Kronecker$ 和是一个重要的概念，他在数学的众多领域中都有着重要的应用，利用多重线性代数的理论可以证明：两个线性映射的张量积的表</description>
+    </item>
+    <item>
+      <title>6.4  乘法交换性诱导的同时性质 </title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.3/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.3/</guid>
+      <description>6.3 乘法交换性诱导的同时性质 矩阵乘法和线性交换的乘法运算一般没有交换性，这会触发很多与数的乘法运算不一样的性质和现象，因此矩阵和线性变换的不可</description>
+    </item>
+    <item>
+      <title>6.4  矩阵相似和可对角化的计算 </title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.4/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.4/</guid>
+      <description>6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初</description>
+    </item>
+    <item>
+      <title>6.5 可对角化的判定(1) </title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.5/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.5/</guid>
+      <description>6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难</description>
+    </item>
+    <item>
+      <title>6.2  特征值与特征向量</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.2/</guid>
+      <description>6.2 * 特征值与特征向量 特征值和特征向量是矩阵和线性变换蕴含的最本质的信息之一，它们的计算及其性质的研究是相似标准型理论的起点. 本节我们将从6个</description>
+    </item>
+  </channel>
+</rss>

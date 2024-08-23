@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chapter 4 on 避风港</title>
+    <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/</link>
+    <description>Recent content in chapter 4 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4.6 不变子空间</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.6/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.6/</guid>
+      <description>4.6 不变子空间 通过不变子空间来研究线性变换是常用的方法，他可以将全空间上的问题转化为维数较小的子空间上的问题，因此许多问题中常常需要证明，一个</description>
+    </item>
+    <item>
+      <title>4.7 幂等矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.7/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.7/</guid>
+      <description>4.7 幂等变换 若线性变换 $\varphi$ 满足 $\varphi^{2} = \varphi$ 则称为幂等变换，这是一类比较简单但又有重要用途的线性变换，我们来看一个幂等变换的简单例子 设 $V = V_{1} \oplus V_{2} \oplus \dots \oplus V</description>
+    </item>
+    <item>
+      <title>4.5 像空间和核空间</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.5/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.5/</guid>
+      <description>4.5 像空间和核空间 利用像空间和核空间来讨论线性映射的满性和单性是常见的方法，因此他们是相伴于线性映射的两个重要的子空间. 如何来确定线性映射的像</description>
+    </item>
+    <item>
+      <title>4.3 线性同构</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.3/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.3/</guid>
+      <description>4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映</description>
+    </item>
+    <item>
+      <title>4.4 线性映射与矩阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.4/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.4/</guid>
+      <description>4.4 线性映射与矩阵 本节的线性映射与矩阵的关系是这一章的核心，线性映射是一个几何概念，矩阵是一个代数概念，他们之间的关系需要掌握以下几点: (1) 记数</description>
+    </item>
+  </channel>
+</rss>

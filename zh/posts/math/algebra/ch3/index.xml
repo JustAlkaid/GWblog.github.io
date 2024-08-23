@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chapter 3 on 避风港</title>
+    <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/</link>
+    <description>Recent content in chapter 3 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/posts/math/algebra/ch3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3.9 线性方程组的解及其应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.9/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.9/</guid>
+      <description>3.9 线性方程组的解及其应用 如何求解线性方程组是高等代数中的第一个重要问题，为了彻底回答这个问题，我们引入了行列式、矩阵和线性空间等概念，并发展</description>
+    </item>
+    <item>
+      <title>3.8 相抵标准型及其应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.8/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.8/</guid>
+      <description>3.8 相抵标准型及其应用 任一$m \times n$矩阵$A$均可通过初等变换变成相抵标准型 $$ \begin{pmatrix} I_{r} &amp;amp; O\\ O &amp;amp; O \end{pmatrix} $$ 其中r为$A$的秩，矩阵的秩是矩阵在相抵关系下</description>
+    </item>
+    <item>
+      <title>3.5 基变换与过渡矩阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.5/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.5/</guid>
+      <description>3.5 基变换与过渡矩阵 42. 设$\{u_{1},u_{2},\cdots,u_{n}\}$, $\{e_{1},e_{2},\cdots,e_{n}\}$, $\{f_{1},f_{2},\cdots,f_{n}</description>
+    </item>
+    <item>
+      <title>3.6 子空间与商空间</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.6/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.6/</guid>
+      <description>3.6 子空间与商空间 46. 设$V=M_{n}(\mathbb{K})$是数域$\mathbb{K}$上的n阶矩阵全体组成的线性空间，$A \in V$，求证</description>
+    </item>
+    <item>
+      <title>3.7 矩阵的秩</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.7/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.7/</guid>
+      <description>3.7 矩阵的秩 矩阵秩的计算及估计在高等代数中有着诸多的应用，例如在3.2节中，我们利用矩阵秩的计算可以判定向量组的线性关系等，秩的等式(不等式)</description>
+    </item>
+    <item>
+      <title>3.4 线性同构和几何问题代数化</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.4/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.4/</guid>
+      <description>3.4 线性同构和几何问题代数化 同一个数域$\mathbb{K}$上的两个线性空间$V,U$称为是线性同构的，如果存在一个一一对应的$φ: V \to U$</description>
+    </item>
+    <item>
+      <title>3.3 向量空间及其基础</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.3/</link>
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.3/</guid>
+      <description>线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题</description>
+    </item>
+    <item>
+      <title>3.2 向量的线性关系</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.2/</guid>
+      <description>向量的线性关系 对于线性空间$\mathbb{V}$中的向量$\alpha_{1},\alpha_{2},\cdots,\alpha_{n}$</description>
+    </item>
+  </channel>
+</rss>

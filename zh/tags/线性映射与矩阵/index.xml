@@ -15,16 +15,16 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E6%98%A0%E5%B0%84%E4%B8%8E%E7%9F%A9%E9%98%B5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4.4 线性映射与矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch4/4.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.4/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.4/</guid>
       <description>4.4 线性映射与矩阵 本节的线性映射与矩阵的关系是这一章的核心，线性映射是一个几何概念，矩阵是一个代数概念，他们之间的关系需要掌握以下几点: (1) 记数</description>
     </item>
     <item>
       <title>4.4 线性映射与矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.4/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.4/</guid>
       <description>4.4 线性映射与矩阵 本节的线性映射与矩阵的关系是这一章的核心，线性映射是一个几何概念，矩阵是一个代数概念，他们之间的关系需要掌握以下几点: (1) 记数</description>
     </item>
   </channel>

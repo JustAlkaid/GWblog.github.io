@@ -15,16 +15,16 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E7%9A%84%E5%9F%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3.3 向量空间及其基础</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch3/3.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.3/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch3/3.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch3/3.3/</guid>
       <description>线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题</description>
     </item>
     <item>
       <title>3.3 向量空间及其基础</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.3/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch3/3.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch3/3.3/</guid>
       <description>线性空间及其基 线性空间理论是整个高等代数课程的核心，因此判断某个集合是否构成线性空间以及求出线性空间的一组基或者维数，本节将给出这些重要问题</description>
     </item>
   </channel>

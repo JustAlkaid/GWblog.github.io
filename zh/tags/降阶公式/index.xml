@@ -15,16 +15,16 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E9%99%8D%E9%98%B6%E5%85%AC%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2.10 分块初等变换与降阶公式</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.10/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.10/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.10/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.10/</guid>
       <description>分块初等变换与降阶公式 这一节介绍分块初等变换在求行列式值和求逆的应用 65. 设A是n阶可逆阵，$ α,β$是n维列向量，b是常数，现有分块矩阵 $$ Q=\left(\begin{array}{cccc} A</description>
     </item>
     <item>
       <title>2.10 分块初等变换与降阶公式</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.10/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.10/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.10/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.10/</guid>
       <description>分块初等变换与降阶公式 这一节介绍分块初等变换在求行列式值和求逆的应用 65. 设A是n阶可逆阵，$ α,β$是n维列向量，b是常数，现有分块矩阵 $$ Q=\left(\begin{array}{cccc} A</description>
     </item>
   </channel>

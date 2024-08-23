@@ -15,16 +15,16 @@
     <atom:link href="https://GWblog.github.io/zh/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>4.3 线性同构</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch4/4.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.3/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch4/4.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch4/4.3/</guid>
       <description>4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映</description>
     </item>
     <item>
       <title>4.3 线性同构</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.3/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch4/4.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch4/4.3/</guid>
       <description>4.3 线性同构 线性同构刻画了不同线性空间之间的相同本质，即同构的线性空间具有相同的线性结构(或者从线性结构的观点来看没有任何区别)，要证明线性映</description>
     </item>
   </channel>

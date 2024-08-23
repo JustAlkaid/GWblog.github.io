@@ -15,16 +15,16 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E6%91%84%E5%8A%A8%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2.11 摄动法及其应用</title>
-      <link>https://GWblog.github.io/zh/posts/math/ch2/2.11/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.11/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/ch2/2.11/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.11/</guid>
       <description>摄动法及其应用 摄动法通过矩阵理论中的常用方法，它利用连续函数的性质将一般矩阵的问题转化为对非异阵的讨论，本节中我们会讲述原理，在伴随矩阵性质</description>
     </item>
     <item>
       <title>2.11 摄动法及其应用</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/ch2/2.11/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.11/</link>
       <pubDate>Sun, 11 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/ch2/2.11/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.11/</guid>
       <description>摄动法及其应用 摄动法通过矩阵理论中的常用方法，它利用连续函数的性质将一般矩阵的问题转化为对非异阵的讨论，本节中我们会讲述原理，在伴随矩阵性质</description>
     </item>
   </channel>
