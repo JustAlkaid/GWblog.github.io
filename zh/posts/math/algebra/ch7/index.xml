@@ -18,7 +18,7 @@
       <link>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.7/</link>
       <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/math/algebra/ch7/7.7/</guid>
-      <description>$§$ 7.7 过渡矩阵的求法 在 $\S 6.4$ 中，我们介绍了可对角化矩阵 $A$</description>
+      <description>$§$ 7.7 过渡矩阵的求法 在 $\S 6.4$ 中，我们介绍了对于可对角化矩阵 $A$ ，如何求过渡矩阵 $P$ 使得 $P^{-1}AP$ 是对角矩阵. 现在我们要介绍对一般的矩阵 $A$ （未必可对角化）</description>
     </item>
     <item>
       <title>7.6 $Jordan$ 标准型的求法</title>
