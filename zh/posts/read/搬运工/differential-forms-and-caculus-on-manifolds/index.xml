@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>differential form &amp; manifolds on 避风港</title>
+    <link>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/</link>
+    <description>Recent content in differential form &amp; manifolds on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> An Epsilon of Room, : Real Analysis</title>
+      <link>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/visual-intrroduction/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/visual-intrroduction/</guid>
+      <description>real anaylsis 1.1 A quick review of measure and integration theory 在本节中，我们快速回顾抽象测度论和积分理论的基础知识，这些基础知识在上一课程中已介绍过，但在当前课程中当然会依赖这些基</description>
+    </item>
+  </channel>
+</rss>

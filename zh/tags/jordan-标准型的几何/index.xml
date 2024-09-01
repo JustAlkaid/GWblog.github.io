@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>$Jordan$ 标准型的几何 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/jordan-%E6%A0%87%E5%87%86%E5%9E%8B%E7%9A%84%E5%87%A0%E4%BD%95/</link>
+    <description>Recent content in $Jordan$ 标准型的几何 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/jordan-%E6%A0%87%E5%87%86%E5%9E%8B%E7%9A%84%E5%87%A0%E4%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7.10 $Jordan$ 标准型的几何</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch7/7.10/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch7/7.10/</guid>
+      <description>$§$ 7.10 $Jordan$ 标准型的几何 矩阵或线性变换的标准型</description>
+    </item>
+    <item>
+      <title>7.10 $Jordan$ 标准型的几何</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch7/7.10/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch7/7.10/</guid>
+      <description>$§$ 7.10 $Jordan$ 标准型的几何 矩阵或线性变换的标准型</description>
+    </item>
+  </channel>
+</rss>

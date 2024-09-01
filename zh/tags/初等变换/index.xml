@@ -14,16 +14,16 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E5%88%9D%E7%AD%89%E5%8F%98%E6%8D%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2.5 初等变换及其应用</title>
-      <link>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.5/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch2/2.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch2/2.5/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch2/2.5/</guid>
       <description>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方</description>
     </item>
     <item>
       <title>2.5 初等变换及其应用</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.5/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch2/2.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch2/2.5/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch2/2.5/</guid>
       <description>初等变换及其应用 初等变换主要用在相抵标准型和求逆阵这两个方向的应用 相抵标准型 相抵标准型是一个矩阵经过初等变换所能得到的最终形态 28. 求证：n阶方</description>
     </item>
   </channel>

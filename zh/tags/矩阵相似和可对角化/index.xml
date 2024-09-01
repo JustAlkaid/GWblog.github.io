@@ -15,16 +15,16 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E7%9B%B8%E4%BC%BC%E5%92%8C%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>6.4  矩阵相似和可对角化的计算 </title>
-      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.4/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch6/6.4/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.4/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch6/6.4/</guid>
       <description>6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初</description>
     </item>
     <item>
       <title>6.4  矩阵相似和可对角化的计算 </title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.4/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch6/6.4/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.4/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch6/6.4/</guid>
       <description>6.4 矩阵相似和可对角化的计算 本节将从5个方面阐述矩阵相似和可对角化的计算相关的计算方法 (本节彩蛋，例题6.54 Fibonacci数列) 1. 相似初</description>
     </item>
   </channel>

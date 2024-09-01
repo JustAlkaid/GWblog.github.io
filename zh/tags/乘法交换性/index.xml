@@ -15,16 +15,16 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E4%B9%98%E6%B3%95%E4%BA%A4%E6%8D%A2%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>6.4  乘法交换性诱导的同时性质 </title>
-      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.3/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch6/6.3/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.3/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch6/6.3/</guid>
       <description>6.3 乘法交换性诱导的同时性质 矩阵乘法和线性交换的乘法运算一般没有交换性，这会触发很多与数的乘法运算不一样的性质和现象，因此矩阵和线性变换的不可</description>
     </item>
     <item>
       <title>6.4  乘法交换性诱导的同时性质 </title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.3/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch6/6.3/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.3/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch6/6.3/</guid>
       <description>6.3 乘法交换性诱导的同时性质 矩阵乘法和线性交换的乘法运算一般没有交换性，这会触发很多与数的乘法运算不一样的性质和现象，因此矩阵和线性变换的不可</description>
     </item>
   </channel>

@@ -15,6 +15,20 @@
     <atom:link href="https://GWblog.github.io/zh/tags/%E7%89%B9%E5%BE%81%E5%80%BC%E4%B8%8E%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> An Epsilon of Room, : Real Analysis</title>
+      <link>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/visual-intrroduction/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/visual-intrroduction/</guid>
+      <description>real anaylsis 1.1 A quick review of measure and integration theory 在本节中，我们快速回顾抽象测度论和积分理论的基础知识，这些基础知识在上一课程中已介绍过，但在当前课程中当然会依赖这些基</description>
+    </item>
+    <item>
+      <title> An Epsilon of Room, : Real Analysis</title>
+      <link>https://GWblog.github.io/zh/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/visual-intrroduction/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/visual-intrroduction/</guid>
+      <description>real anaylsis 1.1 A quick review of measure and integration theory 在本节中，我们快速回顾抽象测度论和积分理论的基础知识，这些基础知识在上一课程中已介绍过，但在当前课程中当然会依赖这些基</description>
+    </item>
+    <item>
+      <title> An Epsilon of Room, : Real Analysis</title>
       <link>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/real-analysis/real-analysis/</guid>
@@ -29,16 +43,16 @@
     </item>
     <item>
       <title>6.2  特征值与特征向量</title>
-      <link>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.2/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch6/6.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/algebra/ch6/6.2/</guid>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch6/6.2/</guid>
       <description>6.2 * 特征值与特征向量 特征值和特征向量是矩阵和线性变换蕴含的最本质的信息之一，它们的计算及其性质的研究是相似标准型理论的起点. 本节我们将从6个</description>
     </item>
     <item>
       <title>6.2  特征值与特征向量</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.2/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch6/6.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/ch6/6.2/</guid>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch6/6.2/</guid>
       <description>6.2 * 特征值与特征向量 特征值和特征向量是矩阵和线性变换蕴含的最本质的信息之一，它们的计算及其性质的研究是相似标准型理论的起点. 本节我们将从6个</description>
     </item>
   </channel>
