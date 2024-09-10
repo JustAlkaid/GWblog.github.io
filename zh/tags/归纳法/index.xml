@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>归纳法 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E5%BD%92%E7%BA%B3%E6%B3%95/</link>
+    <description>Recent content in 归纳法 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E5%BD%92%E7%BA%B3%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.3 归纳法的应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.3/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.3/</guid>
+      <description>$§$ 8.3 归纳法的应用</description>
+    </item>
+    <item>
+      <title>8.3 归纳法的应用</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.3/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.3/</guid>
+      <description>$§$ 8.3 归纳法的应用</description>
+    </item>
+  </channel>
+</rss>

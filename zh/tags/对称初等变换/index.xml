@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>对称初等变换 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E5%AF%B9%E7%A7%B0%E5%88%9D%E7%AD%89%E5%8F%98%E6%8D%A2/</link>
+    <description>Recent content in 对称初等变换 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E5%AF%B9%E7%A7%B0%E5%88%9D%E7%AD%89%E5%8F%98%E6%8D%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.2 对称初等变换与矩阵合同</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.2/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.2/</guid>
+      <description>$§$ 8.2 称初等变换与矩阵合同 用对称初等变换来讨论对称矩阵是常用的方法之一. 设 $A$ 是对称矩阵，若对 $A$ 进行一次初等行变换，再进行一次对称的初等列变</description>
+    </item>
+    <item>
+      <title>8.2 对称初等变换与矩阵合同</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.2/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.2/</guid>
+      <description>$§$ 8.2 称初等变换与矩阵合同 用对称初等变换来讨论对称矩阵是常用的方法之一. 设 $A$ 是对称矩阵，若对 $A$ 进行一次初等行变换，再进行一次对称的初等列变</description>
+    </item>
+  </channel>
+</rss>

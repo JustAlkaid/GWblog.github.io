@@ -11,8 +11,36 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>归纳法</title>
+      <link>https://GWblog.github.io/zh/tags/%E5%BD%92%E7%BA%B3%E6%B3%95/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/%E5%BD%92%E7%BA%B3%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>对称初等变换</title>
+      <link>https://GWblog.github.io/zh/tags/%E5%AF%B9%E7%A7%B0%E5%88%9D%E7%AD%89%E5%8F%98%E6%8D%A2/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/%E5%AF%B9%E7%A7%B0%E5%88%9D%E7%AD%89%E5%8F%98%E6%8D%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>矩阵合同</title>
+      <link>https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E5%90%88%E5%90%8C/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E5%90%88%E5%90%8C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>一般数域上的相似标准型</title>
+      <link>https://GWblog.github.io/zh/tags/%E4%B8%80%E8%88%AC%E6%95%B0%E5%9F%9F%E4%B8%8A%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/%E4%B8%80%E8%88%AC%E6%95%B0%E5%9F%9F%E4%B8%8A%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%A0%87%E5%87%86%E5%9E%8B/</guid>
+      <description></description>
+    </item>
     <item>
       <title>$Jordan$ 标准型</title>
       <link>https://GWblog.github.io/zh/tags/jordan-%E6%A0%87%E5%87%86%E5%9E%8B/</link>
