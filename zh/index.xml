@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
@@ -45,18 +45,32 @@ A funny guy</description>
 A funny guy</description>
     </item>
     <item>
+      <title>8.4 合同标准型的应用</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.4/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.4/</guid>
+      <description>$§$ 8.4 合同标准型的应用 引进标准型的目的是为了简化问题的讨论. 应用合同标准型（复相合标准型）可以简化二次型和对称矩阵（$Hermite$ 型和</description>
+    </item>
+    <item>
+      <title>8.4 合同标准型的应用</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.4/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.4/</guid>
+      <description>$§$ 8.4 合同标准型的应用 引进标准型的目的是为了简化问题的讨论. 应用合同标准型（复相合标准型）可以简化二次型和对称矩阵（$Hermite$ 型和</description>
+    </item>
+    <item>
       <title>8.3 归纳法的应用</title>
       <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.3/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.3/</guid>
-      <description>$§$ 8.3 归纳法的应用</description>
+      <description>$§$ 8.3 归纳法的应用 数学归纳法是讨论二次型与相关矩阵问题的常用方法之一，注意到例题8.7的证明过程展示了这样一种方法， 例如有一个分块对称矩阵</description>
     </item>
     <item>
       <title>8.3 归纳法的应用</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.3/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.3/</guid>
-      <description>$§$ 8.3 归纳法的应用</description>
+      <description>$§$ 8.3 归纳法的应用 数学归纳法是讨论二次型与相关矩阵问题的常用方法之一，注意到例题8.7的证明过程展示了这样一种方法， 例如有一个分块对称矩阵</description>
     </item>
     <item>
       <title>7.11 一般数域上的相似标准型</title>
