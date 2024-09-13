@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>矩阵与二次型的关系 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+    <description>Recent content in 矩阵与二次型的关系 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E7%9F%A9%E9%98%B5%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B%E7%9A%84%E5%85%B3%E7%B3%BB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.6 矩阵与二次型</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.6/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.6/</guid>
+      <description>$§$ 8.6 矩阵与二次型 二次型（$Hermite$ 型）与对称矩阵（$Hermite$ 矩阵）之间有着一一对应的关系，这种关系既可以让我们用矩阵方法</description>
+    </item>
+    <item>
+      <title>8.6 矩阵与二次型</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.6/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.6/</guid>
+      <description>$§$ 8.6 矩阵与二次型 二次型（$Hermite$ 型）与对称矩阵（$Hermite$ 矩阵）之间有着一一对应的关系，这种关系既可以让我们用矩阵方法</description>
+    </item>
+  </channel>
+</rss>
