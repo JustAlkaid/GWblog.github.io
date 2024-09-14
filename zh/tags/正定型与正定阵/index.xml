@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>正定型与正定阵 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E6%AD%A3%E5%AE%9A%E9%98%B5/</link>
+    <description>Recent content in 正定型与正定阵 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E6%AD%A3%E5%AE%9A%E9%98%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.7 *正定型与正定阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.7/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.7/</guid>
+      <description>$§$ 8.7 *正定型与正定阵 正定型与正定阵是本章最重要的内容之一</description>
+    </item>
+    <item>
+      <title>8.7 *正定型与正定阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.7/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.7/</guid>
+      <description>$§$ 8.7 *正定型与正定阵 正定型与正定阵是本章最重要的内容之一</description>
+    </item>
+  </channel>
+</rss>
