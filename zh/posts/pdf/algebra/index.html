@@ -329,36 +329,36 @@
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
-  </style><div class="embed-pdf-container" id="embed-pdf-container-2f027edf">
-    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-2f027edf">
-        <div class="pdf-loading" id="pdf-loading-2f027edf"></div>
+  </style><div class="embed-pdf-container" id="embed-pdf-container-08ac5423">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-08ac5423">
+        <div class="pdf-loading" id="pdf-loading-08ac5423"></div>
     </div>
     <div id="overlayText">
-      <a href="./algebra/linear-algebra.pdf" aria-label="Download" download>
+      <a href="./pdf/algebra/linear-algebra.pdf" aria-label="Download" download>
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
             <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
         </svg>
       </a>
     </div>
-    <canvas class="pdf-canvas" id="pdf-canvas-2f027edf"></canvas>
+    <canvas class="pdf-canvas" id="pdf-canvas-08ac5423"></canvas>
 </div>
 
-<div class="pdf-paginator" id="pdf-paginator-2f027edf">
-    <button id="pdf-prev-2f027edf">Previous</button>
-    <button id="pdf-next-2f027edf">Next</button> &nbsp; &nbsp;
+<div class="pdf-paginator" id="pdf-paginator-08ac5423">
+    <button id="pdf-prev-08ac5423">Previous</button>
+    <button id="pdf-next-08ac5423">Next</button> &nbsp; &nbsp;
     <span>
-      <span class="pdf-pagenum" id="pdf-pagenum-2f027edf"></span> / <span class="pdf-pagecount" id="pdf-pagecount-2f027edf"></span>
+      <span class="pdf-pagenum" id="pdf-pagenum-08ac5423"></span> / <span class="pdf-pagecount" id="pdf-pagecount-08ac5423"></span>
     </span>
-    <a class="pdf-source" id="pdf-source-2f027edf" href="./algebra/linear-algebra.pdf">[pdf]</a>
+    <a class="pdf-source" id="pdf-source-08ac5423" href="./pdf/algebra/linear-algebra.pdf">[pdf]</a>
 </div>
 
 <noscript>
-View the PDF file <a class="pdf-source" id="pdf-source-noscript-2f027edf" href="./algebra/linear-algebra.pdf">here</a>.
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-08ac5423" href="./pdf/algebra/linear-algebra.pdf">here</a>.
 </noscript>
 
 <script type="text/javascript">
     (function(){
-    var url = '.\/algebra\/linear-algebra.pdf';
+    var url = '.\/pdf\/algebra\/linear-algebra.pdf';
 
     var hidePaginator = "" === "true";
     var hideLoader = "" === "true";
@@ -377,10 +377,10 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-2f027edf" href="
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById('pdf-canvas-2f027edf'),
+        canvas = document.getElementById('pdf-canvas-08ac5423'),
         ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-2f027edf"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-2f027edf');
+        paginator = document.getElementById("pdf-paginator-08ac5423"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-08ac5423');
 
 
     
@@ -418,7 +418,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-2f027edf" href="
       });
 
       
-      document.getElementById('pdf-pagenum-2f027edf').textContent = num;
+      document.getElementById('pdf-pagenum-08ac5423').textContent = num;
     }
 
     
@@ -462,7 +462,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-2f027edf" href="
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-prev-2f027edf').addEventListener('click', onPrevPage);
+    document.getElementById('pdf-prev-08ac5423').addEventListener('click', onPrevPage);
 
     
 
@@ -473,14 +473,14 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-2f027edf" href="
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-next-2f027edf').addEventListener('click', onNextPage);
+    document.getElementById('pdf-next-08ac5423').addEventListener('click', onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-2f027edf').textContent = numPages;
+      document.getElementById('pdf-pagecount-08ac5423').textContent = numPages;
 
       
       if(pageNum > numPages) {
