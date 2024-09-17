@@ -353,6 +353,20 @@ A funny guy</description>
       <description>6.5* 可对角化的判定(1) 矩阵或线性变换的可对角化判定是高等代数的一个重要知识点. 由于判定准则多且技巧性强，故可视化判定一直是教学以及考试中的难</description>
     </item>
     <item>
+      <title>real analysis note</title>
+      <link>https://GWblog.github.io/zh/posts/math/analysis/note/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/analysis/note/</guid>
+      <description>$§0$ 基础 集合语言 $§ 1$ 实数系 $\mathbb{Q}$ 在 $\mathbb{R}$ 中的稠密性 即 $∀x,y ∈ \mathbb{R}$ and $x &amp;lt; y$ ,then $∃ p ∈ \mathbb{Q} $ ,such that $x &amp;lt; p &amp;lt; y$ hint 如果说在 $x,y$ 中间能找到一个有理数 $p = \frac{m}{n}$ 满</description>
+    </item>
+    <item>
+      <title>real analysis note</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/analysis/note/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/analysis/note/</guid>
+      <description>$§0$ 基础 集合语言 $§ 1$ 实数系 $\mathbb{Q}$ 在 $\mathbb{R}$ 中的稠密性 即 $∀x,y ∈ \mathbb{R}$ and $x &amp;lt; y$ ,then $∃ p ∈ \mathbb{Q} $ ,such that $x &amp;lt; p &amp;lt; y$ hint 如果说在 $x,y$ 中间能找到一个有理数 $p = \frac{m}{n}$ 满</description>
+    </item>
+    <item>
       <title> An Epsilon of Room, : Real Analysis</title>
       <link>https://GWblog.github.io/zh/posts/read/%E6%90%AC%E8%BF%90%E5%B7%A5/differential-forms-and-caculus-on-manifolds/visual-intrroduction/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>

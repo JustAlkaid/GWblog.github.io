@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>analysis on 避风港</title>
+    <link>https://GWblog.github.io/zh/zh/posts/math/analysis/</link>
+    <description>Recent content in analysis on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/zh/posts/math/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>real analysis note</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/analysis/note/</link>
+      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/analysis/note/</guid>
+      <description>$§0$ 基础 集合语言 $§ 1$ 实数系 $\mathbb{Q}$ 在 $\mathbb{R}$ 中的稠密性 即 $∀x,y ∈ \mathbb{R}$ and $x &amp;lt; y$ ,then $∃ p ∈ \mathbb{Q} $ ,such that $x &amp;lt; p &amp;lt; y$ hint 如果说在 $x,y$ 中间能找到一个有理数 $p = \frac{m}{n}$ 满</description>
+    </item>
+  </channel>
+</rss>
