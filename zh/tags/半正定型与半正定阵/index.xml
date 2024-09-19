@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>半正定型与半正定阵 on 避风港</title>
+    <link>https://GWblog.github.io/zh/tags/%E5%8D%8A%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A%E9%98%B5/</link>
+    <description>Recent content in 半正定型与半正定阵 on 避风港</description>
+    <image>
+      <title>避风港</title>
+      <url>https://GWblog.github.io/images/fav.jpg</url>
+      <link>https://GWblog.github.io/images/fav.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://GWblog.github.io/zh/tags/%E5%8D%8A%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A%E9%98%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.8 *半正定型与半正定阵</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.8/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.8/</guid>
+      <description>$§$ 8.8 *半正定型与半正定阵 半正定型与半正定阵在绿皮书教材中讨论得比较少，主要原因是正定型与正定阵作为子集包含在半正定型与半正定阵，其中的判</description>
+    </item>
+    <item>
+      <title>8.8 *半正定型与半正定阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.8/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.8/</guid>
+      <description>$§$ 8.8 *半正定型与半正定阵 半正定型与半正定阵在绿皮书教材中讨论得比较少，主要原因是正定型与正定阵作为子集包含在半正定型与半正定阵，其中的判</description>
+    </item>
+  </channel>
+</rss>

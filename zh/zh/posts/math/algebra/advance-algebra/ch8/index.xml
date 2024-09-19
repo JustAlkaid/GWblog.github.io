@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>8.8 *半正定型与半正定阵</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.8/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.8/</guid>
+      <description>$§$ 8.8 *半正定型与半正定阵 半正定型与半正定阵在绿皮书教材中讨论得比较少，主要原因是正定型与正定阵作为子集包含在半正定型与半正定阵，其中的判</description>
+    </item>
     <item>
       <title>8.5 多变元二次型的计算</title>
       <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.5/</link>
