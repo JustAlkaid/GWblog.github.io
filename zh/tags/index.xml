@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>内积空间与 $Gram$ 矩阵</title>
+      <link>https://GWblog.github.io/zh/tags/%E5%86%85%E7%A7%AF%E7%A9%BA%E9%97%B4%E4%B8%8E-gram-%E7%9F%A9%E9%98%B5/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/tags/%E5%86%85%E7%A7%AF%E7%A9%BA%E9%97%B4%E4%B8%8E-gram-%E7%9F%A9%E9%98%B5/</guid>
+      <description></description>
+    </item>
     <item>
       <title>半正定型与半正定阵</title>
       <link>https://GWblog.github.io/zh/tags/%E5%8D%8A%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A%E9%98%B5/</link>

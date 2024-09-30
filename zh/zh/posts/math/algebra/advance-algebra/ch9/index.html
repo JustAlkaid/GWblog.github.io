@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>半正定型与半正定阵 | 避风港</title>
+<title>chapter 9 | 避风港</title>
 <meta name="keywords" content="">
-<meta name="description" content="避风港 Haven">
+<meta name="description" content="内积空间">
 <meta name="author" content="G.W">
-<link rel="canonical" href="https://GWblog.github.io/zh/tags/%E5%8D%8A%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A%E9%98%B5/">
+<link rel="canonical" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.360681178b41ee49e48d7c6acb463e4f7ef1b547bb774c2f6a52cca7ac25b304.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="https://GWblog.github.io/%3Clink%20/%20abs%20url%3E">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://GWblog.github.io/zh/tags/%E5%8D%8A%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A%E9%98%B5/index.xml">
-<link rel="alternate" hreflang="zh" href="https://GWblog.github.io/zh/tags/%E5%8D%8A%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A%E9%98%B5/">
+<link rel="alternate" type="application/rss+xml" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/index.xml">
+<link rel="alternate" hreflang="zh" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,17 +56,50 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="半正定型与半正定阵" />
-<meta property="og:description" content="避风港 Haven" />
+</noscript><meta property="og:title" content="chapter 9" />
+<meta property="og:description" content="内积空间" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://GWblog.github.io/zh/tags/%E5%8D%8A%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A%E9%98%B5/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="og:site_name" content="避风港 Haven" />
+<meta property="og:url" content="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="og:site_name" content="避风港 Haven" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://GWblog.github.io/images/fav.jpg"/>
 
-<meta name="twitter:title" content="半正定型与半正定阵"/>
-<meta name="twitter:description" content="避风港 Haven"/>
+<meta name="twitter:title" content="chapter 9"/>
+<meta name="twitter:description" content="内积空间"/>
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "文章",
+      "item": "https://GWblog.github.io/zh/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "math",
+      "item": "https://GWblog.github.io/zh/posts/math/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "algebra",
+      "item": "https://GWblog.github.io/zh/posts/math/algebra/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  5 ,
+      "name": "chapter 9",
+      "item": "https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/"
+    }
+  ]
+}
+</script>
 <style>
     .gallery-photos{width:100%;}
     .gallery-photo{width:24.9%;position: relative;visibility: hidden;overflow: hidden;}
@@ -204,8 +237,8 @@
 <main class="main"> 
 <header class="page-header">
   <h1>
-    半正定型与半正定阵
-    <a href="/zh/tags/%E5%8D%8A%E6%AD%A3%E5%AE%9A%E5%9E%8B%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A%E9%98%B5/index.xml" title="RSS" aria-label="RSS">
+    chapter 9
+    <a href="/zh/zh/posts/math/algebra/advance-algebra/ch9/index.xml" title="RSS" aria-label="RSS">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" height="23">
         <path d="M4 11a9 9 0 0 1 9 9" />
@@ -214,24 +247,18 @@
       </svg>
     </a>
   </h1>
+  <div class="post-description">
+    内积空间
+  </div>
 </header>
 
-<article class="post-entry tag-entry"> 
+<article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">8.8 *半正定型与半正定阵
+    <h2 class="entry-hint-parent">9.2 内积空间与 $Gram$ 矩阵
     </h2>
   </header>
-  <footer class="entry-footer"><span title='2024-09-15 00:00:00 +0000 UTC'>2024-09-15</span>&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;2884 字&nbsp;·&nbsp;G.W</footer>
-  <a class="entry-link" aria-label="post link to 8.8 *半正定型与半正定阵" href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch8/8.8/"></a>
-</article>
-
-<article class="post-entry tag-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">8.8 *半正定型与半正定阵
-    </h2>
-  </header>
-  <footer class="entry-footer"><span title='2024-09-15 00:00:00 +0000 UTC'>2024-09-15</span>&nbsp;·&nbsp;6 分钟&nbsp;·&nbsp;2884 字&nbsp;·&nbsp;G.W</footer>
-  <a class="entry-link" aria-label="post link to 8.8 *半正定型与半正定阵" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch8/8.8/"></a>
+  <footer class="entry-footer"><span title='2024-09-20 00:00:00 +0000 UTC'>2024-09-20</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;12 字&nbsp;·&nbsp;G.W</footer>
+  <a class="entry-link" aria-label="post link to 9.2 内积空间与 $Gram$ 矩阵" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/8.8/"></a>
 </article>
     </main>
     
