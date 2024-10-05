@@ -46,17 +46,17 @@ A funny guy</description>
     </item>
     <item>
       <title>9.2 内积空间与 $Gram$ 矩阵</title>
-      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/8.8/</link>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.2/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/8.8/</guid>
-      <description>$§$ 9.2 内积空间与 $Gram$ 矩阵</description>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.2/</guid>
+      <description>$§$ 9.2 内积空间与 $Gram$ 矩阵 如果实线性空间（或复线性空间） $V$ 上附加了一个满足对称性（或共轭对称性）、第一变量的线性以及正定性的二元计算(-,-)</description>
     </item>
     <item>
       <title>9.2 内积空间与 $Gram$ 矩阵</title>
-      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/8.8/</link>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.2/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/8.8/</guid>
-      <description>$§$ 9.2 内积空间与 $Gram$ 矩阵</description>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.2/</guid>
+      <description>$§$ 9.2 内积空间与 $Gram$ 矩阵 如果实线性空间（或复线性空间） $V$ 上附加了一个满足对称性（或共轭对称性）、第一变量的线性以及正定性的二元计算(-,-)</description>
     </item>
     <item>
       <title>8.8 *半正定型与半正定阵</title>
@@ -267,6 +267,20 @@ A funny guy</description>
       <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch7/7.5/</guid>
       <description>$§$ 7.5 可对角化的判定（二） 我们曾经在 $§ 6.5$ 节中讨论过矩阵可对角化的若干判定准则，现在我们又多了两个判定准则（高代Ⅱ一个重要的核心内容就是对</description>
+    </item>
+    <item>
+      <title>vector calculus</title>
+      <link>https://GWblog.github.io/zh/posts/math/analysis/vector-calculus/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/analysis/vector-calculus/</guid>
+      <description> $§0$ Euclidean space </description>
+    </item>
+    <item>
+      <title>vector calculus</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/analysis/vector-calculus/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/analysis/vector-calculus/</guid>
+      <description> $§0$ Euclidean space </description>
     </item>
     <item>
       <title>7.4 乘法交换性诱导的多项式表示</title>
