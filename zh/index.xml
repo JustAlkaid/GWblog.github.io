@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://GWblog.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>about</title>
@@ -43,6 +43,20 @@ A funny guy</description>
       <guid>https://GWblog.github.io/zh/zh/friends/</guid>
       <description>Tony
 A funny guy</description>
+    </item>
+    <item>
+      <title>9.3 $Gram-Schmidt$ 正交化方法和正交补空间</title>
+      <link>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.3/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.3/</guid>
+      <description>$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间</description>
+    </item>
+    <item>
+      <title>9.3 $Gram-Schmidt$ 正交化方法和正交补空间</title>
+      <link>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.3/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.3/</guid>
+      <description>$§$ 9.3 $Gram-Schmidt$ 正交化方法和正交补空间</description>
     </item>
     <item>
       <title>9.2 内积空间与 $Gram$ 矩阵</title>

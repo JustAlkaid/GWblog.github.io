@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>chapter 9 | 避风港</title>
+<title>$Gram-Schmidt$ 正交化方法和正交补空间 | 避风港</title>
 <meta name="keywords" content="">
-<meta name="description" content="内积空间">
+<meta name="description" content="避风港 Haven">
 <meta name="author" content="G.W">
-<link rel="canonical" href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/">
+<link rel="canonical" href="https://GWblog.github.io/zh/tags/gram-schmidt-%E6%AD%A3%E4%BA%A4%E5%8C%96%E6%96%B9%E6%B3%95%E5%92%8C%E6%AD%A3%E4%BA%A4%E8%A1%A5%E7%A9%BA%E9%97%B4/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.360681178b41ee49e48d7c6acb463e4f7ef1b547bb774c2f6a52cca7ac25b304.css" integrity="" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://GWblog.github.io/images/fav.jpg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://GWblog.github.io/images/fav.jpg">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="https://GWblog.github.io/%3Clink%20/%20abs%20url%3E">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/index.xml">
-<link rel="alternate" hreflang="zh" href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/">
+<link rel="alternate" type="application/rss+xml" href="https://GWblog.github.io/zh/tags/gram-schmidt-%E6%AD%A3%E4%BA%A4%E5%8C%96%E6%96%B9%E6%B3%95%E5%92%8C%E6%AD%A3%E4%BA%A4%E8%A1%A5%E7%A9%BA%E9%97%B4/index.xml">
+<link rel="alternate" hreflang="zh" href="https://GWblog.github.io/zh/tags/gram-schmidt-%E6%AD%A3%E4%BA%A4%E5%8C%96%E6%96%B9%E6%B3%95%E5%92%8C%E6%AD%A3%E4%BA%A4%E8%A1%A5%E7%A9%BA%E9%97%B4/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,50 +56,17 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="chapter 9" />
-<meta property="og:description" content="内积空间" />
+</noscript><meta property="og:title" content="$Gram-Schmidt$ 正交化方法和正交补空间" />
+<meta property="og:description" content="避风港 Haven" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="og:site_name" content="避风港 Haven" />
+<meta property="og:url" content="https://GWblog.github.io/zh/tags/gram-schmidt-%E6%AD%A3%E4%BA%A4%E5%8C%96%E6%96%B9%E6%B3%95%E5%92%8C%E6%AD%A3%E4%BA%A4%E8%A1%A5%E7%A9%BA%E9%97%B4/" /><meta property="og:image" content="https://GWblog.github.io/images/fav.jpg"/><meta property="og:site_name" content="避风港 Haven" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://GWblog.github.io/images/fav.jpg"/>
 
-<meta name="twitter:title" content="chapter 9"/>
-<meta name="twitter:description" content="内积空间"/>
+<meta name="twitter:title" content="$Gram-Schmidt$ 正交化方法和正交补空间"/>
+<meta name="twitter:description" content="避风港 Haven"/>
 
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "文章",
-      "item": "https://GWblog.github.io/zh/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "math",
-      "item": "https://GWblog.github.io/zh/posts/math/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  3 ,
-      "name": "algebra",
-      "item": "https://GWblog.github.io/zh/posts/math/algebra/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  5 ,
-      "name": "chapter 9",
-      "item": "https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/"
-    }
-  ]
-}
-</script>
 <style>
     .gallery-photos{width:100%;}
     .gallery-photo{width:24.9%;position: relative;visibility: hidden;overflow: hidden;}
@@ -237,8 +204,8 @@
 <main class="main"> 
 <header class="page-header">
   <h1>
-    chapter 9
-    <a href="/zh/posts/math/algebra/advance-algebra/ch9/index.xml" title="RSS" aria-label="RSS">
+    $Gram-Schmidt$ 正交化方法和正交补空间
+    <a href="/zh/tags/gram-schmidt-%E6%AD%A3%E4%BA%A4%E5%8C%96%E6%96%B9%E6%B3%95%E5%92%8C%E6%AD%A3%E4%BA%A4%E8%A1%A5%E7%A9%BA%E9%97%B4/index.xml" title="RSS" aria-label="RSS">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
         stroke-linecap="round" stroke-linejoin="round" height="23">
         <path d="M4 11a9 9 0 0 1 9 9" />
@@ -247,12 +214,9 @@
       </svg>
     </a>
   </h1>
-  <div class="post-description">
-    内积空间
-  </div>
 </header>
 
-<article class="post-entry"> 
+<article class="post-entry tag-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">9.3 $Gram-Schmidt$ 正交化方法和正交补空间
     </h2>
@@ -261,13 +225,13 @@
   <a class="entry-link" aria-label="post link to 9.3 $Gram-Schmidt$ 正交化方法和正交补空间" href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.3/"></a>
 </article>
 
-<article class="post-entry"> 
+<article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">9.2 内积空间与 $Gram$ 矩阵
+    <h2 class="entry-hint-parent">9.3 $Gram-Schmidt$ 正交化方法和正交补空间
     </h2>
   </header>
-  <footer class="entry-footer"><span title='2024-09-20 00:00:00 +0000 UTC'>2024-09-20</span>&nbsp;·&nbsp;7 分钟&nbsp;·&nbsp;3415 字&nbsp;·&nbsp;G.W</footer>
-  <a class="entry-link" aria-label="post link to 9.2 内积空间与 $Gram$ 矩阵" href="https://GWblog.github.io/zh/posts/math/algebra/advance-algebra/ch9/9.2/"></a>
+  <footer class="entry-footer"><span title='2024-10-20 00:00:00 +0000 UTC'>2024-10-20</span>&nbsp;·&nbsp;1 分钟&nbsp;·&nbsp;16 字&nbsp;·&nbsp;G.W</footer>
+  <a class="entry-link" aria-label="post link to 9.3 $Gram-Schmidt$ 正交化方法和正交补空间" href="https://GWblog.github.io/zh/zh/posts/math/algebra/advance-algebra/ch9/9.3/"></a>
 </article>
     </main>
     
